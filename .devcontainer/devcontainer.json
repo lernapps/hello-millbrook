@@ -10,7 +10,8 @@
     },
     "vscode": {
       "extensions": [
-        "anthropic.claude-code"
+        "anthropic.claude-code",
+        "openai.chatgpt"
       ],
       "settings": {
         "security.workspace.trust.enabled": false,
