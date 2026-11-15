@@ -19,7 +19,15 @@
         ],
         "chat.disableAIFeatures": true,
         "claudeCode.preferredLocation": "sidebar",
-        "terminal.integrated.hideOnStartup": "always"
+        "terminal.integrated.hideOnStartup": "always",
+        "extensions.supportUntrustedWorkspaces": {
+          "anthropic.claude-code": {
+            "supported": true
+          },
+          "openai.chatgpt": {
+            "supported": true
+          }
+        }
       }
     }
   }
