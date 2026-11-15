@@ -16,8 +16,13 @@ im Browser. Du beschreibst, was du brauchst, er baut und prüft die App.
 2. Öffne dein neues Repository. Klicke auf **Code**, dann auf **Codespaces** und auf **Create codespace on main**.
    GitHub startet eine fertige Arbeitsumgebung im Browser. Das dauert einige Minuten.
 3. Unten im Fenster ist ein Terminal. Tippe `claude` (für Claude) oder `codex` (für ChatGPT) und melde dich an. Folge
-   den Hinweisen auf dem Bildschirm. Bei Codex tippe `codex login --device-auth`, falls das Anmelden im Browser nicht
-   klappt.
+   den Hinweisen auf dem Bildschirm. Dabei fragt der Editor manchmal nach: Bestätige **Ordner vertrauen und
+   fortfahren** und **Öffnen**. Das sind Rückfragen des Editors, keine Warnungen vor deiner App.
+   - **Claude:** Das Terminal zeigt einen Link. Öffne ihn und melde dich bei Claude an. Meldet der Browser danach
+     „Diese Seite ist nicht erreichbar“ (Adresse `localhost`), ist das im Codespace normal. Öffne dann den Link im
+     Terminal noch einmal: Claude zeigt jetzt einen Code. Kopiere ihn und füge ihn im Terminal ein.
+   - **ChatGPT:** Tippe `codex login --device-auth`, falls das Anmelden im Browser nicht klappt. Die Anmeldung per
+     Gerätecode muss in den ChatGPT-Sicherheitseinstellungen erlaubt sein.
 4. Sage dem Agenten, welche App du bauen möchtest. Er fragt nach Thema, Klassenstufe und dem, was Lernende tun sollen.
 5. Der Agent zeigt dir Zwischenstände. Du bestätigst oder bittest um Änderungen. Am Ende prüft er die App und hilft dir,
    sie bei lernapps.net einzureichen.
