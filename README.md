@@ -35,8 +35,10 @@ ChatGPT-Konto an. Siehst du es nicht, öffne das Terminal (Menü **Terminal**, *
 Klappt das Anmelden im Browser nicht, tippe `codex login --device-auth`. Die Anmeldung per Gerätecode muss in den
 ChatGPT-Sicherheitseinstellungen erlaubt sein.
 
-Bei der Anmeldung fragt der Editor manchmal nach: Bestätige **Ordner vertrauen und fortfahren** und **Öffnen**. Das sind
-Rückfragen des Editors, keine Warnungen vor deiner App.
+Beim Start fragt der Editor, ob du den Autoren der Dateien in diesem Ordner vertraust. Klicke auf **Ordner vertrauen und
+fortfahren**. Ohne dieses Ja bleiben die Erweiterungen für Claude und Codex ausgeschaltet. Bei der Anmeldung fragt er
+manchmal, ob er eine Webseite öffnen darf: Klicke auf **Öffnen**. Das sind Rückfragen des Editors, keine Warnungen vor
+deiner App.
 
 ## Pausieren und später weitermachen
 
