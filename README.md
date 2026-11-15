@@ -30,8 +30,9 @@ auf **Sign in** und melde dich im Browser an. Meldet der Browser danach „Diese
 füge ihn dort ein, wo Claude danach fragt. Siehst du das Symbol nicht, öffne das Terminal (unten, Menü **Terminal**,
 **Neues Terminal**) und tippe `claude`.
 
-**ChatGPT (Codex):** Öffne das Terminal (Menü **Terminal**, **Neues Terminal**) und tippe `codex`. Klappt das
-Anmelden im Browser nicht, tippe `codex login --device-auth`. Die Anmeldung per Gerätecode muss in den
+**ChatGPT (Codex):** Klicke in der Seitenleiste auf das Symbol der Erweiterung **Codex** und melde dich mit deinem
+ChatGPT-Konto an. Siehst du es nicht, öffne das Terminal (Menü **Terminal**, **Neues Terminal**) und tippe `codex`.
+Klappt das Anmelden im Browser nicht, tippe `codex login --device-auth`. Die Anmeldung per Gerätecode muss in den
 ChatGPT-Sicherheitseinstellungen erlaubt sein.
 
 Bei der Anmeldung fragt der Editor manchmal nach: Bestätige **Ordner vertrauen und fortfahren** und **Öffnen**. Das sind
