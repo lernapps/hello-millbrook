@@ -3,11 +3,6 @@
   "image": "ghcr.io/lernapps/devcontainer:latest@sha256:9ef5095be1f92f2b0963e5576c3c472104decdcda07d734268d1678dea95ed9f",
   "postCreateCommand": "if [ -f package-lock.json ]; then npm ci; fi",
   "customizations": {
-    "codespaces": {
-      "openFiles": [
-        "README.md"
-      ]
-    },
     "vscode": {
       "extensions": [
         "anthropic.claude-code",
