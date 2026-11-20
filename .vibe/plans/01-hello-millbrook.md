@@ -236,11 +236,12 @@ page, which a link. -->
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Seite hello/begruessung (gruss-hoeflichkeit) fertig bauen: Figuren-SVG, Szene, Poster-Tabelle, Übungen leicht → schwer, Sprechaufgabe; zeigt das Muster für alle Seiten
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-- [ ] hello/classroom (classroom-phrases): Poster wächst um Fragen und Bitten, Beschriften der Tafel, Lücken und Schreiben
-- [ ] hello/fachbegriffe (grammatik-fachbegriffe): Tafel mit Etiketten noun, verb, adjective, Zuordnen; Rückblick Kapitel 1
+      Creator: Ja
+- [x] hello/classroom (classroom-phrases): Poster wächst um Fragen und Bitten, Beschriften der Tafel, Lücken und Schreiben
+- [x] hello/fachbegriffe (grammatik-fachbegriffe): Tafel mit Etiketten noun, verb, adjective, Zuordnen; Rückblick Kapitel 1
 - [ ] Komponente Uhr (UhrStellen) mit Logik, Test, nojs und describe; eigene SVG-Uhren als Erklärfiguren
 - [ ] zahlen-uhr-kalender/zahlen: -teen/-ty ableiten, Hören und Schreiben, Preise im Schulkiosk, Zahlen bis 1000
 - [ ] zahlen-uhr-kalender/uhrzeit: Uhr zum Drehen, past/to, half past, Hören; Stundenplan-Anfang im Kalender

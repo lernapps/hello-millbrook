@@ -1,0 +1,210 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Im Unterricht nachfragen
+description: Lena versteht ihren Lehrer nicht ganz. Du lernst, auf Englisch um Hilfe zu bitten, nachzufragen und Anweisungen zu verstehen.
+competencies: [classroom-phrases]
+scope: Die Seite führt Wendungen für den Englischunterricht ein. Um Hilfe bitten (Can you help me, please?), nicht verstanden haben (I don't understand., Can you say that again, please?), nach einem Wort fragen (What's … in English?, How do you spell it?) und kurze Anweisungen der Lehrkraft verstehen (Open your books., Listen., Stand up., Sit down., Repeat after me.). Dazu die ersten englischen Wörter für Dinge im Klassenzimmer (board, desk, chair, book, pencil, bag). Alles wird als feste Wendung gelernt, ohne Grammatikregel.
+blocks:
+  - type: section
+    id: einstieg
+    title: Lena versteht nicht alles
+    blocks:
+      - type: text
+        text: |
+          Lenas erste Englischstunde. Der Lehrer, Mr Hill, spricht schnell. Lena hat ein Wort nicht verstanden. Sie hebt die Hand.
+      - type: text
+        text: "**Das kannst du danach:** Im Unterricht um Hilfe bitten, nachfragen und die wichtigsten Anweisungen verstehen. Dein Poster aus der ersten Seite wird länger."
+      - type: single-choice
+        id: classroom-start
+        text: Mr Hill hat etwas gesagt, das Lena nicht verstanden hat. Was sagt Lena?
+        options:
+          - text: Can you say that again, please?
+            correct: true
+            info: Das heißt „Kannst du das bitte noch einmal sagen?“. So bittest du höflich um eine Wiederholung.
+          - text: Good morning, Mr Hill.
+            correct: false
+            info: Das ist eine Begrüßung, aber Lena hat eine Frage.
+          - text: Thank you, Mr Hill.
+            correct: false
+            info: Das heißt „Danke, Mr Hill“. Lena möchte aber, dass er es noch einmal sagt.
+        explanation: Mit Can you say that again, please? bittest du höflich darum, dass jemand etwas wiederholt.
+        links:
+          - title: Lernlandkarte Englisch · Classroom phrases
+            url: https://lernapps.net/apps/map/englisch/c/classroom-phrases/
+  - type: section
+    id: neu
+    title: Wendungen für den Unterricht
+    blocks:
+      - type: text
+        text: Lena schreibt auf ihr Poster, was sie im Unterricht sagen und verstehen will. Der obere Teil ist das, was du sagst. Der untere Teil ist das, was dein Lehrer sagt.
+      - type: table
+        caption: Klassenzimmer-Poster · Das sagst du
+        header: [Wendung, Bedeutung]
+        rows:
+          - ["Can you help me, please?", Kannst du mir bitte helfen?]
+          - [I don't understand., Ich verstehe das nicht.]
+          - ["Can you say that again, please?", Kannst du das bitte noch einmal sagen?]
+          - [What's Tafel in English?, Wie heißt „Tafel“ auf Englisch?]
+          - [How do you spell it?, Wie schreibt man das?]
+          - [I don't know., Ich weiß es nicht.]
+      - type: table
+        caption: Klassenzimmer-Poster · Das sagt dein Lehrer
+        header: [Anweisung, Bedeutung]
+        rows:
+          - [Open your books., Schlagt eure Bücher auf.]
+          - [Listen., Hört zu.]
+          - [Repeat after me., Sprecht mir nach.]
+          - [Stand up., Steht auf.]
+          - [Sit down., Setzt euch hin.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: Mit **please** wird jede Bitte höflich. Setze es ans Ende, wie bei Can you help me, please? Du musst die Anweisungen nur verstehen, nicht selbst sagen.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: classroom-situation
+        text: Welche Wendung passt zu welcher Situation?
+        pairs:
+          - left: Lena braucht Hilfe bei einer Aufgabe.
+            right: Can you help me, please?
+          - left: Lena hat Mr Hill nicht verstanden.
+            right: I don't understand.
+          - left: Lena möchte wissen, wie man ein Wort schreibt.
+            right: How do you spell it?
+          - left: Lena kennt ein Wort nicht auf Englisch.
+            right: What's Tafel in English?
+        distractors: [Open your books.]
+        explanation: Die Wendung folgt der Situation. What's … in English? fragt nach dem englischen Wort, How do you spell it? nach der Schreibweise.
+        hint: Frag dich, ob Lena um Hilfe bittet, etwas nicht verstanden hat oder nach einem Wort fragt.
+        links:
+          - title: Lernlandkarte Englisch · Classroom phrases
+            url: https://lernapps.net/apps/map/englisch/c/classroom-phrases/
+      - type: matching
+        id: classroom-anweisungen
+        text: Was sollen die Kinder tun? Ordne die Anweisung von Mr Hill zu.
+        pairs:
+          - left: Open your books.
+            right: Die Bücher aufschlagen
+          - left: Listen.
+            right: Zuhören
+          - left: Stand up.
+            right: Aufstehen
+          - left: Sit down.
+            right: Sich hinsetzen
+        distractors: [Etwas nachsprechen]
+        explanation: "Anweisungen verstehst du am Verb: open (öffnen), listen (zuhören), stand (stehen), sit (sitzen)."
+        links:
+          - title: Lernlandkarte Englisch · Classroom phrases
+            url: https://lernapps.net/apps/map/englisch/c/classroom-phrases/
+      - type: language-task
+        id: classroom-beschriften
+        languages: { source: de, target: en }
+        task: Mr Hill zeigt auf Dinge im Klassenzimmer. Schreibe das englische Wort zu jeder Markierung.
+        form: { case: hint }
+        material:
+          - type: labelled-figure
+            image: images/klassenzimmer-dinge.svg
+            alt: "Ein Klassenzimmer. Markierung A: die Tafel. B: der Tisch. C: der Stuhl. D: das Buch. E: der Bleistift. F: die Schultasche."
+            caption: Welches Wort gehört zu welcher Markierung?
+            legend: false
+            source: eigene Zeichnung
+            licence: CC-BY-4.0
+            labels:
+              - { x: 50, y: 24, marker: A, text: Tafel }
+              - { x: 50, y: 70, marker: B, text: Tisch }
+              - { x: 18, y: 72, marker: C, text: Stuhl }
+              - { x: 41, y: 52, marker: D, text: Buch }
+              - { x: 58, y: 54, marker: E, text: Bleistift }
+              - { x: 81, y: 76, marker: F, text: Schultasche }
+        items:
+          - marker: A
+            target: board
+          - marker: B
+            target: desk
+          - marker: C
+            target: chair
+          - marker: D
+            target: book
+          - marker: E
+            target: pencil
+          - marker: F
+            target: bag
+      - type: language-task
+        id: classroom-luecken
+        languages: { source: de, target: en }
+        mode: gap
+        task: Ergänze das fehlende Wort.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Lena bittet um Hilfe.
+            target: Can you [help] me, please?
+          - cue: Lena fragt nach der Schreibweise.
+            target: How do you [spell] it?
+          - cue: Lena bittet, dass Mr Hill es wiederholt.
+            target: Can you [say] that again, please?
+      - type: language-task
+        id: classroom-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was Lena sagt.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: i-dont-understand.mp3
+            target: (I don't|I do not) understand.
+          - audio: can-you-help-me-please.mp3
+            target: Can you help me, please?
+          - audio: whats-table-in-english.mp3
+            target: What's table in English?
+      - type: language-task
+        id: classroom-schreiben
+        languages: { source: de, target: en }
+        task: Was sagt Lena auf Englisch? Schreibe die Wendung.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Ich verstehe das nicht.
+            target: (I don't|I do not) understand.
+            mistakes:
+              - answer: I not understand.
+                message: Im Englischen sagst du I don't understand. Das don't gehört dazu, wenn du etwas verneinst.
+          - source: Kannst du mir bitte helfen?
+            target: Can you help me, please?
+            mistakes:
+              - answer: Help me, please.
+                message: Mit Can you … fragst du höflich. Das steht auf dem Poster.
+          - source: Wie schreibt man das?
+            target: How do you spell it?
+          - source: Kannst du das bitte noch einmal sagen?
+            target: Can you say that again, please?
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: classroom-nachsprechen
+        language: en
+        items:
+          - audio: can-you-help-me-please.mp3
+            text: Can you help me, please?
+          - audio: i-dont-understand.mp3
+            text: I don't understand.
+          - audio: can-you-say-that-again-please.mp3
+            text: Can you say that again, please?
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: classroom-frei
+        task: Lena versteht ein Wort nicht und bittet Mr Hill um Hilfe. Schreibe zwei kurze englische Sätze, die Lena sagt.
+        points:
+          - text: Lena sagt, dass sie etwas nicht versteht (I don't understand.).
+            source: /hello/classroom/#neu
+          - text: Lena bittet höflich um Hilfe (Can you help me, please?).
+            source: /hello/classroom/#neu
+        solution: |
+          I don't understand. Can you help me, please?
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Dein Poster hat jetzt auch Fragen und Bitten für den Unterricht. Mr Hill schreibt drei Wörter an die Tafel, und Lena soll sagen, welche Art von Wort es ist. Auf der nächsten Seite lernst du die englischen Namen dafür.

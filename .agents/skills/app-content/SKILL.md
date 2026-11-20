@@ -36,7 +36,7 @@ Alle Voraussetzungen stehen auf früheren Seiten; kein `ahead`, keine Wiederholu
 - Pfad: `src/<kapitel>/chapter.yaml`, Seiten `src/<kapitel>/<seite>.yaml`.
 - Jede Seite hat dieselben Abschnitts-IDs in dieser Reihenfolge: `einstieg` (Lenas Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Wendungen mit Bedeutung, Merke-Kasten), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`open-task` oder `speaking-task`), `weiter` (nächster Schritt der Geschichte; am Kapitelende ein Rückblick). Titel sagen, was der Abschnitt tut.
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung in den ersten vier Blöcken.
-- Geschichte: Lena (11, aus Deutschland, ein Schuljahr an der Millbrook School, einer erfundenen Schule in einer englischen Kleinstadt, wohnt bei den Parkers), Ellie Parker (11), ihr Bruder Josh (9), Freund Amir (11). Aussehen und Namen einmal in `src/images/` (Figuren-SVG) festgelegt und überall gleich. Zwei wachsende Bilder: Klassenzimmer-Poster (Tabelle Wendung · Bedeutung) und Schulkalender (Tabelle).
+- Geschichte: Lena (11, aus Deutschland, ein Schuljahr an der Millbrook School, einer erfundenen Schule in einer englischen Kleinstadt, wohnt bei den Parkers), Ellie Parker (11), ihr Bruder Josh (9), Freund Amir (11). Lehrer: Mr Hill (Englisch). Mrs Parker ist Ellies Mutter und Lenas Gastmutter. Aussehen und Namen einmal in `src/images/` (Figuren-SVG) festgelegt und überall gleich. Zwei wachsende Bilder: Klassenzimmer-Poster (Tabelle Wendung · Bedeutung) und Schulkalender (Tabelle).
 
 ## Terminology
 

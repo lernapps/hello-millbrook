@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Hello! Im Klassenzimmer mitmachen
 summary: Lena kommt an die Millbrook School. Du lernst, Menschen zu grüßen, höflich zu bitten und zu danken, im Unterricht nachzufragen und die englischen Namen der Wortarten zu verstehen.
-pages: [begruessung]
+pages: [begruessung, classroom, fachbegriffe]
