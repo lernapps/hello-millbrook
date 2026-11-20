@@ -1,10 +1,13 @@
 # yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 format: 2
-# The strand of the learning map the app stays in, <subject>/<strand> (e.g. mathematik/stochastik); then each page
-# names its competencies. none: the app is on no strand, and no page names competencies. A unit app across the strands
-# of a subject whose map allows it names subject: <subject> (e.g. franzoesisch) instead of strand.
-strand: none
-title: Platzhalter
-intro: Dieses Kapitel hält den Platz frei, bis der geplante Inhalt da ist.
+subject: englisch
+title: Hello, Millbrook!
+intro: Lena aus Deutschland verbringt ein Schuljahr an der Millbrook School in England. Du erlebst ihre ersten Tage mit und lernst die Wendungen, die du in den ersten Englischstunden brauchst – zum Grüßen, Nachfragen, für Zahlen, Uhrzeit und Datum und für das Sprechen über die Schule.
 languages: [de]
-chapters: [thema]
+chapters: [hello]
+scope:
+  text: Die App begleitet Kinder der Klassen 5 und 6 durch die ersten Englischstunden. Sie lernen feste englische Wendungen für Begrüßung und Höflichkeit, für den Unterricht, für Zahlen, Uhrzeit und Datum sowie für Schule und Feste in Großbritannien. Die Wendungen werden gelernt, nicht als Grammatik erklärt.
+  out:
+    - Grammatikregeln wie der Imperativ oder Präpositionen der Zeit (kommen in späteren Explainern)
+    - Familie, Zuhause und Freizeit, die Stadt und Großbritannien als Land, die Schule in den USA
+    - Bewertung der Aussprache durch die App

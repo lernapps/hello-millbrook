@@ -1,0 +1,181 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Hello! Begrüßen und höflich sein
+description: Lena kommt an die Millbrook School. Du lernst, wie man auf Englisch grüßt, sich vorstellt, bittet, dankt und sich entschuldigt.
+competencies: [gruss-hoeflichkeit]
+scope: Die Seite führt die ersten Wendungen des Klassenzimmer-Posters ein. Begrüßung nach Tageszeit (Hello, Hi, Good morning, Good afternoon, Good evening), Verabschiedung (Goodbye, Bye, Good night nur zum Schlafengehen), sich vorstellen (I'm Lena), Höflichkeit (please, thank you, you're welcome, sorry, excuse me) und die Anrede mit Mr und Mrs und dem Nachnamen. Alles wird als feste Wendung gelernt, ohne Grammatikregel.
+blocks:
+  - type: section
+    id: einstieg
+    title: Lenas erster Schultag
+    blocks:
+      - type: figure
+        image: images/millbrook-klassenzimmer.svg
+        alt: Lena, Ellie, Josh und Amir stehen im Klassenzimmer der Millbrook School. An der Tafel steht Hello!
+        caption: Lena (mit den Zöpfen) lernt Ellie, Josh und Amir kennen.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: |
+          Lena aus Deutschland steht zum ersten Mal in ihrem Klassenzimmer an der Millbrook School. Ellie, die Tochter ihrer Gastfamilie, lächelt sie an und sagt: „Hi, I'm Ellie.“
+      - type: single-choice
+        id: begruessung-start
+        text: Was kann Lena auf „Hi, I'm Ellie.“ antworten?
+        options:
+          - text: Hello, I'm Lena.
+            correct: true
+            info: "Hello oder Hi ist die Begrüßung, I'm Lena heißt „Ich bin Lena“."
+          - text: Good night, Ellie.
+            correct: false
+            info: Good night sagst du, wenn jemand schlafen geht, nicht zur Begrüßung.
+          - text: Goodbye, I'm Lena.
+            correct: false
+            info: Goodbye heißt „Auf Wiedersehen“. Lena kommt ja gerade erst an.
+        explanation: Auf eine Begrüßung antwortest du mit einer Begrüßung und sagst deinen Namen.
+        links:
+          - title: Lernlandkarte Englisch · Begrüßung und Höflichkeit
+            url: https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/
+      - type: text
+        text: "**Das kannst du danach:** Menschen auf Englisch grüßen und dich vorstellen, dich bedanken und entschuldigen und die richtige Wendung für die Tageszeit wählen. Du brauchst noch keine Regeln: Du lernst die Wendungen als ganze Stücke."
+  - type: section
+    id: neu
+    title: Die ersten Wendungen auf dem Poster
+    blocks:
+      - type: text
+        text: Lena hängt ein Poster auf. Darauf sammelt sie jede Wendung, die sie in der Schule braucht. Links steht, was du sagst, rechts, was es auf Deutsch heißt.
+      - type: table
+        caption: Klassenzimmer-Poster · Grüßen und höflich sein
+        header: [Wendung, Bedeutung]
+        rows:
+          - [Hello! / Hi!, Hallo!]
+          - [Good morning., Guten Morgen. (bis zum Mittag)]
+          - [Good afternoon., Guten Tag. (nach dem Mittag)]
+          - [Good evening., Guten Abend.]
+          - [Goodbye! / Bye!, Auf Wiedersehen! / Tschüs!]
+          - [Good night., Gute Nacht. (zum Schlafengehen)]
+          - [I'm Lena., Ich bin Lena.]
+          - [Please., Bitte. (wenn du etwas möchtest)]
+          - [Thank you! / Thanks!, Danke!]
+          - [You're welcome., Gern geschehen.]
+          - [Sorry!, Entschuldigung! (du hast etwas falsch gemacht)]
+          - [Excuse me., Entschuldigung. (du sprichst jemanden an)]
+          - [Mrs Parker / Mr Parker, Frau Parker / Herr Parker]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: |
+              **Good night** sagst du erst zum Schlafengehen, nie zur Begrüßung. Für Lehrerinnen, Lehrer und Erwachsene nimmst du **Mr** oder **Mrs** mit dem Nachnamen, zum Beispiel Mrs Parker. Vornamen sagst du bei Freunden.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: begruessung-situation
+        text: Welche Wendung passt zu welcher Situation?
+        pairs:
+          - left: Lena kommt morgens in die Schule.
+            right: Good morning.
+          - left: Josh gibt Lena einen Stift.
+            right: Thank you!
+          - left: Lena stößt aus Versehen gegen Amirs Tasche.
+            right: Sorry!
+          - left: Lena möchte Ellie etwas fragen und spricht sie an.
+            right: Excuse me.
+        distractors: [Good night.]
+        explanation: Die Wendung folgt der Situation. Sorry sagst du, wenn du etwas falsch gemacht hast, Excuse me, wenn du jemanden ansprichst.
+        hint: Frag dich zuerst, ob Lena grüßt, dankt, sich entschuldigt oder jemanden anspricht.
+        links:
+          - title: Lernlandkarte Englisch · Begrüßung und Höflichkeit
+            url: https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/
+      - type: language-task
+        id: begruessung-tageszeit
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die passende Wendung für die Tageszeit.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Lena grüßt Josh morgens um acht Uhr.
+            target: "[Good morning], Josh!"
+            distractors: [[Good afternoon, Good night]]
+          - cue: Lena grüßt Amir um drei Uhr nachmittags.
+            target: "[Good afternoon], Amir!"
+            distractors: [[Good morning, Good night]]
+          - cue: Lena sagt Ellie zum Schlafengehen Gute Nacht.
+            target: "[Good night], Ellie!"
+            distractors: [[Good morning, Good afternoon]]
+      - type: language-task
+        id: begruessung-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was Lena sagt.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: good-morning-lena.mp3
+            target: Good morning, Lena.
+          - audio: thank-you-ellie.mp3
+            target: Thank you, Ellie.
+          - audio: sorry-josh.mp3
+            target: Sorry, Josh.
+      - type: language-task
+        id: begruessung-schreiben
+        languages: { source: de, target: en }
+        task: Was sagt Lena auf Englisch? Schreibe die Wendung.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Guten Morgen!
+            target: Good morning!
+            mistakes:
+              - answer: Good day!
+                message: Morgens sagst du Good morning. Das steht auf dem Poster.
+          - source: Danke!
+            target: (Thank you|Thanks)!
+          - source: Entschuldigung! (Du hast etwas falsch gemacht.)
+            target: Sorry!
+            mistakes:
+              - answer: Excuse me!
+                message: Mit Excuse me sprichst du jemanden an. Wenn du etwas falsch gemacht hast, sagst du Sorry.
+          - source: Hallo, ich bin Lena.
+            target: (Hello|Hi), (I'm|I am) Lena.
+            mistakes:
+              - answer: Hello, I'm called Lena.
+                message: Auf Englisch sagst du I'm Lena, also „Ich bin Lena“.
+      - type: true-false
+        id: begruessung-gutenacht
+        text: Lena kommt morgens in die Schule und sagt „Good night, Mrs Parker.“ Ist das eine passende Begrüßung?
+        answer: false
+        explanation: Good night sagst du zum Schlafengehen. Morgens grüßt Lena mit Good morning.
+        links:
+          - title: Lernlandkarte Englisch · Begrüßung und Höflichkeit
+            url: https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: begruessung-nachsprechen
+        language: en
+        items:
+          - audio: hello-im-lena.mp3
+            text: Hello, I'm Lena.
+          - audio: good-afternoon-amir.mp3
+            text: Good afternoon, Amir.
+          - audio: thank-you-very-much.mp3
+            text: Thank you very much.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme.
+      - type: open-task
+        id: begruessung-schreiben-frei
+        task: "Lena trifft Amir und er holt ihr einen Stuhl. Schreibe zwei bis vier englische Sätze: Lena grüßt, sagt ihren Namen und bedankt sich."
+        points:
+          - text: Lena grüßt mit Hello, Hi oder einer Wendung zur Tageszeit.
+            source: /hello/begruessung/#neu
+          - text: Lena sagt ihren Namen mit I'm Lena.
+            source: /hello/begruessung/#neu
+          - text: Lena bedankt sich mit Thank you oder Thanks.
+            source: /hello/begruessung/#neu
+        solution: |
+          Hello, I'm Lena. Thank you for the chair!
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Auf dem Poster stehen jetzt die ersten Wendungen. In der ersten Stunde versteht Lena ihre Lehrerin nicht ganz. Auf der nächsten Seite lernst du, wie du im Unterricht nachfragst.
