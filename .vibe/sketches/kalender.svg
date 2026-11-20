@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 240" role="img" aria-label="Skizze: Schulkalender als Tabelle mit Stundenplan und Festen">
+<rect width="360" height="240" fill="#fff" stroke="#333"/>
+<text x="12" y="24" font-size="14" font-family="sans-serif">Lenas Schulkalender (wächst von Seite zu Seite)</text>
+<g font-family="sans-serif" font-size="11" stroke="#999" fill="#fff"><rect x="12" y="34" width="336" height="22"/><rect x="12" y="56" width="336" height="22"/><rect x="12" y="78" width="336" height="22"/><rect x="12" y="100" width="336" height="22"/><rect x="12" y="122" width="336" height="22"/></g>
+<g font-family="sans-serif" font-size="11" fill="#000"><text x="18" y="50">Time · Monday · Tuesday · …</text><text x="18" y="72">8.45 · Maths · English</text><text x="18" y="94">Geburtstage: Josh – 5th May</text><text x="18" y="116">Halloween – 31st October</text><text x="18" y="138">Bonfire Night – 5th November</text></g>
+<text x="12" y="170" font-size="11" font-family="sans-serif">Kapitel 2: Uhrzeiten, Daten · Kapitel 3: Stundenplan, Feste</text>
+<text x="12" y="190" font-size="11" font-family="sans-serif">Übungen darunter: eintragen (Tabelle mit Lücken), ordnen, zuordnen</text>
+</svg>

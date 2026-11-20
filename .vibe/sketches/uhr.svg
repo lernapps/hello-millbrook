@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" role="img" aria-label="Skizze: Übungskomponente Uhr mit Zeigern und Knöpfen">
+<rect width="360" height="260" fill="#fff" stroke="#333"/>
+<text x="12" y="24" font-size="14" font-family="sans-serif">Stell die Uhr auf: half past seven</text>
+<circle cx="180" cy="120" r="80" fill="#fff" stroke="#333" stroke-width="3"/>
+<line x1="180" y1="120" x2="180" y2="64" stroke="#333" stroke-width="3"/><line x1="180" y1="120" x2="140" y2="140" stroke="#333" stroke-width="5"/>
+<text x="172" y="50" font-size="12" font-family="sans-serif">12</text><text x="262" y="124" font-size="12" font-family="sans-serif">3</text><text x="176" y="214" font-size="12" font-family="sans-serif">6</text><text x="92" y="124" font-size="12" font-family="sans-serif">9</text>
+<rect x="12" y="226" width="100" height="26" fill="#eee" stroke="#333"/><text x="20" y="244" font-size="12" font-family="sans-serif">Stunde − / +</text>
+<rect x="124" y="226" width="110" height="26" fill="#eee" stroke="#333"/><text x="132" y="244" font-size="12" font-family="sans-serif">5 Minuten − / +</text>
+<rect x="246" y="226" width="100" height="26" fill="#cde" stroke="#333"/><text x="268" y="244" font-size="12" font-family="sans-serif">Prüfen</text>
+</svg>

@@ -4,10 +4,7 @@
   "postCreateCommand": "if [ -f package-lock.json ]; then npm ci; fi",
   "customizations": {
     "vscode": {
-      "extensions": [
-        "anthropic.claude-code",
-        "openai.chatgpt"
-      ],
+      "extensions": ["anthropic.claude-code", "openai.chatgpt"],
       "settings": {
         "http.linkProtectionTrustedDomains": [
           "https://claude.ai",
