@@ -1,0 +1,194 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wie spät ist es?
+description: Amir fragt Sophie nach der Uhrzeit. Du lernst, die Uhrzeit auf Englisch zu sagen, mit past, to, half past und a quarter, und stellst eine Uhr.
+competencies: [uhrzeit]
+scope: Die Seite führt die englische Uhrzeit ein. What time is it?, It's seven o'clock., It's five past seven., a quarter past, twenty past, half past seven, twenty to eight, a quarter to eight, five to eight. Past nennt die Minuten nach der vollen Stunde, to die Minuten bis zur nächsten. Half past seven ist 7:30 (nicht wie im Deutschen halb sieben). Die Kinder stellen eine Uhr, sagen die Uhrzeit und schreiben sie. Alles wird in festen Ausdrücken gelernt, ohne Grammatikregel.
+blocks:
+  - type: section
+    id: einstieg
+    title: Amir fragt nach der Uhrzeit
+    blocks:
+      - type: text
+        text: Die Pause ist fast zu Ende. Amir schaut auf die Wanduhr und fragt „What time is it?“. Sophie antwortet. Dafür braucht sie die Uhrzeit auf Englisch.
+      - type: text
+        text: "**Das kannst du danach:** Die Uhrzeit auf Englisch sagen, nach ihr fragen und eine Uhr auf eine genannte Zeit stellen."
+      - type: single-choice
+        id: uhrzeit-start
+        text: Die Uhr zeigt genau 7 Uhr. Was sagt Sophie?
+        options:
+          - text: It's seven o'clock.
+            correct: true
+            info: O'clock heißt „Uhr“ und steht nur bei vollen Stunden.
+          - text: It's half past seven.
+            correct: false
+            info: Half past seven ist 7:30, eine halbe Stunde nach sieben.
+          - text: It's a quarter to seven.
+            correct: false
+            info: A quarter to seven ist 6:45, also eine Viertelstunde vor sieben.
+        explanation: Bei einer vollen Stunde sagst du die Zahl und o'clock.
+        links:
+          - title: Lernlandkarte Englisch · Uhrzeit
+            url: https://lernapps.net/apps/map/englisch/c/uhrzeit/
+  - type: section
+    id: neu
+    title: Past, to und die Uhr
+    blocks:
+      - type: text
+        text: "Die Uhrzeit hat zwei Hälften. Bis halb sagst du **past** (nach), danach **to** (vor). Die Stunde, die du nennst, ist bei past die, die schon vorbei ist, und bei to die, die als nächste kommt."
+      - type: figure
+        image: images/uhren-sieben.svg
+        alt: "Vier Uhren: oben links sieben Uhr (seven o'clock), oben rechts Viertel nach sieben (a quarter past seven), unten links halb acht (half past seven), unten rechts Viertel vor acht (a quarter to eight)."
+        caption: Unter jeder Uhr steht, wie man die Zeit auf Englisch sagt. Der lange blaue Zeiger zeigt die Minuten, der kurze schwarze die Stunde.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Die Uhrzeit
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - ["What time is it?", Wie spät ist es?]
+          - ["It's seven o'clock.", Es ist sieben Uhr.]
+          - ["It's ten past seven.", Es ist zehn nach sieben.]
+          - ["It's a quarter past seven.", Es ist Viertel nach sieben.]
+          - ["It's half past seven.", Es ist halb acht (7:30).]
+          - ["It's twenty to eight.", Es ist zwanzig vor acht.]
+          - ["It's a quarter to eight.", Es ist Viertel vor acht.]
+      - type: table
+        caption: Klassenzimmer-Poster · Alle Minuten
+        header: [Minuten, Englisch]
+        rows:
+          - ["5", five past]
+          - ["10", ten past]
+          - ["15", a quarter past]
+          - ["20", twenty past]
+          - ["25", twenty-five past]
+          - ["30", half past]
+          - ["35", twenty-five to (die nächste Stunde)]
+          - ["40", twenty to (die nächste Stunde)]
+          - ["45", a quarter to (die nächste Stunde)]
+          - ["50", ten to (die nächste Stunde)]
+          - ["55", five to (die nächste Stunde)]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Half past seven** ist 7:30. Im Deutschen sagst du dafür „halb acht“ und zählst von der nächsten Stunde aus. Im Englischen zählst du von der vollen Stunde aus: eine halbe Stunde nach sieben. „Half seven“ gibt es nicht. Bei **to** nennst du die Stunde, die kommt: 7:45 ist a quarter to eight."
+      - type: table
+        caption: Schulkalender · Uhrzeiten
+        header: [Uhrzeit, Das sagst du]
+        rows:
+          - ["8:45 Schulbeginn", a quarter to nine]
+          - ["11:45 Sport", a quarter to twelve]
+          - ["12:45 Mittagessen", a quarter to one]
+          - ["15:15 Schulschluss", a quarter past three]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: vue-component
+        id: uhr-stellen
+        component: Uhr
+        props:
+          task: "Stelle die Uhr auf: {zeit}."
+          clock: "Eine Uhr mit Zeigern. Sie zeigt {n}."
+          hourPlus: "Stunde plus"
+          hourMinus: "Stunde minus"
+          minutePlus: "5 Minuten plus"
+          minuteMinus: "5 Minuten minus"
+          shows: "Deine Uhr zeigt {n}."
+          mistakes:
+            - "Du hast past und to vertauscht. Past ist nach der vollen Stunde, to ist davor. {zeit} ist nicht {n}."
+            - "Half past heißt „halb nach“: Die Stunde ist schon vorbei. Half past seven ist 7:30, nicht {n}."
+        examples:
+          accepted:
+            - { answer: 480, seed: 1 }
+            - { answer: 555, seed: 2 }
+          rejected:
+            - { answer: 540, seed: 1 }
+            - { answer: 525, seed: 2 }
+            - { answer: 0 }
+      - type: matching
+        id: uhrzeit-zuordnen
+        text: Welche Uhrzeit gehört zu welchem englischen Ausdruck?
+        pairs:
+          - left: a quarter past three
+            right: "3:15"
+          - left: a quarter to three
+            right: "2:45"
+          - left: half past three
+            right: "3:30"
+          - left: five to three
+            right: "2:55"
+        distractors: ["3:45"]
+        explanation: Bei past kommt die Minute nach der Stunde, bei to vor der nächsten Stunde. Five to three ist darum 2:55.
+        hint: Bei to ist es noch die Stunde davor. A quarter to three ist noch nicht 3 Uhr.
+        links:
+          - title: Lernlandkarte Englisch · Uhrzeit
+            url: https://lernapps.net/apps/map/englisch/c/uhrzeit/
+      - type: language-task
+        id: uhrzeit-schreiben
+        languages: { source: de, target: en }
+        task: Wie sagt Sophie die Uhrzeit? Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Es ist 7:00 Uhr.
+            target: It's seven o'clock.
+          - source: Es ist 7:30 Uhr.
+            target: It's half past seven.
+            mistakes:
+              - answer: It's half past six.
+                message: Half past seven ist 7:30. Die Stunde, die du nennst, ist schon vorbei. Es bleibt seven.
+          - source: Es ist 7:45 Uhr.
+            target: It's a quarter to eight.
+            mistakes:
+              - answer: It's a quarter past eight.
+                message: Past ist nach der vollen Stunde. 7:45 ist vor 8 Uhr, also to.
+          - source: Es ist 7:15 Uhr.
+            target: It's a quarter past seven.
+            mistakes:
+              - answer: It's a quarter to seven.
+                message: To ist vor der vollen Stunde. 7:15 ist nach sieben, also past.
+          - source: Wie spät ist es?
+            target: What time is it?
+      - type: language-task
+        id: uhrzeit-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was Sophie sagt.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: its-half-past-seven.mp3
+            target: It's half past seven.
+          - audio: its-a-quarter-to-eight.mp3
+            target: It's a quarter to eight.
+          - audio: its-ten-past-five.mp3
+            target: It's ten past five.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: uhrzeit-nachsprechen
+        language: en
+        items:
+          - audio: what-time-is-it.mp3
+            text: What time is it?
+          - audio: its-half-past-seven.mp3
+            text: It's half past seven.
+          - audio: its-a-quarter-to-eight.mp3
+            text: It's a quarter to eight.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: uhrzeit-frei
+        task: Amir fragt „What time is it?“. Die Uhr zeigt 4:45. Schreibe, was Sophie sagt, und dann, was sie um 4:00 Uhr sagen würde.
+        points:
+          - text: Um 4:45 sagt Sophie a quarter to five.
+            source: /zahlen-uhr-kalender/uhrzeit/#neu
+          - text: Um 4:00 Uhr sagt Sophie four o'clock.
+            source: /zahlen-uhr-kalender/uhrzeit/#neu
+        solution: |
+          It's a quarter to five. It's four o'clock.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Sophie trägt die Uhrzeiten in ihren Schulkalender ein. Als Nächstes fehlen die Tage und Monate. Auf der nächsten Seite lernst du das Datum.

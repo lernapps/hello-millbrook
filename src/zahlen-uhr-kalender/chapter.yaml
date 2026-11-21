@@ -1,0 +1,18 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Zahlen, Uhr und Kalender
+summary: In der Pause fragt Amir Sophie nach der Uhrzeit. Du lernst Zahlen und Preise, die Uhrzeit, Wochentage, Monate und das Datum und die englischen Regeln für große Buchstaben. Dein Schulkalender füllt sich.
+pages: [zahlen, uhrzeit, datum, grossschreibung]
+selfAssessment:
+  pages:
+    - exercises:
+        - /zahlen-uhr-kalender/zahlen/#zahlen-schreiben
+        - /zahlen-uhr-kalender/zahlen/#zahlen-reihenfolge
+    - exercises:
+        - /zahlen-uhr-kalender/uhrzeit/#uhr-stellen
+        - /zahlen-uhr-kalender/uhrzeit/#uhr-stellen
+    - exercises:
+        - /zahlen-uhr-kalender/datum/#datum-ordnungszahlen
+        - /zahlen-uhr-kalender/datum/#datum-monate
+    - exercises:
+        - /zahlen-uhr-kalender/grossschreibung/#grossschreibung-welche
+        - /zahlen-uhr-kalender/grossschreibung/#grossschreibung-korrigieren

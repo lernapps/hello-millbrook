@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Hello! Im Klassenzimmer mitmachen
+summary: Sophie kommt an die Millbrook School. Du lernst, Menschen zu grüßen, höflich zu bitten und zu danken, im Unterricht nachzufragen und die englischen Namen der Wortarten zu verstehen.
+pages: [begruessung, classroom, fachbegriffe]
+selfAssessment:
+  pages:
+    - exercises:
+        - /hello/begruessung/#begruessung-tageszeit
+        - /hello/begruessung/#begruessung-schreiben
+    - exercises:
+        - /hello/classroom/#classroom-situation
+        - /hello/classroom/#classroom-schreiben
+    - exercises:
+        - /hello/fachbegriffe/#fachbegriffe-zuordnen
+        - /hello/fachbegriffe/#fachbegriffe-schreiben

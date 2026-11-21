@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+format: 2
+subject: englisch
+title: Hello, Millbrook!
+intro: Sophie aus Deutschland verbringt ein Schuljahr an der Millbrook School in England. Du erlebst ihre ersten Tage mit und lernst die Ausdrücke, die du in den ersten Englischstunden brauchst – zum Grüßen, Nachfragen, für Zahlen, Uhrzeit und Datum und für das Sprechen über die Schule.
+languages: [de]
+chapters: [hello, zahlen-uhr-kalender, schuljahr]
+scope:
+  text: Die App begleitet Kinder der Klassen 5 und 6 durch die ersten Englischstunden. Sie lernen feste englische Ausdrücke für Begrüßung und Höflichkeit, für den Unterricht, für Zahlen, Uhrzeit und Datum sowie für Schule und Feste in Großbritannien. Die Ausdrücke werden gelernt, nicht als Grammatik erklärt.
+  out:
+    - Grammatikregeln wie der Imperativ oder Präpositionen der Zeit (kommen in späteren Explainern)
+    - Familie, Zuhause und Freizeit, die Stadt und Großbritannien als Land, die Schule in den USA
+    - Bewertung der Aussprache durch die App

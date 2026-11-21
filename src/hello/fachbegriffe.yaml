@@ -1,0 +1,168 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Noun, verb, adjective: die Namen der Wortarten"
+description: Mr Hill schreibt Wörter an die Tafel und nennt ihre Art. Du lernst die englischen Fachbegriffe noun, verb, adjective, sentence und tense.
+competencies: [grammatik-fachbegriffe]
+scope: Die Seite erklärt die englischen Fachbegriffe für Wortarten und Sätze. noun ist ein Nomen (a dog), verb ist ein Verb (jump), adjective ist ein Adjektiv (red), sentence ist ein Satz und tense ist eine Zeitform. Die Kinder ordnen Beispielwörter zu und verstehen die Begriffe, wenn ein Lehrer sie sagt. Keine Regeln der Grammatik; die Begriffe werden in späteren Explainern benutzt.
+blocks:
+  - type: section
+    id: einstieg
+    title: Mr Hill schreibt an die Tafel
+    blocks:
+      - type: text
+        text: Mr Hill schreibt drei Wörter an die Tafel und klebt an jedes ein Etikett. Sophie erkennt die Etiketten nicht. Sie sind auf Englisch.
+      - type: text
+        text: "**Das kannst du danach:** Die englischen Namen noun, verb, adjective, sentence und tense verstehen und sagen, zu welcher Art ein Wort gehört."
+      - type: figure
+        image: images/szene-fachbegriffe.svg
+        alt: "Mr Hill zeigt an der Tafel auf drei Wörter. Unter dog steht noun, unter jump steht verb und unter red steht adjective. Sophie schaut zu."
+        caption: "Die Tafel von Mr Hill: drei Wörter mit ihren Etiketten."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: single-choice
+        id: fachbegriffe-start
+        text: Auf der Tafel steht „dog“ mit dem Etikett „noun“. Was ist ein dog auf Deutsch?
+        options:
+          - text: Ein Hund
+            correct: true
+            info: Dog heißt „Hund“. Ein Hund ist ein Lebewesen, also ein Nomen.
+          - text: Eine Katze
+            correct: false
+            info: Eine Katze heißt cat.
+          - text: Ein Pferd
+            correct: false
+            info: Ein Pferd heißt horse.
+        explanation: Ein noun ist ein Nomen, also ein Wort für ein Lebewesen oder eine Sache. Dog ist ein Beispiel.
+        links:
+          - title: Lernlandkarte Englisch · Grammatische Fachbegriffe
+            url: https://lernapps.net/apps/map/englisch/c/grammatik-fachbegriffe/
+  - type: section
+    id: neu
+    title: Die Namen der Wortarten
+    blocks:
+      - type: text
+        text: Die Etiketten sind die englischen Namen. Auf dem Poster stehen sie mit dem deutschen Namen und einem Beispiel.
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter über Wörter
+        header: [Englisch, Deutsch]
+        rows:
+          - [noun, Nomen (dog)]
+          - [verb, Verb (jump)]
+          - [adjective, Adjektiv (red)]
+          - [sentence, Satz]
+          - [tense, Zeitform]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: Ein **noun** sagt, was etwas ist. Ein **verb** sagt, was jemand tut. Ein **adjective** sagt, wie etwas ist. Ein **sentence** ist ein ganzer Satz. Das **tense** sagt, wann etwas passiert.
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: fachbegriffe-zuordnen
+        text: Welcher Fachbegriff gehört zu welchem Beispielwort?
+        pairs:
+          - left: book
+            right: noun
+          - left: run
+            right: verb
+          - left: big
+            right: adjective
+        distractors: [sentence]
+        explanation: Book ist eine Sache, run sagt, was jemand tut, und big sagt, wie etwas ist.
+        hint: Frag dich, ob das Wort sagt, was etwas ist, was jemand tut oder wie etwas ist.
+        links:
+          - title: Lernlandkarte Englisch · Grammatische Fachbegriffe
+            url: https://lernapps.net/apps/map/englisch/c/grammatik-fachbegriffe/
+      - type: matching
+        id: fachbegriffe-deutsch
+        text: Ordne die englischen Fachbegriffe den deutschen zu.
+        pairs:
+          - left: noun
+            right: Nomen
+          - left: verb
+            right: Verb
+          - left: adjective
+            right: Adjektiv
+          - left: sentence
+            right: Satz
+          - left: tense
+            right: Zeitform
+        explanation: Noun, verb und adjective sehen den deutschen Wörtern ähnlich. Sentence und tense musst du dir merken.
+        links:
+          - title: Lernlandkarte Englisch · Grammatische Fachbegriffe
+            url: https://lernapps.net/apps/map/englisch/c/grammatik-fachbegriffe/
+      - type: language-task
+        id: fachbegriffe-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe den englischen Fachbegriff.
+        form: { case: hint }
+        items:
+          - source: Nomen
+            target: noun
+          - source: Adjektiv
+            target: adjective
+          - source: Verb
+            target: verb
+          - source: Satz
+            target: sentence
+      - type: language-task
+        id: fachbegriffe-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was Mr Hill sagt.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: a-dog-is-a-noun.mp3
+            target: A dog is a noun.
+          - audio: jump-is-a-verb.mp3
+            target: Jump is a verb.
+          - audio: red-is-an-adjective.mp3
+            target: Red is an adjective.
+      - type: language-task
+        id: fachbegriffe-luecken
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle den passenden Fachbegriff.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Jump sagt, was jemand tut.
+            target: Jump is a [verb].
+            distractors: [[noun, adjective]]
+          - cue: Red sagt, wie etwas ist.
+            target: Red is an [adjective].
+            distractors: [[noun, verb]]
+          - cue: Dog sagt, was etwas ist.
+            target: Dog is a [noun].
+            distractors: [[verb, adjective]]
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: fachbegriffe-nachsprechen
+        language: en
+        items:
+          - audio: a-dog-is-a-noun.mp3
+            text: A dog is a noun.
+          - audio: jump-is-a-verb.mp3
+            text: Jump is a verb.
+          - audio: red-is-an-adjective.mp3
+            text: Red is an adjective.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: fachbegriffe-frei
+        task: Schreibe einen englischen Satz mit einem Wort aus der Tafel von Mr Hill und seinem Fachbegriff, zum Beispiel für das Wort dog.
+        points:
+          - text: Der Satz nennt ein Wort der Tafel (dog, jump oder red).
+            source: /hello/fachbegriffe/#einstieg
+          - text: Der Satz nennt den passenden Fachbegriff (noun, verb oder adjective).
+            source: /hello/fachbegriffe/#neu
+        solution: |
+          Dog is a noun.
+  - type: section
+    id: weiter
+    title: Das steht jetzt auf deinem Poster
+    blocks:
+      - type: text
+        text: Du kannst jetzt grüßen, im Unterricht nachfragen und die englischen Namen der Wortarten verstehen. Alles steht auf deinem Poster. In der Pause geht Sophie mit Amir zum Schulkiosk. Dafür braucht sie Zahlen. Das kommt im nächsten Kapitel.

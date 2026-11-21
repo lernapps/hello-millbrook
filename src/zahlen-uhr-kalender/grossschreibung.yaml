@@ -1,0 +1,158 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Groß oder klein?
+description: Sophie schreibt ihren Eintrag in den Schulkalender. Du lernst, welche englischen Wörter du groß schreibst und welche klein.
+competencies: [grossschreibung]
+scope: Die Seite erklärt die englische Großschreibung. Groß geschrieben werden I, Namen, Wochentage, Monate, Sprachen und Nationalitäten (English) und der Satzanfang. Klein geschrieben werden Nomen (dog, book, school), auch mitten im Satz, anders als im Deutschen. Die Kinder wählen, korrigieren und schreiben Sätze mit den richtigen Großbuchstaben. Hörbar ist die Großschreibung nicht, deshalb hat die Seite keine Sprechaufgabe.
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophies Eintrag im Kalender
+    blocks:
+      - type: text
+        text: Sophie schreibt eine Notiz für ihren Schulkalender. Aus Versehen schreibt sie „monday“ ganz klein. Ellie schüttelt den Kopf. Im Englischen gelten eigene Regeln für große Buchstaben.
+      - type: figure
+        image: images/szene-grossschreibung.svg
+        alt: Sophie und Ellie vor einem Zettel. Das Wort monday ist rot durchgestrichen, darunter steht Monday mit großem M.
+        caption: Sophie (links) und Ellie (rechts) vor dem Zettel mit dem verbesserten Wochentag.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "**Das kannst du danach:** Die englischen Regeln der Großschreibung anwenden: I, Namen, Wochentage, Monate, Sprachen und Satzanfang groß, Nomen klein."
+      - type: single-choice
+        id: grossschreibung-start
+        text: Welcher Satz ist richtig geschrieben?
+        options:
+          - text: My friend is Amir.
+            correct: true
+            info: Der Satz beginnt groß, Amir ist ein Name und wird groß geschrieben. Friend ist ein Nomen und bleibt klein.
+          - text: my friend is Amir.
+            correct: false
+            info: Ein Satz beginnt immer mit einem Großbuchstaben.
+          - text: My Friend is Amir.
+            correct: false
+            info: Friend ist ein Nomen. Im Englischen schreibst du es klein.
+        explanation: Im Englischen schreibst du den Satzanfang und Namen groß, Nomen aber klein.
+        links:
+          - title: Lernlandkarte Englisch · Großschreibung
+            url: https://lernapps.net/apps/map/englisch/c/grossschreibung/
+  - type: section
+    id: neu
+    title: Wann schreibst du groß?
+    blocks:
+      - type: table
+        caption: Klassenzimmer-Poster · Das schreibst du groß
+        header: [Was, Beispiel]
+        rows:
+          - [das Wort I, "I'm Sophie."]
+          - [Namen, "Amir, Ellie, Millbrook"]
+          - [Wochentage, "Monday, Friday"]
+          - [Monate, "May, October"]
+          - [Sprachen und Nationalitäten, English]
+          - [der Satzanfang, Today is Monday.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Nomen schreibst du im Englischen **klein**: dog, book, school, friend, auch mitten im Satz. Nur **I** schreibst du immer groß, auch wenn es mitten im Satz steht. Wochentage, Monate und Sprachen sind im Englischen wie Namen und werden groß geschrieben."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: multiple-choice
+        id: grossschreibung-welche
+        text: Welche dieser Wörter beginnen im Englischen mit einem Großbuchstaben? Hier stehen alle Wörter klein geschrieben. Wähle alle richtigen aus.
+        options:
+          - text: monday
+            correct: true
+            info: Der Wochentag Monday beginnt mit einem großen M.
+          - text: october
+            correct: true
+            info: Der Monat October beginnt mit einem großen O.
+          - text: sophie
+            correct: true
+            info: Der Name Sophie beginnt mit einem großen L.
+          - text: dog
+            correct: false
+            info: Dog ist ein Nomen und beginnt mitten im Satz klein.
+          - text: school
+            correct: false
+            info: School ist ein Nomen und beginnt mitten im Satz klein.
+        explanation: Namen, Wochentage und Monate schreibst du groß. Nomen schreibst du klein.
+        links:
+          - title: Lernlandkarte Englisch · Großschreibung
+            url: https://lernapps.net/apps/map/englisch/c/grossschreibung/
+      - type: language-task
+        id: grossschreibung-korrigieren
+        languages: { source: de, target: en }
+        task: Schreibe den Satz richtig, mit den richtigen Großbuchstaben.
+        form: { case: wrong }
+        items:
+          - cue: i am sophie.
+            target: (I am|I'm) Sophie.
+            mistakes:
+              - answer: i am sophie.
+                message: Das Wort I und Namen schreibst du im Englischen immer groß.
+          - cue: today is tuesday.
+            target: Today is Tuesday.
+            mistakes:
+              - answer: Today is tuesday.
+                message: Wochentage schreibst du im Englischen groß.
+          - cue: my birthday is in october.
+            target: My birthday is in October.
+            mistakes:
+              - answer: My birthday is in october.
+                message: Monate schreibst du im Englischen groß.
+          - cue: ellie is english.
+            target: Ellie is English.
+            mistakes:
+              - answer: Ellie is english.
+                message: Nationalitäten und Sprachen schreibst du im Englischen groß.
+      - type: language-task
+        id: grossschreibung-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe den Satz mit den richtigen Großbuchstaben.
+        form: { case: wrong, punctuation: hint }
+        items:
+          - audio: im-ellie-and-today-is-friday.mp3
+            target: I'm Ellie and today is Friday.
+            mistakes:
+              - answer: i'm Ellie and today is Friday.
+                message: Das Wort I schreibst du immer groß.
+              - answer: I'm Ellie and today is friday.
+                message: Wochentage schreibst du im Englischen groß.
+          - audio: amir-is-english.mp3
+            target: Amir is English.
+            mistakes:
+              - answer: Amir is english.
+                message: Nationalitäten schreibst du im Englischen groß.
+      - type: true-false
+        id: grossschreibung-nomen
+        text: Das englische Wort für „Hund“ schreibst du mitten im Satz klein. Stimmt das?
+        answer: true
+        hint: Denk an den Merke-Kasten. Welche englischen Wörter schreibst du groß?
+        explanation: Nomen wie dog, book oder school schreibst du im Englischen klein.
+        links:
+          - title: Lernlandkarte Englisch · Großschreibung
+            url: https://lernapps.net/apps/map/englisch/c/grossschreibung/
+  - type: section
+    id: anwenden
+    title: Selbst schreiben
+    blocks:
+      - type: open-task
+        id: grossschreibung-frei
+        task: Sophie schreibt zwei Sätze in ihren Kalender. Amir ist ihr Freund. Ihr Geburtstag ist im Oktober. Schreibe die beiden Sätze auf Englisch mit den richtigen Großbuchstaben.
+        points:
+          - text: Amir ist groß geschrieben, friend ist klein geschrieben.
+            source: /zahlen-uhr-kalender/grossschreibung/#neu
+          - text: October ist groß geschrieben.
+            source: /zahlen-uhr-kalender/grossschreibung/#neu
+          - text: Beide Sätze beginnen mit einem Großbuchstaben.
+            kind: form
+        solution: |
+          Amir is my friend. My birthday is in October.
+  - type: section
+    id: weiter
+    title: Das steht jetzt in deinem Kalender
+    blocks:
+      - type: text
+        text: Im Schulkalender stehen jetzt Uhrzeiten, Geburtstage und Wochentage, und alles ist richtig geschrieben. Sophie ist bereit für ihr erstes Schuljahr. Im nächsten Kapitel erlebst du es mit.

@@ -1,0 +1,238 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Wochentage, Monate und Datum
+description: Sophie trägt die Geburtstage der Klasse in den Schulkalender ein. Du lernst die Wochentage, die Monate, die Ordnungszahlen und wie man das Datum auf Englisch sagt und schreibt.
+competencies: [datum]
+scope: Die Seite führt die englischen Wochentage (Monday bis Sunday), die zwölf Monate, die Ordnungszahlen bis 31 (first, second, third, fourth, fifth, twelfth, twenty-first) und das Datum (It's the fifth of May., My birthday is on the fifth of May.) ein. Dazu Jahreszahlen wie twenty twenty-five. Alles wird in festen Ausdrücken gelernt. Die Großschreibung von Wochentagen und Monaten kommt kurz vor, ihre Regel steht auf der nächsten Seite.
+blocks:
+  - type: section
+    id: einstieg
+    title: Peters Geburtstag
+    blocks:
+      - type: text
+        text: Sophie möchte alle Geburtstage der Klasse in ihren Schulkalender eintragen. Peter zeigt auf den Wandkalender und sagt „My birthday is on the fifth of May.“
+      - type: figure
+        image: images/szene-geburtstag.svg
+        alt: Sophie und Peter stehen vor dem Wandkalender. Der Kalender zeigt den Monat May. Der fünfte Tag ist rot eingekreist.
+        caption: Peter (links) und Sophie (rechts) vor dem Wandkalender. Der fünfte Mai ist eingekreist.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "**Das kannst du danach:** Wochentage, Monate und das Datum auf Englisch sagen und schreiben, auch das Jahr."
+      - type: single-choice
+        id: datum-start
+        text: Auf dem Kalender steht der Monat „May“. Welcher deutsche Monat ist das?
+        options:
+          - text: Mai
+            correct: true
+            info: May ist der Monat Mai. Er heißt fast wie im Deutschen.
+          - text: März
+            correct: false
+            info: März heißt March.
+          - text: Montag
+            correct: false
+            info: Montag ist ein Wochentag und heißt Monday, kein Monat.
+        explanation: May ist der Mai. Monate und Wochentage kennst du oft schon aus dem Deutschen.
+        links:
+          - title: Lernlandkarte Englisch · Wochentage, Monate und Datum
+            url: https://lernapps.net/apps/map/englisch/c/datum/
+  - type: section
+    id: neu
+    title: Wochentage, Monate und Daten
+    blocks:
+      - type: text
+        text: Dein Poster bekommt neue Tabellen. Zuerst die Tage der Woche und die Monate. Dann die Ordnungszahlen, denn man sagt „der fünfte Mai“, nicht „der fünf Mai“.
+      - type: table
+        caption: Klassenzimmer-Poster · Wochentage
+        header: [Englisch, Deutsch]
+        rows:
+          - [Monday, Montag]
+          - [Tuesday, Dienstag]
+          - [Wednesday, Mittwoch]
+          - [Thursday, Donnerstag]
+          - [Friday, Freitag]
+          - [Saturday, Samstag]
+          - [Sunday, Sonntag]
+      - type: table
+        caption: Klassenzimmer-Poster · Monate
+        header: [Englisch, Deutsch]
+        rows:
+          - [January, Januar]
+          - [February, Februar]
+          - [March, März]
+          - [April, April]
+          - [May, Mai]
+          - [June, Juni]
+          - [July, Juli]
+          - [August, August]
+          - [September, September]
+          - [October, Oktober]
+          - [November, November]
+          - [December, Dezember]
+      - type: table
+        caption: Klassenzimmer-Poster · Ordnungszahlen
+        header: [Zahl, Englisch]
+        rows:
+          - ["1.", first]
+          - ["2.", second]
+          - ["3.", third]
+          - ["4.", fourth]
+          - ["5.", fifth]
+          - ["8.", eighth]
+          - ["9.", ninth]
+          - ["10.", tenth]
+          - ["12.", twelfth]
+          - ["14.", fourteenth]
+          - ["20.", twentieth]
+          - ["21.", twenty-first]
+          - ["25.", twenty-fifth]
+          - ["31.", thirty-first]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Ab **fourth** hängst du **-th** an die Zahl (fourth, sixth, tenth). Fünf und zwölf ändern sich: **fifth**, **twelfth**. Bei **ninth** fehlt das e. Bei 20 wird aus -y ein -ie: **twentieth**. Bei 14 hängst du -th an fourteen: **fourteenth**."
+      - type: table
+        caption: Schulkalender · Geburtstage
+        header: [Name, Geburtstag]
+        rows:
+          - [Peter, the fifth of May]
+          - [Ellie, the tenth of July]
+          - [Amir, the twelfth of October]
+      - type: table
+        caption: Klassenzimmer-Poster · Das Datum
+        header: [Ausdruck, Bedeutung]
+        rows:
+          - ["Today is Monday.", Heute ist Montag.]
+          - ["It's the fifth of May.", Es ist der fünfte Mai.]
+          - ["When is your birthday?", Wann hast du Geburtstag?]
+          - ["My birthday is on the fifth of May.", Ich habe am fünften Mai Geburtstag.]
+          - ["twenty twenty-five", "das Jahr 2025 (zwei Zahlenpaare: twenty und twenty-five)"]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: datum-wochentage
+        text: Bring die Wochentage in die richtige Reihenfolge, von Montag bis Sonntag.
+        items: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
+        explanation: Die Woche beginnt in Großbritannien mit Monday. Das Wochenende sind Saturday und Sunday.
+        hint: Schau auf die Tabelle „Wochentage“ auf dem Poster.
+        links:
+          - title: Lernlandkarte Englisch · Wochentage, Monate und Datum
+            url: https://lernapps.net/apps/map/englisch/c/datum/
+      - type: matching
+        id: datum-monate
+        text: Welcher englische Monat gehört zu welchem deutschen?
+        pairs:
+          - left: Januar
+            right: January
+          - left: März
+            right: March
+          - left: Mai
+            right: May
+          - left: Juli
+            right: July
+          - left: Oktober
+            right: October
+        distractors: [June]
+        explanation: Viele Monate sehen aus wie im Deutschen. Aufpassen musst du bei January, March und July.
+        links:
+          - title: Lernlandkarte Englisch · Wochentage, Monate und Datum
+            url: https://lernapps.net/apps/map/englisch/c/datum/
+      - type: language-task
+        id: datum-ordnungszahlen
+        languages: { source: de, target: en }
+        task: Schreibe die Ordnungszahl als englisches Wort.
+        form: { case: hint }
+        items:
+          - source: "5."
+            target: fifth
+            mistakes:
+              - answer: fiveth
+                message: Bei 5 wird aus five ein fif. Es heißt fifth.
+          - source: "9."
+            target: ninth
+            mistakes:
+              - answer: nineth
+                message: Bei ninth fehlt das e von nine.
+          - source: "12."
+            target: twelfth
+            mistakes:
+              - answer: twelveth
+                message: Bei 12 wird aus twelve ein twelf. Es heißt twelfth.
+          - source: "21."
+            target: twenty-first
+          - source: "3."
+            target: third
+            mistakes:
+              - answer: threeth
+                message: Bei 3 heißt es third, nicht threeth.
+      - type: language-task
+        id: datum-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was Sophie hört.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: its-the-fifth-of-may.mp3
+            target: It's (the fifth of May|May the fifth).
+          - audio: its-tuesday.mp3
+            target: It's Tuesday.
+          - audio: my-birthday-is-on-the-tenth-of-july.mp3
+            target: My birthday is on (the tenth of July|July the tenth).
+      - type: language-task
+        id: datum-schreiben
+        languages: { source: de, target: en }
+        task: Was sagt Sophie auf Englisch? Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Heute ist Montag.
+            target: Today is Monday.
+          - source: Es ist der fünfte Mai.
+            target: It's (the fifth of May|May the fifth).
+            mistakes:
+              - answer: It's the five of May.
+                message: Beim Datum sagst du die Ordnungszahl, also fifth, nicht five.
+          - source: Ich habe am zehnten Juli Geburtstag.
+            target: My birthday is on (the tenth of July|July the tenth).
+          - source: Das Jahr 2025
+            target: (twenty twenty-five|two thousand and twenty-five|two thousand twenty-five)
+      - type: true-false
+        id: datum-woche
+        text: Die englische Woche beginnt auf dem Poster mit Monday und endet mit Sunday. Stimmt das?
+        answer: true
+        hint: Schau noch einmal in die Tabelle „Wochentage“.
+        explanation: Auf dem Poster geht die Woche von Monday bis Sunday. Saturday und Sunday sind das Wochenende.
+        links:
+          - title: Lernlandkarte Englisch · Wochentage, Monate und Datum
+            url: https://lernapps.net/apps/map/englisch/c/datum/
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: datum-nachsprechen
+        language: en
+        items:
+          - audio: today-is-monday.mp3
+            text: Today is Monday.
+          - audio: when-is-your-birthday.mp3
+            text: When is your birthday?
+          - audio: my-birthday-is-on-the-fifth-of-may.mp3
+            text: My birthday is on the fifth of May.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: datum-frei
+        task: Sophie hat am 14. Oktober Geburtstag. Schreibe zwei kurze englische Sätze, mit denen Sophie Amir ihren Geburtstag sagt. Schreibe die Zahl als Wort.
+        points:
+          - text: Sophie nennt den Monat October und die Ordnungszahl fourteenth.
+            source: /zahlen-uhr-kalender/datum/#neu
+          - text: Sophie sagt, dass es ihr Geburtstag ist (My birthday is on …).
+            source: /zahlen-uhr-kalender/datum/#neu
+        solution: |
+          My birthday is on the fourteenth of October.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Im Schulkalender stehen jetzt Peter, Ellie und Amir mit ihren Geburtstagen. Sophie schreibt ihren eigenen Eintrag. Dabei achtet sie darauf, welche Wörter sie groß schreibt. Das lernst du auf der nächsten Seite.
