@@ -16,7 +16,7 @@ blocks:
         licence: CC-BY-4.0
       - type: text
         text: |
-          Lena aus Deutschland steht zum ersten Mal in ihrem Klassenzimmer an der Millbrook School. Ellie Parker, die Tochter ihrer Gastfamilie, lächelt sie an und sagt: „Hi, I'm Ellie.“
+          Lena (11) aus Deutschland steht zum ersten Mal in ihrem Klassenzimmer an der Millbrook School. Ellie Parker (11), die Tochter ihrer Gastfamilie, lächelt sie an und sagt: „Hi, I'm Ellie.“ Neben ihr stehen ihr Bruder Josh (9) und ihr Freund Amir (11).
       - type: text
         text: "**Das kannst du danach:** Menschen auf Englisch grüßen und dich vorstellen, dich bedanken und entschuldigen und die richtige Wendung für die Tageszeit wählen. Du brauchst noch keine Regeln: Du lernst die Wendungen als ganze Stücke."
       - type: single-choice
@@ -111,7 +111,7 @@ blocks:
       - type: language-task
         id: begruessung-hoeren
         languages: { source: de, target: en }
-        task: Hör zu und schreibe, was Lena sagt.
+        task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
           - audio: good-morning-lena.mp3
@@ -139,7 +139,7 @@ blocks:
               - answer: Excuse me!
                 message: Mit Excuse me sprichst du jemanden an. Wenn du etwas falsch gemacht hast, sagst du Sorry.
           - source: Gern geschehen.
-            target: You're welcome.
+            target: (You're|You are) welcome.
           - source: Bitte. (Lena möchte etwas haben.)
             target: Please.
           - source: Hallo, ich bin Lena.
@@ -190,4 +190,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Auf dem Poster stehen jetzt die ersten Wendungen. In der ersten Englischstunde versteht Lena die Lehrerin nicht ganz. Auf der nächsten Seite lernst du, wie du im Unterricht nachfragst.
+        text: Auf dem Poster stehen jetzt die ersten Wendungen. In der ersten Englischstunde versteht Lena ihren Lehrer nicht ganz. Auf der nächsten Seite lernst du, wie du im Unterricht nachfragst.

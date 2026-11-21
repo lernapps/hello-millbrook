@@ -49,7 +49,7 @@ Alle Voraussetzungen stehen auf früheren Seiten; kein `ahead`, keine Wiederholu
 Aufbau: leicht → schwer: wählen (`single-choice`, `matching`) → Lücken (`language-task` mode `gap`/`choice` mit `distractors`) → schreiben (`write`, Deutsch → Englisch, `mistakes` nennen die Regel) → übersetzen in beide Richtungen → freie Aufgabe.
 
 - Wendung zuordnen: Situation → passende Wendung; `matching`, `language-task` choice/write (Begrüßung, Classroom phrases).
-- Beschriften: `labelled-figure` mit `legend: false`, `language-task` mit `marker`.
+- Beschriften: `labelled-figure` mit `legend: false`, `language-task` mit `marker`. Die Wörter stehen vorher auf dem Poster („Dinge im Klassenzimmer“).
 - Begriffe sortieren: `matching` Wort ↔ Fachbegriff.
 - Hören und schreiben: `language-task` mit `audio` (Diktat); Nachsprechen: `speaking-task`. Gesprochener Text ist ein ganzer Satz mit ausgeschriebenen Zahlen.
 - Reihenfolge: `ordering` (Zahlen, Wochentage, Monate, Stundenplan, Jahreslauf).
@@ -83,4 +83,9 @@ Karte `https://lernapps.net/apps/map/englisch.json`, Grundwortschatz `https://le
 
 ## Rules learned from mistakes
 
-None yet.
+- Jede Übung fragt nur Wörter ab, die vorher auf der Seite (Poster-Tabelle) stehen (Klassenzimmer-Dinge, £ und p, die Minuten-Tabelle): der Gesamtcheck fand Aufgaben mit unbekannten Wörtern.
+- Eine Tabelle, die eine Übung beantwortet, steht nicht direkt über ihr: der Stundenplan steht auf `schuljahr/schule` unter dem Abschnitt `weiter`, nicht vor der Übung `schule-stundenplan`.
+- Englische Aufgaben enthalten kein deutsches Wort (statt „What's Tafel in English?“ steht „What's this in English?“).
+- Mit `(a|b)` gleichwertige richtige Antworten zulassen (You're/You are, favourite/favorite, a/a school uniform); `case: wrong` nur dort, wo die Seite die Großschreibung unterrichtet (`grossschreibung`, `schule-schreiben`).
+- Schreibe die Uhrzeit nicht „halb acht = half eight“: half past seven ist 7:30, das deutsche „halb acht“ ebenso, es zählt nur von der nächsten Stunde aus.
+- Bilder: Beschriftungen innerhalb des `viewBox` halten (die Uhren-Zeichnung war unten abgeschnitten).

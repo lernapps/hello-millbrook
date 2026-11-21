@@ -76,6 +76,7 @@ blocks:
         header: [Wendung, Bedeutung]
         rows:
           - ["Number thirteen, please.", "Nummer dreizehn, bitte."]
+          - ["It's one pound fifty.", "Das kostet 1,50 Pfund. (£ ist das Pfund, p sind Pence)"]
           - ["It's two pounds fifty.", "Das kostet 2,50 Pfund."]
           - ["It's fifty pence.", "Das kostet 50 Pence."]
       - type: note
@@ -112,7 +113,7 @@ blocks:
             target: forty
             mistakes:
               - answer: fourty
-                message: Bei 40 schreibst du kein u. Aus four wird for und -ty dahinter, also forty.
+                message: "Bei 40 schreibst du kein u: forty, nicht fourty."
           - source: "75"
             target: seventy-five
             examples:
@@ -195,4 +196,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Jetzt kennst du die Zahlen. Auf deinem Poster stehen sie bis 100. In der Pause klingelt es. Amir fragt Lena, wie spät es ist. Auf der nächsten Seite lernst du die Uhrzeit.
+        text: Jetzt kennst du die Zahlen. Auf deinem Poster stehen die Zahlen bis 12 und die Reihen mit -teen und -ty. In der Pause klingelt es. Amir fragt Lena, wie spät es ist. Auf der nächsten Seite lernst du die Uhrzeit.

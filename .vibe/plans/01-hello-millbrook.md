@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -72,6 +72,8 @@ Wie Kinder dahin kommen und welcher Fehler die Rückmeldung fängt:
 - `schule-uk`: zwei Spalten (Millbrook / zu Hause) zuordnen; Fehler: Klischee „alle tragen immer Uniform“ ohne Hinweis auf Schulen.
 
 Umfang: drin: 3 Kapitel, 10 Seiten, feste Wendungen ohne Regel; Hören/Sprechen mit englischen KI-Stimmen (britisch); Datenbereich Zahlen 0–1000 und Preise (guess), Wochentage, 12 Monate, Ordnungszahlen bis 31. Draußen: Regeln zu Imperativ (#473), Präpositionen der Zeit (#475), Familie/Freizeit (#477), Stadt (#478), USA (#484); keine Bewertung der Aussprache. Sprachen: Deutsch.
+
+Gesamtcheck (Sub-Agent als Lernende Klasse 5, alle 10 Seiten, 360 px) – behoben: Uhren-Zeichnung unten abgeschnitten; Lehrer/Lehrerin vereinheitlicht (Mr Hill, Lehrer); Josh, Amir und Alter (Lena 11, Ellie 11, Josh 9, Amir 11) auf der ersten Seite eingeführt; Diktat „Lena grüßt sich selbst“ umformuliert; „You are welcome“ zugelassen; Klassenzimmer-Wörter (board, desk …) stehen jetzt vor der Beschriftungsaufgabe, Varianten (blackboard, table, schoolbag) zugelassen; „What's Tafel in English?“ durch „What's this in English?“ ersetzt (kein Deutsch im englischen Satz); £ und p, one pound erklärt; Fehlermeldung „fourty“ korrigiert; Minuten-Tabelle (alle Uhrzeiten der Uhr-Übung) ergänzt; Merke zu half past korrigiert (halb acht = 7:30 ebenso); Kalender-Uhrzeiten und Stundenplan widerspruchsfrei; Uhr-Knöpfe rechnen über die Stunde hinweg; Ordnungszahlen 10, 14, 25, 31 ergänzt; Stundenplan-Tabelle steht nicht mehr direkt über ihrer Übung; Großschreibung der Fächer im Merke geklärt; favourite/favorite und „a school uniform“ zugelassen; „Explainer“/„Pronomen“ aus dem Schlusstext gestrichen; Grammatikfehler „ersten Tage“. Nicht änderbar (Runtime): Standardmeldung „Deine Fassung kann trotzdem richtig sein“, das Wort „Eintrag“, kleine Auswahlfelder, Tutor-Auswahl. Bewusst gelassen: Wiederholung derselben Sätze in Hören/Sprechen/Schreiben (Übungsprinzip der Chunks), Zahlen bis 100 (nicht 1000, „(guess)“), Ordnungszahlen auf der Seite Datum statt Zahlen.
 
 ## Explore
 
@@ -255,9 +257,9 @@ page, which a link. -->
 <!-- tasks: pages (12 added): the other pages or screens, after the pattern -->
 - [x] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [x] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit

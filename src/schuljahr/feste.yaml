@@ -47,7 +47,7 @@ blocks:
           - ["5 November", Bonfire Night]
           - ["25 December", Christmas]
       - type: text
-        text: "An Halloween ist alles gruselig (scary). An Bonfire Night gibt es ein Lagerfeuer (bonfire) und Feuerwerk (fireworks). Der Tag erinnert an den 5. November 1605, als man die Verschwörung gegen den König aufdeckte. An Christmas gibt es Geschenke (presents)."
+        text: "An Halloween ist alles gruselig (scary). An Bonfire Night gibt es ein Lagerfeuer (bonfire) und Feuerwerk (fireworks). Der Tag erinnert an eine Geschichte aus dem Jahr 1605. An Christmas gibt es Geschenke (presents)."
       - type: table
         caption: Klassenzimmer-Poster · Feste
         header: [Wendung, Bedeutung]

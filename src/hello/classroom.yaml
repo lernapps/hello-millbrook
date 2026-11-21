@@ -49,7 +49,7 @@ blocks:
           - ["Can you help me, please?", Kannst du mir bitte helfen?]
           - [I don't understand., Ich verstehe das nicht.]
           - ["Can you say that again, please?", Kannst du das bitte noch einmal sagen?]
-          - [What's Tafel in English?, Wie heißt „Tafel“ auf Englisch?]
+          - [What's this in English?, Wie heißt das auf Englisch?]
           - [How do you spell it?, Wie schreibt man das?]
           - [I don't know., Ich weiß es nicht.]
       - type: table
@@ -61,6 +61,16 @@ blocks:
           - [Repeat after me., Sprecht mir nach.]
           - [Stand up., Steht auf.]
           - [Sit down., Setzt euch hin.]
+      - type: table
+        caption: Klassenzimmer-Poster · Dinge im Klassenzimmer
+        header: [Englisch, Deutsch]
+        rows:
+          - [board, Tafel]
+          - [desk, Tisch]
+          - [chair, Stuhl]
+          - [book, Buch]
+          - [pencil, Bleistift]
+          - [bag, Schultasche]
       - type: note
         title: Merke
         blocks:
@@ -81,7 +91,7 @@ blocks:
           - left: Lena möchte wissen, wie man ein Wort schreibt.
             right: How do you spell it?
           - left: Lena kennt ein Wort nicht auf Englisch.
-            right: What's Tafel in English?
+            right: What's this in English?
         distractors: [Open your books.]
         explanation: Die Wendung folgt der Situation. What's … in English? fragt nach dem englischen Wort, How do you spell it? nach der Schreibweise.
         hint: Frag dich, ob Lena um Hilfe bittet, etwas nicht verstanden hat oder nach einem Wort fragt.
@@ -100,7 +110,7 @@ blocks:
             right: Aufstehen
           - left: Sit down.
             right: Sich hinsetzen
-        distractors: [Etwas nachsprechen]
+        distractors: [Etwas aufschreiben]
         explanation: "Anweisungen verstehst du am Verb: open (öffnen), listen (zuhören), stand (stehen), sit (sitzen)."
         links:
           - title: Lernlandkarte Englisch · Classroom phrases
@@ -127,9 +137,9 @@ blocks:
               - { x: 81, y: 76, marker: F, text: Schultasche }
         items:
           - marker: A
-            target: board
+            target: (board|blackboard)
           - marker: B
-            target: desk
+            target: (desk|table)
           - marker: C
             target: chair
           - marker: D
@@ -137,7 +147,7 @@ blocks:
           - marker: E
             target: pencil
           - marker: F
-            target: bag
+            target: (bag|schoolbag)
       - type: language-task
         id: classroom-luecken
         languages: { source: de, target: en }
@@ -161,8 +171,8 @@ blocks:
             target: (I don't|I do not) understand.
           - audio: can-you-help-me-please.mp3
             target: Can you help me, please?
-          - audio: whats-table-in-english.mp3
-            target: What's table in English?
+          - audio: whats-this-in-english.mp3
+            target: What's this in English?
       - type: language-task
         id: classroom-schreiben
         languages: { source: de, target: en }

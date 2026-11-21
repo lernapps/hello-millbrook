@@ -9,7 +9,7 @@ blocks:
     title: Lenas Eintrag im Kalender
     blocks:
       - type: text
-        text: Lena schreibt „monday“ in ihren Schulkalender. Ellie schüttelt den Kopf. Im Deutschen schreibt man Nomen groß. Im Englischen gelten andere Regeln.
+        text: Lena schreibt eine Notiz für ihren Schulkalender. Aus Versehen schreibt sie „monday“ ganz klein. Ellie schüttelt den Kopf. Im Englischen gelten eigene Regeln für große Buchstaben.
       - type: figure
         image: images/szene-grossschreibung.svg
         alt: Lena und Ellie vor einem Zettel. Das Wort monday ist rot durchgestrichen, darunter steht Monday mit großem M.

@@ -30,16 +30,16 @@ const emit = defineEmits<{ answer: [number] }>();
 
 // the task of the number the explainer gives; "Neue Aufgabe" mounts the component afresh with another
 const current = computed(() => generate(props.seed, props));
-const hour = ref(0);
-const minute = ref(0);
-const time = computed(() => hour.value * 60 + minute.value);
+const time = ref(0);
+const hour = computed(() => Math.floor(time.value / 60));
+const minute = computed(() => time.value % 60);
 const hourAngle = computed(() => (hour.value + minute.value / 60) * 30);
 const minuteAngle = computed(() => minute.value * 6);
 const ticks = Array.from({ length: 12 }, (_, i) => i * 30);
 
 function change(hours: number, minutes: number): void {
-  hour.value = (hour.value + hours + 12) % 12;
-  minute.value = (minute.value + minutes + 60) % 60;
+  // five minutes back from x:00 go to the hour before, as on a real clock
+  time.value = (((time.value + hours * 60 + minutes) % 720) + 720) % 720;
   emit("answer", time.value);
 }
 </script>
@@ -65,10 +65,10 @@ function change(hours: number, minutes: number): void {
         class="uhr-tick"
         :transform="`rotate(${angle} 100 100)`"
       />
-      <text x="100" y="42" text-anchor="middle" class="uhr-number">12</text>
-      <text x="170" y="106" text-anchor="middle" class="uhr-number">3</text>
-      <text x="100" y="176" text-anchor="middle" class="uhr-number">6</text>
-      <text x="30" y="106" text-anchor="middle" class="uhr-number">9</text>
+      <text x="100" y="50" text-anchor="middle" class="uhr-number">12</text>
+      <text x="162" y="106" text-anchor="middle" class="uhr-number">3</text>
+      <text x="100" y="168" text-anchor="middle" class="uhr-number">6</text>
+      <text x="38" y="106" text-anchor="middle" class="uhr-number">9</text>
       <line x1="100" y1="100" x2="100" y2="58" class="uhr-hour" :transform="`rotate(${hourAngle} 100 100)`" />
       <line x1="100" y1="100" x2="100" y2="30" class="uhr-minute" :transform="`rotate(${minuteAngle} 100 100)`" />
       <circle cx="100" cy="100" r="5" class="uhr-centre" />

@@ -9,7 +9,7 @@ blocks:
     title: Lena schreibt nach Hause
     blocks:
       - type: text
-        text: Lena schreibt ihrer Klasse in Deutschland eine Nachricht. Sie erzählt, was an der Millbrook School anders ist.
+        text: Lena schreibt ihrer Klasse in Deutschland eine Nachricht. Amir sitzt neben ihr. Sie erzählt, was an der Millbrook School anders ist.
       - type: figure
         image: images/szene-schulschild.svg
         alt: Lena und Amir stehen vor dem Schild der Millbrook School. Davor stehen vier Fahnen in Rot, Blau, Grün und Gelb.
@@ -88,9 +88,9 @@ blocks:
         form: { case: hint, punctuation: hint }
         items:
           - audio: at-millbrook-we-wear-a-uniform.mp3
-            target: At Millbrook we wear a uniform.
+            target: At Millbrook we wear (a|a school) uniform.
           - audio: at-my-school-we-dont-wear-a-uniform.mp3
-            target: At my school we (don't|do not) wear a uniform.
+            target: At my school we (don't|do not) wear (a|a school) uniform.
           - audio: at-millbrook-we-have-houses.mp3
             target: At Millbrook we have houses.
       - type: language-task
@@ -100,12 +100,12 @@ blocks:
         form: { case: hint, punctuation: hint }
         items:
           - source: In Millbrook tragen wir eine Uniform.
-            target: At Millbrook we wear a uniform.
+            target: At Millbrook we wear (a|a school) uniform.
             mistakes:
               - answer: At Millbrook we wear uniform.
                 message: Du brauchst a vor uniform, wie auf dem Poster.
           - source: An meiner Schule tragen wir keine Uniform.
-            target: At my school we (don't|do not) wear a uniform.
+            target: At my school we (don't|do not) wear (a|a school) uniform.
             mistakes:
               - answer: At my school we not wear a uniform.
                 message: Im Englischen sagst du we don't wear. Das don't gehört dazu, wenn du etwas verneinst.
@@ -141,4 +141,4 @@ blocks:
     title: Dein Poster und dein Kalender sind fertig
     blocks:
       - type: text
-        text: "Du hast Lenas ersten Tage in Millbrook miterlebt. Auf deinem Poster stehen Wendungen zum Grüßen, Nachfragen, für Zahlen, Uhrzeit und Datum und für die Schule. Dein Kalender hat Uhrzeiten, Geburtstage, einen Stundenplan und Feste. Im nächsten Explainer lernst du, wie Englisch gebaut ist: mit Pronomen wie I, me und my."
+        text: "Du hast Lenas erste Tage in Millbrook miterlebt. Auf deinem Poster stehen Wendungen zum Grüßen, Nachfragen, für Zahlen, Uhrzeit und Datum und für die Schule. Dein Kalender hat Uhrzeiten, Geburtstage, einen Stundenplan und Feste. In der nächsten App lernst du, wie Englisch gebaut ist, zum Beispiel die kleinen Wörter I, me und my."

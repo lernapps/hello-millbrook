@@ -52,18 +52,33 @@ blocks:
           - ["It's half past seven.", Es ist halb acht (7:30).]
           - ["It's twenty to eight.", Es ist zwanzig vor acht.]
           - ["It's a quarter to eight.", Es ist Viertel vor acht.]
+      - type: table
+        caption: Klassenzimmer-Poster · Alle Minuten
+        header: [Minuten, Englisch]
+        rows:
+          - ["5", five past]
+          - ["10", ten past]
+          - ["15", a quarter past]
+          - ["20", twenty past]
+          - ["25", twenty-five past]
+          - ["30", half past]
+          - ["35", twenty-five to (die nächste Stunde)]
+          - ["40", twenty to (die nächste Stunde)]
+          - ["45", a quarter to (die nächste Stunde)]
+          - ["50", ten to (die nächste Stunde)]
+          - ["55", five to (die nächste Stunde)]
       - type: note
         title: Merke
         blocks:
           - type: text
-            text: "**Half past seven** ist 7:30, nicht 6:30. Das deutsche „halb acht“ ist 7:30, aber das Englische sagt es anders: eine halbe Stunde nach sieben. Bei **to** nennst du die Stunde, die kommt: 7:45 ist a quarter to eight."
+            text: "**Half past seven** ist 7:30. Im Deutschen sagst du dafür „halb acht“ und zählst von der nächsten Stunde aus. Im Englischen zählst du von der vollen Stunde aus: eine halbe Stunde nach sieben. „Half seven“ gibt es nicht. Bei **to** nennst du die Stunde, die kommt: 7:45 ist a quarter to eight."
       - type: table
         caption: Schulkalender · Uhrzeiten
         header: [Uhrzeit, Das sagst du]
         rows:
           - ["8:45 Schulbeginn", a quarter to nine]
-          - ["10:30 Pause", half past ten]
-          - ["12:00 Mittagessen", twelve o'clock]
+          - ["11:45 Sport", a quarter to twelve]
+          - ["12:45 Mittagessen", a quarter to one]
           - ["15:15 Schulschluss", a quarter past three]
   - type: section
     id: uebung
