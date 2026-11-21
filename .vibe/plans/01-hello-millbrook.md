@@ -25,11 +25,11 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ## Goal
 
-Kinder der Klassen 5–6 erleben Sophies ersten Tage an der Millbrook School und üben dabei feste englische Wendungen, Zahlen, Uhrzeit, Datum und das Sprechen über ihre Schule.
+Kinder der Klassen 5–6 erleben Sophies ersten Tage an der Millbrook School und üben dabei feste englische Ausdrücke, Zahlen, Uhrzeit, Datum und das Sprechen über ihre Schule.
 
 ## Key decisions
 
-- Archetyp `explainer` (Einheit, `subject: englisch`): Kinder brauchen Seiten, die Wendungen einführen, mit Übungen dazwischen; `quiz` hätte keine Erklärseiten, `interactive` (Spiel/Zeitdruck) ist nicht gefragt. Hören/Sprechen mit KI-Stimmen ist im Explainer möglich. Er kann nicht: Sprechen bewerten, Timer/Spiel, eigene Farben; Uhr und Kalender nur als Vue-Komponenten.
+- Archetyp `explainer` (Einheit, `subject: englisch`): Kinder brauchen Seiten, die Ausdrücke einführen, mit Übungen dazwischen; `quiz` hätte keine Erklärseiten, `interactive` (Spiel/Zeitdruck) ist nicht gefragt. Hören/Sprechen mit KI-Stimmen ist im Explainer möglich. Er kann nicht: Sprechen bewerten, Timer/Spiel, eigene Farben; Uhr und Kalender nur als Vue-Komponenten.
 - Inhalt, Kapitel und Seiten aus Issue #470 (Auftrag der Erstellerin/des Erstellers: „Inhalte aus dem Issue nehmen“); App auf Deutsch (Sprache der Lernenden), Beispiele Englisch.
 - Stimme: britisch weiblich (guess: Ersteller antwortete „Passt beides“ ohne Wahl); Download für Audio ist erlaubt.
 - `scope`: ja (die Seiten haben `open-task`; der Tutor beurteilt freie Antworten nach dem `scope`): `scope` in `src/app.yaml` und auf jeder Seite.
@@ -45,11 +45,11 @@ Kapitel und Bausteine (Schritt, öffnet):
 3. Ein Schuljahr in Millbrook – `schule` (3, 3), `feste-uk` (3, 1), `schule-uk` (4, 2)
 
 Alle Voraussetzungen liegen im Schnitt (zahlen → uhrzeit, datum → schule, grossschreibung, feste-uk; schule → schule-uk): keine Sammel-Wiederholung nötig. Kapitel 3 setzt `datum` aus Kapitel 2 voraus; Seitenreihenfolge im Kapitel nach Schritt.
-Geschichte (fix aus Issue): Sophie (aus Deutschland, Schuljahr an der erfundenen Millbrook School, wohnt bei den Parkers), Ellie Parker, ihr Bruder Peter, Freund Amir. Zwei wachsende Bilder: Klassenzimmer-Poster mit Wendungen, Schulkalender (Uhrzeiten, Daten, Stundenplan, Feste).
-Didaktik: feste Wendungen (chunks) ohne Regel; Regeln folgen in #471–#475. Abgrenzung: Imperativ-Regel #473, Präpositionen der Zeit #475, Familie/Freizeit #477, Stadt #478, High School USA #484.
+Geschichte (fix aus Issue): Sophie (aus Deutschland, Schuljahr an der erfundenen Millbrook School, wohnt bei den Parkers), Ellie Parker, ihr Bruder Peter, Freund Amir. Zwei wachsende Bilder: Klassenzimmer-Poster mit Ausdrücke, Schulkalender (Uhrzeiten, Daten, Stundenplan, Feste).
+Didaktik: feste Ausdrücke (chunks) ohne Regel; Regeln folgen in #471–#475. Abgrenzung: Imperativ-Regel #473, Präpositionen der Zeit #475, Familie/Freizeit #477, Stadt #478, High School USA #484.
 Nicht ändern: die Lernlandkarte; Auffälligkeiten ins Issue „Lernlandkarte: offene Prüfpunkte“ (Label `map-review`).
 
-Üben (Muster der Fremdsprachen): Wendungen und Wörter immer mit Bedeutung eingeführt, dann leicht → schwer: wählen (`choice`) → Lücken (`gap`) → schreiben (`write`) → Übersetzen in beide Richtungen → `open-task` aus der Situation. Wortschatz mit Artikel, Quelle: Grundwortschatz der Karte (Stufe A1). Beschriften am Bild (`labelled-figure`) für Klassenzimmer und Tafel; Reihenfolge (`ordering`) für Uhrzeit, Datum, Stundenplan; Zuordnen für Fachbegriffe (noun, verb, adjective), Begrüßung je nach Tageszeit und Schule hier/dort (zwei Spalten). Hören und Sprechen: ja, mit englischen Stimmen (Skill `lernapps-audio`): Diktate, Hör-Aufgaben (Zahlen, Uhrzeit), Sprechaufgaben zum Nachsprechen; nichts bewertet, wie Kinder sprechen. Interaktive Elemente: Uhr zum Drehen, Schulkalender zum Eintragen (Komponenten des Explainers, falls sie das Muster tragen). Typische Fehler: dreizehn/dreißig (thirteen/thirty), half past (halb = half to), quarter to/past, Datum „the 5th“ statt „5.“, Wochentage/Monate klein geschrieben, I klein.
+Üben (Muster der Fremdsprachen): Ausdrücke und Wörter immer mit Bedeutung eingeführt, dann leicht → schwer: wählen (`choice`) → Lücken (`gap`) → schreiben (`write`) → Übersetzen in beide Richtungen → `open-task` aus der Situation. Wortschatz mit Artikel, Quelle: Grundwortschatz der Karte (Stufe A1). Beschriften am Bild (`labelled-figure`) für Klassenzimmer und Tafel; Reihenfolge (`ordering`) für Uhrzeit, Datum, Stundenplan; Zuordnen für Fachbegriffe (noun, verb, adjective), Begrüßung je nach Tageszeit und Schule hier/dort (zwei Spalten). Hören und Sprechen: ja, mit englischen Stimmen (Skill `lernapps-audio`): Diktate, Hör-Aufgaben (Zahlen, Uhrzeit), Sprechaufgaben zum Nachsprechen; nichts bewertet, wie Kinder sprechen. Interaktive Elemente: Uhr zum Drehen, Schulkalender zum Eintragen (Komponenten des Explainers, falls sie das Muster tragen). Typische Fehler: dreizehn/dreißig (thirteen/thirty), half past (halb = half to), quarter to/past, Datum „the 5th“ statt „5.“, Wochentage/Monate klein geschrieben, I klein.
 
 Quellen (geöffnet, Fakten, keine Sätze; Lizenz CC BY-SA, nur Fakten übernommen): Wikipedia „House system“, „Education in England“, „Halloween“, „Bonfire Night“ (Seite lädt, Zusammenfassung nicht abgerufen: Fakten vor dem Schreiben in Code nochmals prüfen). Karte: https://lernapps.net/apps/map/englisch.json (gelesen). Kein Lehrplan nötig (Karte gibt die Reihenfolge). Ungeprüft: Schuluniform und Ablauf des britischen Schultags, Datum von Bonfire Night (5. November) und Christmas: in Code mit Quelle prüfen.
 
@@ -60,8 +60,8 @@ Seiten (eine Kompetenz je Seite, Reihenfolge nach `requires`; Kapitel `hello`, `
 Voraussetzungen außerhalb der App: keine (alle `requires` stehen auf früheren Seiten). `ahead`: nicht nötig. Recap-Seiten: keine. Je Strang eine Seite: Wortschatz (1.1–2.3, 3.1), Aussprache/Rechtschreibung (2.4), Landeskunde (3.2, 3.3).
 
 Wie Kinder dahin kommen und welcher Fehler die Rückmeldung fängt:
-- `gruss-hoeflichkeit`: Situation wählen (Tageszeit, Person) und die passende Wendung ableiten; Fehler: Good night als Begrüßung, du/Sie-Denken.
-- `classroom-phrases`: Poster füllen, Wendung zur Situation wählen/schreiben; Fehler: wörtliches Übersetzen (How say you …).
+- `gruss-hoeflichkeit`: Situation wählen (Tageszeit, Person) und den passenden Ausdruck ableiten; Fehler: Good night als Begrüßung, du/Sie-Denken.
+- `classroom-phrases`: Poster füllen, Ausdruck zur Situation wählen/schreiben; Fehler: wörtliches Übersetzen (How say you …).
 - `grammatik-fachbegriffe`: Wörter an der Tafel als noun/verb/adjective zuordnen; Fehler: Adjektiv mit Verb vertauscht.
 - `zahlen`: hören, schreiben, Preise; Fehler: thirteen/thirty, Zehnerzahlen mit -teen/-ty.
 - `uhrzeit`: Uhr zum Drehen, Zeit sagen; Fehler: half past seven = 7:30 (nicht 6:30), quarter to/past vertauscht.
@@ -71,7 +71,7 @@ Wie Kinder dahin kommen und welcher Fehler die Rückmeldung fängt:
 - `feste-uk`: Feste ins Jahr einordnen; Fehler: Bonfire Night mit Silvester/Halloween verwechselt.
 - `schule-uk`: zwei Spalten (Millbrook / zu Hause) zuordnen; Fehler: Klischee „alle tragen immer Uniform“ ohne Hinweis auf Schulen.
 
-Umfang: drin: 3 Kapitel, 10 Seiten, feste Wendungen ohne Regel; Hören/Sprechen mit englischen KI-Stimmen (britisch); Datenbereich Zahlen 0–1000 und Preise (guess), Wochentage, 12 Monate, Ordnungszahlen bis 31. Draußen: Regeln zu Imperativ (#473), Präpositionen der Zeit (#475), Familie/Freizeit (#477), Stadt (#478), USA (#484); keine Bewertung der Aussprache. Sprachen: Deutsch.
+Umfang: drin: 3 Kapitel, 10 Seiten, feste Ausdrücke ohne Regel; Hören/Sprechen mit englischen KI-Stimmen (britisch); Datenbereich Zahlen 0–1000 und Preise (guess), Wochentage, 12 Monate, Ordnungszahlen bis 31. Draußen: Regeln zu Imperativ (#473), Präpositionen der Zeit (#475), Familie/Freizeit (#477), Stadt (#478), USA (#484); keine Bewertung der Aussprache. Sprachen: Deutsch.
 
 Gesamtcheck (Sub-Agent als Lernende Klasse 5, alle 10 Seiten, 360 px) – behoben: Uhren-Zeichnung unten abgeschnitten; Lehrer/Lehrerin vereinheitlicht (Mr Hill, Lehrer); Peter, Amir und Alter (Sophie 11, Ellie 11, Peter 9, Amir 11) auf der ersten Seite eingeführt; Diktat „Sophie grüßt sich selbst“ umformuliert; „You are welcome“ zugelassen; Klassenzimmer-Wörter (board, desk …) stehen jetzt vor der Beschriftungsaufgabe, Varianten (blackboard, table, schoolbag) zugelassen; „What's Tafel in English?“ durch „What's this in English?“ ersetzt (kein Deutsch im englischen Satz); £ und p, one pound erklärt; Fehlermeldung „fourty“ korrigiert; Minuten-Tabelle (alle Uhrzeiten der Uhr-Übung) ergänzt; Merke zu half past korrigiert (halb acht = 7:30 ebenso); Kalender-Uhrzeiten und Stundenplan widerspruchsfrei; Uhr-Knöpfe rechnen über die Stunde hinweg; Ordnungszahlen 10, 14, 25, 31 ergänzt; Stundenplan-Tabelle steht nicht mehr direkt über ihrer Übung; Großschreibung der Fächer im Merke geklärt; favourite/favorite und „a school uniform“ zugelassen; „Explainer“/„Pronomen“ aus dem Schlusstext gestrichen; Grammatikfehler „ersten Tage“. Nicht änderbar (Runtime): Standardmeldung „Deine Fassung kann trotzdem richtig sein“, das Wort „Eintrag“, kleine Auswahlfelder, Tutor-Auswahl. Bewusst gelassen: Wiederholung derselben Sätze in Hören/Sprechen/Schreiben (Übungsprinzip der Chunks), Zahlen bis 100 (nicht 1000, „(guess)“), Ordnungszahlen auf der Seite Datum statt Zahlen.
 
@@ -123,7 +123,7 @@ Gesamtcheck (Sub-Agent als Lernende Klasse 5, alle 10 Seiten, 360 px) – behobe
 
 <!-- The interview: per topic the creator's answer, in their words. Keep the topics. -->
 
-- Goal: what learners do in the app, what they learn. → „Passt.“ zu: Die Kinder erleben Sophies erste Tage an der Millbrook School mit und üben feste Wendungen (Begrüßen, Höflichkeit, Nachfragen im Unterricht), Zahlen, Uhrzeit, Datum und das Sprechen über die Schule; Regeln kommen erst in den System-Explainern.
+- Goal: what learners do in the app, what they learn. → „Passt.“ zu: Die Kinder erleben Sophies erste Tage an der Millbrook School mit und üben feste Ausdrücke (Begrüßen, Höflichkeit, Nachfragen im Unterricht), Zahlen, Uhrzeit, Datum und das Sprechen über die Schule; Regeln kommen erst in den System-Explainern.
 - Learners: subject, school year, prior knowledge. → „Passt.“ zu: Englisch, Klasse 5–6 am Gymnasium, ohne Unterrichtsvorwissen, aber mit Englisch aus Liedern, Spielen und Medien; App auf Deutsch.
 - Content (creator's words): „Inhalte aus dem Issue nehmen. Leg los“ (Issue lernapps/apps#470).
 - Model and focus: (guess) Modell: Beispiel-Explainer `franzoesisch` der Vorlage; Schwerpunkt: Übungen und die zwei wachsenden Bilder (Poster, Kalender); kein Spiel.
@@ -170,14 +170,14 @@ page, which a link. -->
 
 **Grundlagen.** Einheit `subject: englisch`, Stufe 5-6, Sprache `[de]`, Anrede „du“. Wörter immer mit Bedeutung eingeführt; Quelle der Wörter: Grundwortschatz der Karte, A1 (https://lernapps.net/apps/map/englisch/grundwortschatz/, vor dem Schreiben öffnen); Wörter außerhalb der Liste, die die Situation braucht (z. B. assembly, uniform), werden hier gelistet. Kapitel-IDs `hello`, `zahlen-uhr-kalender`, `schuljahr`, Seiten-IDs wie unter „Notes“.
 
-**Abschnitte jeder Seite (gleiche IDs):** `einstieg` (Sophies Szene und „Das kannst du danach“), `neu` (Wendungen mit Bedeutung, Merke-Kasten), `uebung` (mindestens 4 Übungen, leicht → schwer, nicht überwiegend Raten), `anwenden` (`open-task` oder Sprechaufgabe aus der Situation), `weiter` (nächster Schritt der Geschichte; am Kapitelende ein Rückblick).
+**Abschnitte jeder Seite (gleiche IDs):** `einstieg` (Sophies Szene und „Das kannst du danach“), `neu` (Ausdrücke mit Bedeutung, Merke-Kasten), `uebung` (mindestens 4 Übungen, leicht → schwer, nicht überwiegend Raten), `anwenden` (`open-task` oder Sprechaufgabe aus der Situation), `weiter` (nächster Schritt der Geschichte; am Kapitelende ein Rückblick).
 
 **Muster je Baustein (Kind der Fremdsprachen-Muster):**
 
 | Baustein | Muster | Ausdruck | Typische Fehler (Rückmeldung nennt die Regel) |
 |---|---|---|---|
-| `gruss-hoeflichkeit` | Wendung zur Situation wählen, dann schreiben, dann nachsprechen | `matching`, `language-task` choice/write, `speaking-task` | Good night als Begrüßung; Sie/du-Denken |
-| `classroom-phrases` | Poster füllen: Wendung zur Situation, Deutsch → Englisch | `table` (Poster), `language-task` write/gap | wörtliches Übersetzen („How say you …“) |
+| `gruss-hoeflichkeit` | Ausdruck zur Situation wählen, dann schreiben, dann nachsprechen | `matching`, `language-task` choice/write, `speaking-task` | Good night als Begrüßung; Sie/du-Denken |
+| `classroom-phrases` | Poster füllen: Ausdruck zur Situation, Deutsch → Englisch | `table` (Poster), `language-task` write/gap | wörtliches Übersetzen („How say you …“) |
 | `grammatik-fachbegriffe` | Wörter an der Tafel als noun/verb/adjective zuordnen | `matching`, `single-choice` | Adjektiv/Verb vertauscht |
 | `zahlen` | -teen/-ty ableiten, hören und schreiben, Preise | `language-task` table + audio, `ordering` | thirteen/thirty; fifty/fifteen |
 | `uhrzeit` | Uhr zum Drehen: past bis 30, dann to; hören | Komponente `Uhr`, `language-task` audio | half past seven = 7:30; quarter to/past vertauscht |
@@ -188,7 +188,7 @@ page, which a link. -->
 | `schule-uk` | zwei Spalten: Millbrook / bei mir vergleichen | `matching`, `true-false` mit Begründung, `open-task` | Verallgemeinern („alle tragen Uniform“) |
 
 **Figuren und Bilder (je zwei bis vier Sätze, `explainer-representation-explained`):**
-- *Klassenzimmer-Poster:* eine Tabelle „Wendung · Bedeutung“, die von Seite zu Seite um die Wendungen der Seite wächst. Kinder sehen: das ist mein Spickzettel; die Spalte rechts ist Deutsch. Danach schreiben sie Wendungen selbst.
+- *Klassenzimmer-Poster:* eine Tabelle „Ausdruck · Bedeutung“, die von Seite zu Seite um die Ausdrücke der Seite wächst. Kinder sehen: das ist mein Spickzettel; die Spalte rechts ist Deutsch. Danach schreiben sie Ausdrücke selbst.
 - *Schulkalender:* Tabelle mit Wochentagen, Stunden und Daten; Kapitel 2 füllt Uhrzeiten und Geburtstage, Kapitel 3 den Stundenplan und die Feste. Kein Komponentenbedarf.
 - *Uhr:* Komponente `Uhr` (Übungskomponente, Logik in `Uhr.ts`, Test, `nojs`/`describe` mit der Uhrzeit in Worten): Aufgabe „Stell die Uhr auf half past seven“, Knöpfe ± 5 Minuten und ± 1 Stunde; die Uhr zeigt nie das Ergebnis, `check` prüft die Zeit, `reason` benennt halb/half und quarter to/past. Nur eine Komponente, weil kein Block Zeiger stellen und prüfen kann (`prefer-built-in-block`). Zum Erklären eine feste Uhr je Zeit als `figure`-Bild (eigene SVG).
 - *Szenen und Figuren:* eigene SVG-Zeichnungen nach `story-characters.svg`, keine Fotos, keine Figuren aus Büchern, Filmen, Spielen. Sophie 11, Ellie 11, Peter 9, Amir 11; Millbrook School in einer englischen Kleinstadt; Aussehen einmal im Inhaltsführer festgelegt.
@@ -204,14 +204,14 @@ page, which a link. -->
 - hello/classroom: Sophie versteht die Lehrerin nicht, Kinder wählen „Can you say that again?“ · Tafel-Bild → Poster → Lücken/Schreiben · Poster wächst um Fragen und Bitten · Sophies erste Stunde; weiter: die Lehrerin schreibt Wörter an.
 - hello/fachbegriffe: Lehrerin zeigt drei Wörter, Kinder raten ihre Art · Tafel → Etiketten → Zuordnen · Tafel mit Etiketten · Ende Kapitel 1: Rückblick auf das Poster; weiter: Pause, Amir fragt nach der Uhrzeit.
 - zahlen-uhr-kalender/zahlen: Amir nennt seine Hausnummer, Kinder wählen die Zahl · Tabelle -teen/-ty → Hören → Preise im Schulkiosk · Zahlenreihe vervollständigt · Sophie kauft ein Getränk; weiter: Wie spät ist es?
-- …/uhrzeit: Sophie fragt „What time is it?“, Kinder stellen die Uhr · Uhr → Wendung → Hören · eigene Uhrzeiten im Kalender · Stundenplan beginnt; weiter: An welchem Tag?
+- …/uhrzeit: Sophie fragt „What time is it?“, Kinder stellen die Uhr · Uhr → Ausdruck → Hören · eigene Uhrzeiten im Kalender · Stundenplan beginnt; weiter: An welchem Tag?
 - …/datum: Peters Geburtstag, Kinder lesen das Datum · Kalender → Ordnungszahlen ableiten → Schreiben · Geburtstage im Kalender · die Klasse trägt Geburtstage ein; weiter: Wie schreibt man das?
 - …/grossschreibung: Sophies Eintrag im Kalender hat Fehler, Kinder finden sie · Merkkasten → Korrigieren · fehlerfreier Kalender · Ende Kapitel 2: Rückblick; weiter: der Schultag in Millbrook.
 - schuljahr/schule: Sophie liest ihren Stundenplan · Stundenplan → Fächer → Lücken · vollständiger Stundenplan im Kalender · Ellie zeigt die Schule; weiter: Feste.
 - …/feste: Ellie erzählt von Halloween, Kinder ordnen · Kalender → Jahreslauf → Zuordnen · Feste im Kalender · Sophie im Herbst; weiter: Schule hier und dort.
 - …/schule-uk: Sophie schreibt nach Hause, Kinder vergleichen · zwei Spalten → Vergleichen → freier Text · Kalender und Poster fertig, Rückblick auf die ganze App · Schlussszene mit Ausblick auf die nächsten Explainer.
 
-**Später ergänzen:** ein neuer Baustein der Karte wird eine Seite `<kapitel>/<seite>.yaml` nach diesem Muster (Szene, Wendungen, Übungen), das Poster oder der Kalender bekommt eine Zeile.
+**Später ergänzen:** ein neuer Baustein der Karte wird eine Seite `<kapitel>/<seite>.yaml` nach diesem Muster (Szene, Ausdrücke, Übungen), das Poster oder der Kalender bekommt eine Zeile.
 
 ## Code
 
@@ -274,11 +274,12 @@ page, which a link. -->
 
 - [x] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
       decisions" why the app has none. Commit.
-- [ ] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
+- [x] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.
-- [ ] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
-- [ ] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
+- [x] Push `work`, open the preview pull request and see its checks to green, as skill `lernapps-github` says.
+- [x] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
       whether it may go online. Stop and wait for the yes.
+      Creator: Du darfst hello-millbrook mergen und veröffentlichen
 - [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
       the run of `Pages` watched to its end.
 - [ ] Open the address the job `deploy` printed and confirm that the app shows. Never use a derived address.
