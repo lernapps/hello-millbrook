@@ -2,7 +2,7 @@
 title: Hello! Begrüßen und höflich sein
 description: Lena kommt an die Millbrook School. Du lernst, wie man auf Englisch grüßt, sich vorstellt, bittet, dankt und sich entschuldigt.
 competencies: [gruss-hoeflichkeit]
-scope: Die Seite führt die ersten Ausdrücke des Klassenzimmer-Posters ein. Begrüßung nach Tageszeit (Hello, Hi, Good morning, Good afternoon, Good evening), Verabschiedung (Goodbye, Bye, Good night nur zum Schlafengehen), sich vorstellen (I'm Lena), Höflichkeit (please, thank you, you're welcome, sorry, excuse me) und die Anrede mit Mr und Mrs und dem Nachnamen. Alles wird in festen Ausdrücken gelernt, ohne Grammatikregel.
+scope: Die Seite führt die ersten Ausdrücke des Klassenzimmer-Posters ein. Begrüßung nach Tageszeit (Hello, Hi, Good morning, Good afternoon, Good evening), Verabschiedung (Goodbye, Bye, Good night nur zum Schlafengehen), sich vorstellen (I'm Lena), Höflichkeit (please, thank you, you're welcome, sorry, excuse me) und die Anrede mit Mr und Mrs und dem Nachnamen. Dazu eine kleine Lesehilfe, wie man die Ausdrücke laut liest (gud-BAI, aim), ohne Lautschrift. Das oo in good ist kurz, I'm wird „aim“ gesprochen. Alles wird in festen Ausdrücken gelernt, ohne Grammatikregel.
 blocks:
   - type: section
     id: einstieg
@@ -65,6 +65,23 @@ blocks:
           - type: text
             text: |
               **Good night** sagst du erst zum Schlafengehen, nie zur Begrüßung. Für Erwachsene nimmst du **Mr** (Herr, gesprochen „mister“) oder **Mrs** (Frau, gesprochen „missis“) mit dem Nachnamen. Mrs Parker ist Ellies Mutter und Lenas Gastmutter. Vornamen sagst du bei Freunden.
+      - type: table
+        caption: Klassenzimmer-Poster · So sprichst du es
+        header: [Englisch, So sprichst du es]
+        rows:
+          - [Hello, he-LOU]
+          - [Hi, hai]
+          - [Goodbye, gud-BAI]
+          - [Bye, bai]
+          - [I'm, aim]
+          - [Thank you, THENK ju]
+          - [Please, pliis]
+          - [Sorry, SO-ri]
+      - type: note
+        title: So liest du es laut
+        blocks:
+          - type: text
+            text: "Die betonte Silbe steht in Großbuchstaben. **oo** in **good** ist ein kurzes u („gud“), nicht lang. Das große **I** in **I'm** sprichst du wie das deutsche „ei“ in „Eis“: „aim“. Genauso klingen **Hi** und **Bye**. Bei **th** in **Thank you** legst du die Zunge leicht zwischen die Zähne. Das ist die Lesehilfe für diese Wörter, keine Lautschrift. Die lernst du später."
   - type: section
     id: uebung
     title: Übung
@@ -86,6 +103,24 @@ blocks:
         distractors: [Good night.]
         explanation: Der Ausdruck folgt der Situation. Sorry sagst du, wenn du etwas falsch gemacht hast, Excuse me, wenn du jemanden ansprichst.
         hint: Frag dich zuerst, ob Lena grüßt, dankt, sich entschuldigt oder jemanden anspricht.
+        links:
+          - title: Lernlandkarte Englisch · Begrüßung und Höflichkeit
+            url: https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/
+      - type: matching
+        id: begruessung-aussprache
+        text: Wie sprichst du das Wort aus? Ordne die Lesehilfe zu.
+        pairs:
+          - left: Goodbye
+            right: gud-BAI
+          - left: I'm
+            right: aim
+          - left: Hi
+            right: hai
+          - left: Please
+            right: pliis
+        distractors: [gud-BI]
+        explanation: Das große I in I'm und das bye in Goodbye sprichst du wie das deutsche „ei“. Das oo in good ist kurz. Die betonte Silbe von Goodbye ist die zweite.
+        hint: Schau in die Tabelle „So sprichst du es“. Denk an das „ai“ wie in „Eis“.
         links:
           - title: Lernlandkarte Englisch · Begrüßung und Höflichkeit
             url: https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/
