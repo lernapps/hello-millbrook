@@ -1,0 +1,144 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Schule hier und dort
+description: Lena vergleicht ihre Schule in Deutschland mit der Millbrook School. Du lernst Schuluniform und house system kennen und sagst, was bei dir anders ist.
+competencies: [schule-uk]
+scope: Die Seite beschreibt zwei Merkmale vieler britischer Schulen. Die Schuluniform (uniform) und das house system, bei dem die Schule in Gruppen, den houses, eingeteilt ist und jedes Kind zu einem house gehört. Die Gruppen können zum Beispiel im Sport gegeneinander antreten. Ein house ist hier eine Gruppe von Kindern, kein Gebäude. Die Kinder vergleichen mit ihrer eigenen Schule (At Millbrook we wear a uniform. At my school we don't wear a uniform.). Nicht jede britische Schule hat eine Uniform oder houses; die Seite spricht von Millbrook und von vielen Schulen. Alles wird als feste Wendung gelernt.
+blocks:
+  - type: section
+    id: einstieg
+    title: Lena schreibt nach Hause
+    blocks:
+      - type: text
+        text: Lena schreibt ihrer Klasse in Deutschland eine Nachricht. Sie erzählt, was an der Millbrook School anders ist.
+      - type: figure
+        image: images/szene-schulschild.svg
+        alt: Lena und Amir stehen vor dem Schild der Millbrook School. Davor stehen vier Fahnen in Rot, Blau, Grün und Gelb.
+        caption: Lena (links) und Amir (rechts) vor der Millbrook School. Die vier Fahnen gehören zu den houses.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "**Das kannst du danach:** Sagen, was an der Millbrook School anders ist als an deiner Schule: Uniform und houses."
+      - type: single-choice
+        id: schule-uk-start
+        text: Lena schreibt „At Millbrook we wear a uniform.“ Was trägt sie?
+        options:
+          - text: Eine Schuluniform
+            correct: true
+            info: Uniform heißt Uniform. Die Kinder der Schule tragen alle dieselbe Kleidung.
+          - text: Sportkleidung
+            correct: false
+            info: Sportkleidung trägt man im Sport (PE). Uniform ist die Kleidung für den ganzen Schultag.
+          - text: Einen Rucksack
+            correct: false
+            info: Einen Rucksack heißt bag. Wear heißt tragen oder anhaben.
+        explanation: Wear heißt tragen. Ein uniform ist die Kleidung, die alle Kinder an der Schule tragen.
+        links:
+          - title: Lernlandkarte Englisch · Schule in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/schule-uk/
+  - type: section
+    id: neu
+    title: Uniform und houses
+    blocks:
+      - type: text
+        text: "Viele Schulen in Großbritannien haben eine Schuluniform. Auch die Millbrook School hat eine. Dazu kommt das house system: Die Schule ist in Gruppen eingeteilt, die houses heißen. Jedes Kind gehört zu einem house. Die houses können zum Beispiel im Sport gegeneinander antreten."
+      - type: table
+        caption: Klassenzimmer-Poster · Schule hier und dort
+        header: [Wendung, Bedeutung]
+        rows:
+          - ["At Millbrook we wear a uniform.", In Millbrook tragen wir eine Uniform.]
+          - ["At my school we don't wear a uniform.", An meiner Schule tragen wir keine Uniform.]
+          - ["At Millbrook we have houses.", In Millbrook haben wir houses.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Ein **house** in der Schule ist kein Gebäude, sondern eine Gruppe von Kindern. Nicht jede Schule in Großbritannien hat eine Uniform oder houses. Lena erzählt von Millbrook."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: true-false
+        id: schule-uk-house
+        text: Ein „house“ an der Millbrook School ist ein Gebäude, in dem die Kinder wohnen. Stimmt das?
+        answer: false
+        hint: Lies noch einmal den Merke-Kasten.
+        explanation: Ein house ist eine Gruppe von Kindern der Schule. Jedes Kind gehört zu einem house.
+        links:
+          - title: Lernlandkarte Englisch · Schule in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/schule-uk/
+      - type: matching
+        id: schule-uk-zuordnen
+        text: Welche englische Wendung gehört zu welcher deutschen?
+        pairs:
+          - left: At Millbrook we wear a uniform.
+            right: In Millbrook tragen wir eine Uniform.
+          - left: At my school we don't wear a uniform.
+            right: An meiner Schule tragen wir keine Uniform.
+          - left: At Millbrook we have houses.
+            right: In Millbrook haben wir houses.
+        distractors: [In Millbrook haben wir Häuser zum Wohnen.]
+        explanation: Don't wear heißt „tragen nicht“. Houses sind hier Gruppen von Kindern, keine Gebäude.
+        links:
+          - title: Lernlandkarte Englisch · Schule in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/schule-uk/
+      - type: language-task
+        id: schule-uk-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was Lena sagt.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: at-millbrook-we-wear-a-uniform.mp3
+            target: At Millbrook we wear a uniform.
+          - audio: at-my-school-we-dont-wear-a-uniform.mp3
+            target: At my school we (don't|do not) wear a uniform.
+          - audio: at-millbrook-we-have-houses.mp3
+            target: At Millbrook we have houses.
+      - type: language-task
+        id: schule-uk-schreiben
+        languages: { source: de, target: en }
+        task: Was sagt Lena auf Englisch? Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: In Millbrook tragen wir eine Uniform.
+            target: At Millbrook we wear a uniform.
+            mistakes:
+              - answer: At Millbrook we wear uniform.
+                message: Du brauchst a vor uniform, wie auf dem Poster.
+          - source: An meiner Schule tragen wir keine Uniform.
+            target: At my school we (don't|do not) wear a uniform.
+            mistakes:
+              - answer: At my school we not wear a uniform.
+                message: Im Englischen sagst du we don't wear. Das don't gehört dazu, wenn du etwas verneinst.
+          - source: In Millbrook haben wir houses.
+            target: At Millbrook we have houses.
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: schule-uk-nachsprechen
+        language: en
+        items:
+          - audio: at-millbrook-we-wear-a-uniform.mp3
+            text: At Millbrook we wear a uniform.
+          - audio: at-my-school-we-dont-wear-a-uniform.mp3
+            text: At my school we don't wear a uniform.
+          - audio: at-millbrook-we-have-houses.mp3
+            text: At Millbrook we have houses.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: schule-uk-vergleich
+        task: Vergleiche Millbrook mit deiner Schule. Schreibe zwei kurze englische Sätze, einen über Millbrook und einen über deine Schule, zum Beispiel über die Uniform.
+        points:
+          - text: Ein Satz sagt etwas über Millbrook (At Millbrook we …).
+            source: /schuljahr/schule-uk/#neu
+          - text: Ein Satz sagt etwas über die eigene Schule (At my school we …).
+            source: /schuljahr/schule-uk/#neu
+        solution: |
+          At Millbrook we wear a uniform. At my school we don't wear a uniform.
+  - type: section
+    id: weiter
+    title: Dein Poster und dein Kalender sind fertig
+    blocks:
+      - type: text
+        text: "Du hast Lenas ersten Tage in Millbrook miterlebt. Auf deinem Poster stehen Wendungen zum Grüßen, Nachfragen, für Zahlen, Uhrzeit und Datum und für die Schule. Dein Kalender hat Uhrzeiten, Geburtstage, einen Stundenplan und Feste. Im nächsten Explainer lernst du, wie Englisch gebaut ist: mit Pronomen wie I, me und my."

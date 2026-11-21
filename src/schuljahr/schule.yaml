@@ -1,0 +1,186 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Meine Schule und mein Stundenplan
+description: Ellie zeigt Lena den Stundenplan. Du lernst die Schulfächer auf Englisch und wie du über dein Lieblingsfach, deinen Stundenplan und den Schultag sprichst.
+competencies: [schule]
+scope: Die Seite führt die englischen Schulfächer (English, Maths, German, Science, Art, Music, PE, History) ein und die Wendungen, mit denen man über die Schule spricht. What's your favourite subject?, My favourite subject is art., We have English on Monday., School starts at a quarter to nine. Die Kinder lesen einen Stundenplan, benennen Fächer und sprechen und schreiben über ihren Schultag. Alles wird als feste Wendung gelernt.
+blocks:
+  - type: section
+    id: einstieg
+    title: Der Stundenplan
+    blocks:
+      - type: text
+        text: Ellie zeigt Lena den Stundenplan für Monday. Lena kennt nicht alle Fächer auf Englisch.
+      - type: figure
+        image: images/szene-stundenplan.svg
+        alt: "Lena und Ellie vor dem Stundenplan für Monday. Er zeigt 8:45 English, 9:45 Maths, 10:45 Art und 11:45 PE."
+        caption: "Lena (links) und Ellie (rechts) lesen den Stundenplan für Monday."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "**Das kannst du danach:** Fächer auf Englisch benennen, einen Stundenplan lesen und über deine Schule und deinen Schultag sprechen."
+      - type: single-choice
+        id: schule-start
+        text: Auf dem Stundenplan steht „Maths“. Welches Fach ist das?
+        options:
+          - text: Mathe
+            correct: true
+            info: Maths ist die englische Kurzform von Mathematics, also Mathe.
+          - text: Musik
+            correct: false
+            info: Musik heißt Music.
+          - text: Kunst
+            correct: false
+            info: Kunst heißt Art.
+        explanation: Maths ist Mathe. Auf Englisch kürzt man Mathematics zu Maths.
+        links:
+          - title: Lernlandkarte Englisch · Schule und Schulalltag
+            url: https://lernapps.net/apps/map/englisch/c/schule/
+  - type: section
+    id: neu
+    title: Fächer und Stundenplan
+    blocks:
+      - type: table
+        caption: Klassenzimmer-Poster · Schulfächer
+        header: [Englisch, Deutsch]
+        rows:
+          - [English, Englisch]
+          - [Maths, Mathe]
+          - [German, Deutsch]
+          - [Science, Naturwissenschaften]
+          - [Art, Kunst]
+          - [Music, Musik]
+          - [PE, Sport]
+          - [History, Geschichte]
+      - type: table
+        caption: Schulkalender · Stundenplan für Monday
+        header: [Uhrzeit, Fach]
+        rows:
+          - ["8:45", English]
+          - ["9:45", Maths]
+          - ["10:45", Art]
+          - ["11:45", PE]
+      - type: table
+        caption: Klassenzimmer-Poster · Über die Schule sprechen
+        header: [Wendung, Bedeutung]
+        rows:
+          - ["What's your favourite subject?", Was ist dein Lieblingsfach?]
+          - ["My favourite subject is art.", Mein Lieblingsfach ist Kunst.]
+          - ["We have English on Monday.", Wir haben Englisch am Montag.]
+          - ["School starts at a quarter to nine.", Die Schule beginnt um Viertel vor neun.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "PE ist die Kurzform von Physical Education, also Sport. Im Stundenplan schreibst du alle Fächer groß, wie in einer Überschrift. Im Satz schreibst du nur die Sprachen groß (English, German), andere Fächer klein: art, maths. Das kennst du schon: Nomen schreibst du klein."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: schule-faecher
+        text: Welches englische Fach gehört zu welchem deutschen?
+        pairs:
+          - left: Kunst
+            right: Art
+          - left: Sport
+            right: PE
+          - left: Naturwissenschaften
+            right: Science
+          - left: Musik
+            right: Music
+          - left: Mathe
+            right: Maths
+        distractors: [History]
+        explanation: PE steht für Sport, Science für Naturwissenschaften. Maths ist die englische Kurzform von Mathematics.
+        links:
+          - title: Lernlandkarte Englisch · Schule und Schulalltag
+            url: https://lernapps.net/apps/map/englisch/c/schule/
+      - type: language-task
+        id: schule-stundenplan
+        languages: { source: de, target: en }
+        mode: table
+        task: Ergänze den Stundenplan mit den englischen Fächern.
+        form: { case: hint }
+        table:
+          caption: Stundenplan für Monday
+          header: [Uhrzeit, Fach auf Deutsch, Fach auf Englisch]
+          rows:
+            - ["8:45", Englisch, English]
+            - ["9:45", Mathe, "[Maths]"]
+            - ["10:45", Kunst, "[Art]"]
+            - ["11:45", Sport, "[PE]"]
+      - type: language-task
+        id: schule-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was Ellie sagt.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: my-favourite-subject-is-art.mp3
+            target: My favourite subject is art.
+          - audio: we-have-english-on-monday.mp3
+            target: We have English on Monday.
+          - audio: school-starts-at-a-quarter-to-nine.mp3
+            target: School (starts|begins) at a quarter to nine.
+      - type: language-task
+        id: schule-schreiben
+        languages: { source: de, target: en }
+        task: Was sagt Lena auf Englisch? Schreibe den ganzen Satz. Achte auf die Großbuchstaben.
+        form: { case: wrong, punctuation: hint }
+        items:
+          - source: Was ist dein Lieblingsfach?
+            target: What's your favourite subject?
+          - source: Mein Lieblingsfach ist Kunst.
+            target: My favourite subject is art.
+            mistakes:
+              - answer: My favourite subject is Kunst.
+                message: Auf Englisch heißt Kunst art, nicht Kunst.
+          - source: Wir haben Englisch am Montag.
+            target: We have English on Monday.
+            mistakes:
+              - answer: We have english on monday.
+                message: English und Monday schreibst du im Englischen groß.
+          - source: Die Schule beginnt um Viertel vor neun.
+            target: School (starts|begins) at a quarter to nine.
+            mistakes:
+              - answer: School starts at a quarter past nine.
+                message: Viertel vor neun ist 8:45, also a quarter to nine, nicht past.
+      - type: true-false
+        id: schule-pe
+        text: Auf dem Stundenplan steht „PE“. Meint das Sport?
+        answer: true
+        hint: Schau in die Tabelle „Schulfächer“.
+        explanation: PE ist die Kurzform von Physical Education, also Sport.
+        links:
+          - title: Lernlandkarte Englisch · Schule und Schulalltag
+            url: https://lernapps.net/apps/map/englisch/c/schule/
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: schule-nachsprechen
+        language: en
+        items:
+          - audio: whats-your-favourite-subject.mp3
+            text: What's your favourite subject?
+          - audio: my-favourite-subject-is-art.mp3
+            text: My favourite subject is art.
+          - audio: school-starts-at-a-quarter-to-nine.mp3
+            text: School starts at a quarter to nine.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: schule-frei
+        task: Stell dir vor, du schreibst an Ellie über deine eigene Schule. Schreibe zwei kurze englische Sätze über dein Lieblingsfach und darüber, wann deine Schule beginnt.
+        points:
+          - text: Das Lieblingsfach wird mit My favourite subject is … genannt, das Fach ist ein englisches Wort.
+            source: /schuljahr/schule/#neu
+          - text: Der Schulbeginn wird mit School starts at … genannt, die Uhrzeit steht als Wörter da.
+            source: /schuljahr/schule/#neu
+        solution: |
+          My favourite subject is Maths. School starts at eight o'clock.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Lena kennt jetzt ihren Stundenplan. Im Herbst steht im Kalender ein besonderer Tag. Ellie erzählt von den Festen in Großbritannien. Das lernst du auf der nächsten Seite.

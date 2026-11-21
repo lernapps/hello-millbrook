@@ -1,0 +1,173 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Feste in Großbritannien
+description: Ellie erzählt Lena von drei Festen im Herbst und Winter. Du lernst Halloween, Bonfire Night und Christmas mit ihrem Datum kennen und trägst sie in deinen Kalender ein.
+competencies: [feste-uk]
+scope: Die Seite stellt drei britische Feste im Jahreslauf vor. Halloween am 31. Oktober (scary), Bonfire Night am 5. November (bonfire, fireworks) und Christmas am 25. Dezember (presents). Die Kinder nennen die Feste mit Datum auf Englisch (Halloween is on the thirty-first of October.), ordnen sie im Jahr und ordnen ihnen einen Brauch zu. Alles wird als feste Wendung gelernt.
+blocks:
+  - type: section
+    id: einstieg
+    title: Ellie erzählt von drei Festen
+    blocks:
+      - type: text
+        text: Es ist Herbst in Millbrook. Ellie zeigt Lena im Kalender drei Karten mit Festen. Lena kennt Weihnachten, aber nicht die anderen beiden.
+      - type: figure
+        image: images/szene-feste.svg
+        alt: Ellie und Lena stehen vor drei Karten im Kalender. Die erste zeigt einen Kürbis und das Datum 31 October, Halloween. Die zweite zeigt ein Feuerwerk und 5 November, Bonfire Night. Die dritte zeigt einen Tannenbaum und 25 December, Christmas.
+        caption: Ellie (links) und Lena (rechts) vor den drei Karten für Herbst und Winter.
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "**Das kannst du danach:** Halloween, Bonfire Night und Christmas mit dem Datum auf Englisch nennen und in den Jahreslauf einordnen."
+      - type: single-choice
+        id: feste-start
+        text: Im Kalender steht „31 October“. Welches Fest ist das?
+        options:
+          - text: Halloween
+            correct: true
+            info: Halloween ist am 31. Oktober, am Abend vor dem Feiertag All Hallows' Day.
+          - text: Bonfire Night
+            correct: false
+            info: Bonfire Night ist am 5. November.
+          - text: Christmas
+            correct: false
+            info: Christmas ist am 25. Dezember.
+        explanation: Halloween feiert man am 31. Oktober, am Abend vor dem Feiertag All Hallows' Day.
+        links:
+          - title: Lernlandkarte Englisch · Feste in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/feste-uk/
+  - type: section
+    id: neu
+    title: Die Feste im Kalender
+    blocks:
+      - type: table
+        caption: Schulkalender · Feste im Herbst und Winter
+        header: [Datum, Fest]
+        rows:
+          - ["31 October", Halloween]
+          - ["5 November", Bonfire Night]
+          - ["25 December", Christmas]
+      - type: text
+        text: "An Halloween ist alles gruselig (scary). An Bonfire Night gibt es ein Lagerfeuer (bonfire) und Feuerwerk (fireworks). Der Tag erinnert an den 5. November 1605, als man die Verschwörung gegen den König aufdeckte. An Christmas gibt es Geschenke (presents)."
+      - type: table
+        caption: Klassenzimmer-Poster · Feste
+        header: [Wendung, Bedeutung]
+        rows:
+          - ["Halloween is on the thirty-first of October.", Halloween ist am 31. Oktober.]
+          - ["Bonfire Night is on the fifth of November.", Bonfire Night ist am 5. November.]
+          - ["Christmas is on the twenty-fifth of December.", Weihnachten ist am 25. Dezember.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Namen von Festen schreibst du im Englischen groß: Halloween, Bonfire Night, Christmas. Das Datum sagst du mit der Ordnungszahl, wie auf der Seite zum Datum: the fifth of November."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: feste-datum
+        text: Welches Fest gehört zu welchem Datum?
+        pairs:
+          - left: Halloween
+            right: 31 October
+          - left: Bonfire Night
+            right: 5 November
+          - left: Christmas
+            right: 25 December
+        distractors: [1 January]
+        explanation: Halloween ist am 31. Oktober, Bonfire Night am 5. November und Christmas am 25. Dezember.
+        links:
+          - title: Lernlandkarte Englisch · Feste in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/feste-uk/
+      - type: ordering
+        id: feste-jahreslauf
+        text: Bring die Feste in die Reihenfolge, wie sie im Jahr kommen, von Oktober bis Dezember.
+        items: [Halloween, Bonfire Night, Christmas]
+        explanation: Zuerst kommt Halloween am 31. Oktober, dann Bonfire Night am 5. November, zuletzt Christmas am 25. Dezember.
+        hint: Schau auf das Datum im Kalender.
+        links:
+          - title: Lernlandkarte Englisch · Feste in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/feste-uk/
+      - type: language-task
+        id: feste-brauch
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das passende Wort.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: An Bonfire Night gibt es Feuerwerk.
+            target: On Bonfire Night we have [fireworks].
+            distractors: [[presents, scary]]
+          - cue: An Christmas gibt es Geschenke.
+            target: At Christmas we have [presents].
+            distractors: [[fireworks, scary]]
+      - type: language-task
+        id: feste-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was Ellie sagt.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: halloween-is-on-the-thirty-first-of-october.mp3
+            target: Halloween is on (the thirty-first of October|October the thirty-first).
+          - audio: bonfire-night-is-on-the-fifth-of-november.mp3
+            target: Bonfire Night is on (the fifth of November|November the fifth).
+          - audio: christmas-is-on-the-twenty-fifth-of-december.mp3
+            target: Christmas is on (the twenty-fifth of December|December the twenty-fifth).
+      - type: language-task
+        id: feste-schreiben
+        languages: { source: de, target: en }
+        task: Was sagt Lena auf Englisch? Schreibe den ganzen Satz.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Halloween ist am 31. Oktober.
+            target: Halloween is on (the thirty-first of October|October the thirty-first).
+            mistakes:
+              - answer: Halloween is on the thirty-one of October.
+                message: Beim Datum sagst du die Ordnungszahl, also thirty-first, nicht thirty-one.
+          - source: Bonfire Night ist am 5. November.
+            target: Bonfire Night is on (the fifth of November|November the fifth).
+            mistakes:
+              - answer: Bonfire Night is on the five of November.
+                message: Beim Datum sagst du die Ordnungszahl, also fifth, nicht five.
+          - source: Weihnachten ist am 25. Dezember.
+            target: Christmas is on (the twenty-fifth of December|December the twenty-fifth).
+      - type: true-false
+        id: feste-bonfire
+        text: Bonfire Night ist im Juli. Stimmt das?
+        answer: false
+        hint: Schau auf den Kalender. In welchem Monat steht Bonfire Night?
+        explanation: Bonfire Night ist am 5. November, nicht im Juli.
+        links:
+          - title: Lernlandkarte Englisch · Feste in Großbritannien
+            url: https://lernapps.net/apps/map/englisch/c/feste-uk/
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: feste-nachsprechen
+        language: en
+        items:
+          - audio: halloween-is-on-the-thirty-first-of-october.mp3
+            text: Halloween is on the thirty-first of October.
+          - audio: bonfire-night-is-on-the-fifth-of-november.mp3
+            text: Bonfire Night is on the fifth of November.
+          - audio: christmas-is-on-the-twenty-fifth-of-december.mp3
+            text: Christmas is on the twenty-fifth of December.
+        hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
+      - type: open-task
+        id: feste-frei
+        task: Lena schreibt Amir von einem Fest in Großbritannien. Schreibe zwei kurze englische Sätze mit dem Namen und dem Datum eines Festes.
+        points:
+          - text: Der Name des Festes ist groß geschrieben (Halloween, Bonfire Night oder Christmas).
+            source: /schuljahr/feste/#neu
+          - text: Das Datum ist mit der Ordnungszahl gesagt (zum Beispiel the fifth of November).
+            source: /schuljahr/feste/#neu
+        solution: |
+          Bonfire Night is on the fifth of November. We have fireworks.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Im Kalender stehen jetzt Geburtstage, Stundenplan und Feste. Lena schreibt eine Nachricht nach Hause und vergleicht. Auf der nächsten Seite lernst du, wie die Schule in Großbritannien aussieht.
