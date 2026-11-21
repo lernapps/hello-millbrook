@@ -42,7 +42,7 @@ Alle Voraussetzungen stehen auf früheren Seiten; kein `ahead`, keine Wiederholu
 
 - Anrede „du“. Wörter: „Ausdruck“ (fester Ausdruck), „Poster“, „Kalender“, „Millbrook School“.
 - Englische Ausdrücke und Wörter immer mit deutscher Bedeutung. Fachbegriffe noun, verb, adjective erst auf `hello/fachbegriffe` als Etiketten an Beispielwörtern. Britisches Englisch (Schreibweise und Stimme).
-- Aussprache: Nur die Seite `hello/begruessung` hat eine Lesehilfe („So sprichst du es“, Tabelle und Kasten „So liest du es laut“): deutsche Annäherung in Kleinbuchstaben, betonte Silbe in Großbuchstaben, ii für ein langes i (`gud-BAI`, `aim`, `THENK ju`). Keine Lautschrift (IPA): sie gehört in den Explainer #482 „Klang und Schrift“ (Baustein `lautschrift`). Wichtige Muster: oo in good kurz, I und bye wie „ai“, th mit der Zunge zwischen den Zähnen. Übung `begruessung-aussprache`.
+- Aussprache: Nur die Seite `hello/begruessung` hat eine Lesehilfe („So sprichst du es“, Tabelle und Kasten „So liest du es laut“): deutsche Annäherung in Kleinbuchstaben, betonte Silbe in Großbuchstaben, ii für ein langes i (`gud-BAI`, `aim`, `FENK ju`). Keine Lautschrift (IPA): sie gehört in den Explainer #482 „Klang und Schrift“ (Baustein `lautschrift`). Wichtige Muster: oo in good kurz, I und bye wie „ai“, th wie ein F mit der Zunge zwischen den Zähnen („fenk ju“). Übung `begruessung-aussprache`.
 - Keine Grammatikregel erklären: nur chunks (Regeln stehen in #471–#475).
 
 ## Exercise patterns

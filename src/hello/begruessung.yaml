@@ -74,14 +74,14 @@ blocks:
           - [Goodbye, gud-BAI]
           - [Bye, bai]
           - [I'm, aim]
-          - [Thank you, THENK ju]
+          - [Thank you, FENK ju]
           - [Please, pliis]
           - [Sorry, SO-ri]
       - type: note
         title: So liest du es laut
         blocks:
           - type: text
-            text: "Die betonte Silbe steht in Großbuchstaben. **oo** in **good** ist ein kurzes u („gud“), nicht lang. Das große **I** in **I'm** sprichst du wie das deutsche „ei“ in „Eis“: „aim“. Genauso klingen **Hi** und **Bye**. Bei **th** in **Thank you** legst du die Zunge leicht zwischen die Zähne. Das ist die Lesehilfe für diese Wörter, keine Lautschrift. Die lernst du später."
+            text: "Die betonte Silbe steht in Großbuchstaben. **oo** in **good** ist ein kurzes u („gud“), nicht lang. Das große **I** in **I'm** sprichst du wie das deutsche „ei“ in „Eis“: „aim“. Genauso klingen **Hi** und **Bye**. Das **th** in **Thank you** klingt wie ein F, bei dem die Zunge zwischen den Zähnen liegt: „fenk ju“. Das ist die Lesehilfe für diese Wörter, keine Lautschrift. Die lernst du später."
   - type: section
     id: uebung
     title: Übung
