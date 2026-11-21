@@ -32,6 +32,8 @@ Der Inhalt entwickelt sich mit: Aus „Ich stelle mich vor“ wird erst „Ich e
 
 - **Sophie** (blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers), **Ellie Parker** (11, roter Pferdeschwanz, rote Jacke), **Peter Parker** (9, kurze braune Haare, gelbe Jacke, Ellies Bruder), **Amir** (11, schwarze Locken, Brille, blaue Jacke), **Mr Hill** (Englischlehrer, graue Haare, braune Jacke), **Mrs Parker** (Ellies Mutter, Sophies Gastmutter). Die Zeichnungen der Figuren stehen als `<g id="…">` in `src/images/millbrook-klassenzimmer.svg` von #470: von dort kopieren und gleich lassen.
 - **Millbrook School**, erfundene Schule in einer englischen Kleinstadt. Schultag beginnt 8:45. Geburtstage: Peter 5. Mai, Ellie 10. Juli, Amir 12. Oktober, Sophie 14. Oktober.
+- **Lagerraum und Schulfest** (#475): Der Lagerraum der Millbrook School liegt im Erdgeschoss neben dem Klassenzimmer. Mr Hill ordnet dort im Herbst mit Sophie, Ellie, Peter und Amir Dinge fürs Schulfest (Zählbares in Kisten, Nicht-Zählbares in Gläser, alles auf Regalen); Mrs Parker backt Kuchen. Das Schulfest ist am ersten Samstag im Dezember um 10 Uhr, der Schulkalender hängt neben der Lagerraumtür.
+- **Ausstellung „Our Millbrook“** (#476): Im Flur der Millbrook School baut Mr Hills Klasse im Herbstquartal, einige Wochen nach Sophies Ankunft und vor den Elternabenden, eine Ausstellung mit Fotos und Zeichnungen von Orten, Dingen und Leuten der Stadt auf und beschriftet sie mit Anhängern. Kein Datum, kein Schulfest, kein Lagerraum.
 - **Neue Orte und Personen** nur einführen, wenn der Explainer sie braucht, und hier als Kommentar eintragen, bevor ein zweiter Explainer sie benutzt.
 
 ### 4. Begriffe, Sprache und Aussprache
