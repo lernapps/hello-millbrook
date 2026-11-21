@@ -29,14 +29,14 @@ Alle zehn sind Lücken der Karte. Kapitel `hello`, `zahlen-uhr-kalender`, `schul
    - `feste-uk`: Ich kann wichtige Feste und Bräuche in Großbritannien beschreiben, zum Beispiel Christmas, Bonfire Night und Halloween. → `schuljahr/feste`
    - `schule-uk`: Ich kann den Schulalltag in Großbritannien beschreiben, zum Beispiel Schuluniform und Schultag, und mit meiner Schule vergleichen. → `schuljahr/schule-uk`
 
-Alle Voraussetzungen stehen auf früheren Seiten; kein `ahead`, keine Wiederholungsseite. Die Übungs-IDs je Seite stehen in den Seitendateien (`<seitenkürzel>-<art>`, z. B. `begruessung-wahl`).
+Alle Voraussetzungen stehen auf früheren Seiten; kein `ahead`, keine Wiederholungsseite. Die Übungs-IDs je Seite stehen in den Seitendateien, Präfix = Seite (`begruessung-…`, `classroom-…`, `fachbegriffe-…`, `zahlen-…`, `uhrzeit-…`, `datum-…`, `grossschreibung-…`, `schule-…`, `feste-…`, `schule-uk-…`). Die Ordnungszahlen (Teil von `zahlen`) übt die Seite `datum`; `zahlen` geht von 0 bis 100 und Preise in Pfund und Pence. Die Seite `grossschreibung` hat keine Sprechaufgabe (Großschreibung ist nicht hörbar).
 
 ## Content structure
 
 - Pfad: `src/<kapitel>/chapter.yaml`, Seiten `src/<kapitel>/<seite>.yaml`.
 - Jede Seite hat dieselben Abschnitts-IDs in dieser Reihenfolge: `einstieg` (Lenas Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Wendungen mit Bedeutung, Merke-Kasten), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`open-task` oder `speaking-task`), `weiter` (nächster Schritt der Geschichte; am Kapitelende ein Rückblick). Titel sagen, was der Abschnitt tut.
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung in den ersten vier Blöcken.
-- Geschichte: Lena (11, aus Deutschland, ein Schuljahr an der Millbrook School, einer erfundenen Schule in einer englischen Kleinstadt, wohnt bei den Parkers), Ellie Parker (11), ihr Bruder Josh (9), Freund Amir (11). Lehrer: Mr Hill (Englisch). Mrs Parker ist Ellies Mutter und Lenas Gastmutter. Aussehen und Namen einmal in `src/images/` (Figuren-SVG) festgelegt und überall gleich. Zwei wachsende Bilder: Klassenzimmer-Poster (Tabelle Wendung · Bedeutung) und Schulkalender (Tabelle).
+- Geschichte: Lena (11, aus Deutschland, ein Schuljahr an der Millbrook School, einer erfundenen Schule in einer englischen Kleinstadt, wohnt bei den Parkers), Ellie Parker (11), ihr Bruder Josh (9), Freund Amir (11). Lehrer: Mr Hill (Englisch). Mrs Parker ist Ellies Mutter und Lenas Gastmutter. Fest vorgegeben: Poster-Tabellen heißen „Klassenzimmer-Poster · <Thema>“, Kalender-Tabellen „Schulkalender · <Thema>“. Aussehen und Namen einmal in `src/images/` (Figuren-SVG) festgelegt und überall gleich. Zwei wachsende Bilder: Klassenzimmer-Poster (Tabelle Wendung · Bedeutung) und Schulkalender (Tabelle).
 
 ## Terminology
 
@@ -54,22 +54,23 @@ Aufbau: leicht → schwer: wählen (`single-choice`, `matching`) → Lücken (`l
 - Hören und schreiben: `language-task` mit `audio` (Diktat); Nachsprechen: `speaking-task`. Gesprochener Text ist ein ganzer Satz mit ausgeschriebenen Zahlen.
 - Reihenfolge: `ordering` (Zahlen, Wochentage, Monate, Stundenplan, Jahreslauf).
 - Ableiten: Zahlen -teen/-ty, Ordnungszahlen: `language-task` mode `table`.
-- Uhr zum Drehen: Übungskomponente `Uhr` (`src/components/Uhr.vue`, `Uhr.ts`, `Uhr.test.ts`).
+- Uhr zum Drehen: Übungskomponente `Uhr` (`src/components/Uhr.vue`, `Uhr.ts`, `Uhr.test.ts`), Block `uhr-stellen` auf `zahlen-uhr-kalender/uhrzeit`. Aufgabe „Stelle die Uhr auf: {zeit}“; Antwort = Minuten seit 12:00; Fehlermeldungen für past/to vertauscht und half past = halb. Neue Zeiten kommen aus `generate(seed)` in `Uhr.ts`.
 - Korrigieren: `language-task` write mit `form: case wrong`.
 - Vergleichen: `matching` in zwei Spalten, `true-false` mit Begründung.
-- Beispiel: sobald die Musterseite steht, `src/hello/begruessung.yaml`, Übungs-ID `begruessung-wahl`.
+- Beispiel (Musterseite): `src/hello/begruessung.yaml`, Übungs-ID `begruessung-tageszeit` (`language-task` mode `choice`).
+- Audio: `src/audio/<satz-in-kleinbuchstaben>.mp3`, Stimme `bf_emma` (englisch, britisch), erzeugt mit `.agents/skills/lernapps-audio/scripts/lernapps_audio.py generate --lang en --accent gb --voice bf_emma`. Der gesprochene Text ist ein ganzer Satz und eine richtige Antwort der Aufgabe. Jede Seite hat ein Diktat (`<seite>-hoeren`) und eine Sprechaufgabe (`<seite>-nachsprechen`).
 - Keine Datendateien: jede Tatsache steht einmal in den Items ihrer Seite.
 
 ## Figures
 
 - Poster und Kalender sind `table`-Blöcke mit Beschriftung und wachsen von Seite zu Seite um die Zeilen der Seite; Kinder lesen sie ab.
-- Szenen und Figuren: eigene SVG-Zeichnungen in `src/images/` (Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`), nach `story-characters.svg` der Skills; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. `alt` sagt, was die Szene zeigt, nicht die Lösung.
+- Szenen und Figuren: eigene SVG-Zeichnungen in `src/images/` (`millbrook-klassenzimmer.svg` mit allen vier Kindern, je Seite eine `szene-<thema>.svg`, `uhren-sieben.svg`, `klassenzimmer-dinge.svg`; Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`), nach `story-characters.svg` der Skills; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. `alt` sagt, was die Szene zeigt, nicht die Lösung.
 - Uhr: Komponente für die Übung; Erklärfiguren als feste SVG-Uhren. Kein Zeiger zeigt die Lösung vor „Prüfen“.
 - Jede Figur funktioniert bei 360 px.
 
 ## Sources
 
-Karte `https://lernapps.net/apps/map/englisch.json`, Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/`. Landeskunde (Schuluniform, house system, Bonfire Night, Halloween): Fakten aus Wikipedia („House system“, „Education in England“, „Halloween“, „Bonfire Night“), nur Fakten, keine Sätze; Daten und Ablauf vor dem Schreiben nochmals prüfen, Ungeprüftes weglassen. Audio: KI-Stimme britisch weiblich, erzeugt mit Skill `lernapps-audio`, als KI-generiert markiert. Material der Erstellerin oder des Erstellers: keines.
+Karte `https://lernapps.net/apps/map/englisch.json`, Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/`. Landeskunde: geprüft sind nur diese Fakten aus Wikipedia (nur Fakten, keine Sätze): Halloween am 31. Oktober (Artikel „Halloween“), Bonfire Night am 5. November mit Lagerfeuer und Feuerwerk, Erinnerung an 1605 (Artikel „Guy Fawkes Night“), house system als Einteilung der Schule in Gruppen, die im Sport gegeneinander antreten können (Artikel „House system“). Ungeprüft, weil die Wikipedia-Abfrage auf 429 antwortete: Schuluniform an britischen Schulen („viele“ Schulen) und Christmas am 25. Dezember; deshalb vorsichtig formuliert. Millbrook School ist erfunden; was dort gilt, ist Teil der Geschichte. Audio: KI-Stimme britisch weiblich, erzeugt mit Skill `lernapps-audio`, als KI-generiert markiert. Material der Erstellerin oder des Erstellers: keines.
 
 ## Adding a chapter or round
 
