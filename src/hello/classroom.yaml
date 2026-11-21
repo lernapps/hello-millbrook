@@ -1,37 +1,37 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Im Unterricht nachfragen
-description: Lena versteht ihren Lehrer nicht ganz. Du lernst, auf Englisch um Hilfe zu bitten, nachzufragen und Anweisungen zu verstehen.
+description: Sophie versteht ihren Lehrer nicht ganz. Du lernst, auf Englisch um Hilfe zu bitten, nachzufragen und Anweisungen zu verstehen.
 competencies: [classroom-phrases]
 scope: Die Seite führt Ausdrücke für den Englischunterricht ein. Um Hilfe bitten (Can you help me, please?), nicht verstanden haben (I don't understand., Can you say that again, please?), nach einem Wort fragen (What's … in English?, How do you spell it?) und kurze Anweisungen der Lehrkraft verstehen (Open your books., Listen., Stand up., Sit down., Repeat after me.). Dazu die ersten englischen Wörter für Dinge im Klassenzimmer (board, desk, chair, book, pencil, bag). Alles wird in festen Ausdrücken gelernt, ohne Grammatikregel.
 blocks:
   - type: section
     id: einstieg
-    title: Lena versteht nicht alles
+    title: Sophie versteht nicht alles
     blocks:
       - type: text
         text: |
-          Lenas erste Englischstunde. Der Lehrer, Mr Hill, spricht schnell. Lena hat ein Wort nicht verstanden. Sie hebt die Hand.
+          Sophies erste Englischstunde. Der Lehrer, Mr Hill, spricht schnell. Sophie hat ein Wort nicht verstanden. Sie hebt die Hand.
       - type: figure
         image: images/szene-nachfragen.svg
-        alt: "Lena sitzt im Klassenzimmer, Mr Hill steht an der Tafel. Auf der Tafel steht Open your books."
-        caption: "Lena (links) und Mr Hill (rechts, graue Haare) in der ersten Englischstunde."
+        alt: "Sophie sitzt im Klassenzimmer, Mr Hill steht an der Tafel. Auf der Tafel steht Open your books."
+        caption: "Sophie (links) und Mr Hill (rechts, graue Haare) in der ersten Englischstunde."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: "**Das kannst du danach:** Im Unterricht um Hilfe bitten, nachfragen und die wichtigsten Anweisungen verstehen. Dein Poster aus der ersten Seite wird länger."
       - type: single-choice
         id: classroom-start
-        text: Mr Hill hat etwas gesagt, das Lena nicht verstanden hat. Was sagt Lena?
+        text: Mr Hill hat etwas gesagt, das Sophie nicht verstanden hat. Was sagt Sophie?
         options:
           - text: Can you say that again, please?
             correct: true
             info: Das heißt „Kannst du das bitte noch einmal sagen?“. So bittest du höflich um eine Wiederholung.
           - text: Good morning, Mr Hill.
             correct: false
-            info: Das ist eine Begrüßung, aber Lena hat eine Frage.
+            info: Das ist eine Begrüßung, aber Sophie hat eine Frage.
           - text: Thank you, Mr Hill.
             correct: false
-            info: Das heißt „Danke, Mr Hill“. Lena möchte aber, dass er es noch einmal sagt.
+            info: Das heißt „Danke, Mr Hill“. Sophie möchte aber, dass er es noch einmal sagt.
         explanation: Mit Can you say that again, please? bittest du höflich darum, dass jemand etwas wiederholt.
         links:
           - title: Lernlandkarte Englisch · Classroom phrases
@@ -41,7 +41,7 @@ blocks:
     title: Ausdrücke für den Unterricht
     blocks:
       - type: text
-        text: Lena schreibt auf ihr Poster, was sie im Unterricht sagen und verstehen will. Der obere Teil ist das, was du sagst. Der untere Teil ist das, was dein Lehrer sagt.
+        text: Sophie schreibt auf ihr Poster, was sie im Unterricht sagen und verstehen will. Der obere Teil ist das, was du sagst. Der untere Teil ist das, was dein Lehrer sagt.
       - type: table
         caption: Klassenzimmer-Poster · Das sagst du
         header: [Ausdruck, Bedeutung]
@@ -84,17 +84,17 @@ blocks:
         id: classroom-situation
         text: Welcher Ausdruck passt zu welcher Situation?
         pairs:
-          - left: Lena braucht Hilfe bei einer Aufgabe.
+          - left: Sophie braucht Hilfe bei einer Aufgabe.
             right: Can you help me, please?
-          - left: Lena hat Mr Hill nicht verstanden.
+          - left: Sophie hat Mr Hill nicht verstanden.
             right: I don't understand.
-          - left: Lena möchte wissen, wie man ein Wort schreibt.
+          - left: Sophie möchte wissen, wie man ein Wort schreibt.
             right: How do you spell it?
-          - left: Lena kennt ein Wort nicht auf Englisch.
+          - left: Sophie kennt ein Wort nicht auf Englisch.
             right: What's this in English?
         distractors: [Open your books.]
         explanation: Der Ausdruck folgt der Situation. What's … in English? fragt nach dem englischen Wort, How do you spell it? nach der Schreibweise.
-        hint: Frag dich, ob Lena um Hilfe bittet, etwas nicht verstanden hat oder nach einem Wort fragt.
+        hint: Frag dich, ob Sophie um Hilfe bittet, etwas nicht verstanden hat oder nach einem Wort fragt.
         links:
           - title: Lernlandkarte Englisch · Classroom phrases
             url: https://lernapps.net/apps/map/englisch/c/classroom-phrases/
@@ -155,16 +155,16 @@ blocks:
         task: Ergänze das fehlende Wort.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: Lena bittet um Hilfe.
+          - cue: Sophie bittet um Hilfe.
             target: Can you [help] me, please?
-          - cue: Lena fragt nach der Schreibweise.
+          - cue: Sophie fragt nach der Schreibweise.
             target: How do you [spell] it?
-          - cue: Lena bittet, dass Mr Hill es wiederholt.
+          - cue: Sophie bittet, dass Mr Hill es wiederholt.
             target: Can you [say] that again, please?
       - type: language-task
         id: classroom-hoeren
         languages: { source: de, target: en }
-        task: Hör zu und schreibe, was Lena sagt.
+        task: Hör zu und schreibe, was Sophie sagt.
         form: { case: hint, punctuation: hint }
         items:
           - audio: i-dont-understand.mp3
@@ -176,7 +176,7 @@ blocks:
       - type: language-task
         id: classroom-schreiben
         languages: { source: de, target: en }
-        task: Was sagt Lena auf Englisch? Schreibe den Ausdruck.
+        task: Was sagt Sophie auf Englisch? Schreibe den Ausdruck.
         form: { case: hint, punctuation: hint }
         items:
           - source: Ich verstehe das nicht.
@@ -210,11 +210,11 @@ blocks:
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: classroom-frei
-        task: Lena versteht ein Wort nicht und bittet Mr Hill um Hilfe. Schreibe zwei kurze englische Sätze, die Lena sagt.
+        task: Sophie versteht ein Wort nicht und bittet Mr Hill um Hilfe. Schreibe zwei kurze englische Sätze, die Sophie sagt.
         points:
-          - text: Lena sagt, dass sie etwas nicht versteht (I don't understand.).
+          - text: Sophie sagt, dass sie etwas nicht versteht (I don't understand.).
             source: /hello/classroom/#neu
-          - text: Lena bittet höflich um Hilfe (Can you help me, please?).
+          - text: Sophie bittet höflich um Hilfe (Can you help me, please?).
             source: /hello/classroom/#neu
         solution: |
           I don't understand. Can you help me, please?
@@ -223,4 +223,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Dein Poster hat jetzt auch Fragen und Bitten für den Unterricht. Mr Hill schreibt drei Wörter an die Tafel, und Lena soll sagen, welche Art von Wort es ist. Auf der nächsten Seite lernst du die englischen Namen dafür.
+        text: Dein Poster hat jetzt auch Fragen und Bitten für den Unterricht. Mr Hill schreibt drei Wörter an die Tafel, und Sophie soll sagen, welche Art von Wort es ist. Auf der nächsten Seite lernst du die englischen Namen dafür.

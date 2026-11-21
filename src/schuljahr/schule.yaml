@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Meine Schule und mein Stundenplan
-description: Ellie zeigt Lena den Stundenplan. Du lernst die Schulfächer auf Englisch und wie du über dein Lieblingsfach, deinen Stundenplan und den Schultag sprichst.
+description: Ellie zeigt Sophie den Stundenplan. Du lernst die Schulfächer auf Englisch und wie du über dein Lieblingsfach, deinen Stundenplan und den Schultag sprichst.
 competencies: [schule]
 scope: Die Seite führt die englischen Schulfächer (English, Maths, German, Science, Art, Music, PE, History) ein und die Ausdrücke, mit denen man über die Schule spricht. What's your favourite subject?, My favourite subject is art., We have English on Monday., School starts at a quarter to nine. Die Kinder lesen einen Stundenplan, benennen Fächer und sprechen und schreiben über ihren Schultag. Alles wird in festen Ausdrücken gelernt.
 blocks:
@@ -9,11 +9,11 @@ blocks:
     title: Der Stundenplan
     blocks:
       - type: text
-        text: Ellie zeigt Lena den Stundenplan für Monday. Lena kennt nicht alle Fächer auf Englisch.
+        text: Ellie zeigt Sophie den Stundenplan für Monday. Sophie kennt nicht alle Fächer auf Englisch.
       - type: figure
         image: images/szene-stundenplan.svg
-        alt: "Lena und Ellie vor dem Stundenplan für Monday. Er zeigt 8:45 English, 9:45 Maths, 10:45 Art und 11:45 PE."
-        caption: "Lena (links) und Ellie (rechts) lesen den Stundenplan für Monday."
+        alt: "Sophie und Ellie vor dem Stundenplan für Monday. Er zeigt 8:45 English, 9:45 Maths, 10:45 Art und 11:45 PE."
+        caption: "Sophie (links) und Ellie (rechts) lesen den Stundenplan für Monday."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -116,7 +116,7 @@ blocks:
       - type: language-task
         id: schule-schreiben
         languages: { source: de, target: en }
-        task: Was sagt Lena auf Englisch? Schreibe den ganzen Satz. Achte auf die Großbuchstaben.
+        task: Was sagt Sophie auf Englisch? Schreibe den ganzen Satz. Achte auf die Großbuchstaben.
         form: { case: wrong, punctuation: hint }
         items:
           - source: Was ist dein Lieblingsfach?
@@ -183,4 +183,4 @@ blocks:
           - ["10:45", Art]
           - ["11:45", PE]
       - type: text
-        text: Lena kennt jetzt ihren Stundenplan. Im Herbst stehen im Kalender besondere Tage. Ellie erzählt von den Festen in Großbritannien. Das lernst du auf der nächsten Seite.
+        text: Sophie kennt jetzt ihren Stundenplan. Im Herbst stehen im Kalender besondere Tage. Ellie erzählt von den Festen in Großbritannien. Das lernst du auf der nächsten Seite.

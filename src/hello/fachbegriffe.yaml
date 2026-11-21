@@ -9,12 +9,12 @@ blocks:
     title: Mr Hill schreibt an die Tafel
     blocks:
       - type: text
-        text: Mr Hill schreibt drei Wörter an die Tafel und klebt an jedes ein Etikett. Lena erkennt die Etiketten nicht. Sie sind auf Englisch.
+        text: Mr Hill schreibt drei Wörter an die Tafel und klebt an jedes ein Etikett. Sophie erkennt die Etiketten nicht. Sie sind auf Englisch.
       - type: text
         text: "**Das kannst du danach:** Die englischen Namen noun, verb, adjective, sentence und tense verstehen und sagen, zu welcher Art ein Wort gehört."
       - type: figure
         image: images/szene-fachbegriffe.svg
-        alt: "Mr Hill zeigt an der Tafel auf drei Wörter. Unter dog steht noun, unter jump steht verb und unter red steht adjective. Lena schaut zu."
+        alt: "Mr Hill zeigt an der Tafel auf drei Wörter. Unter dog steht noun, unter jump steht verb und unter red steht adjective. Sophie schaut zu."
         caption: "Die Tafel von Mr Hill: drei Wörter mit ihren Etiketten."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -165,4 +165,4 @@ blocks:
     title: Das steht jetzt auf deinem Poster
     blocks:
       - type: text
-        text: Du kannst jetzt grüßen, im Unterricht nachfragen und die englischen Namen der Wortarten verstehen. Alles steht auf deinem Poster. In der Pause geht Lena mit Amir zum Schulkiosk. Dafür braucht sie Zahlen. Das kommt im nächsten Kapitel.
+        text: Du kannst jetzt grüßen, im Unterricht nachfragen und die englischen Namen der Wortarten verstehen. Alles steht auf deinem Poster. In der Pause geht Sophie mit Amir zum Schulkiosk. Dafür braucht sie Zahlen. Das kommt im nächsten Kapitel.

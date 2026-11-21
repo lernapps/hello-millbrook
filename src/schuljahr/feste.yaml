@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Feste in Großbritannien
-description: Ellie erzählt Lena von drei Festen im Herbst und Winter. Du lernst Halloween, Bonfire Night und Christmas mit ihrem Datum kennen und trägst sie in deinen Kalender ein.
+description: Ellie erzählt Sophie von drei Festen im Herbst und Winter. Du lernst Halloween, Bonfire Night und Christmas mit ihrem Datum kennen und trägst sie in deinen Kalender ein.
 competencies: [feste-uk]
 scope: Die Seite stellt drei britische Feste im Jahreslauf vor. Halloween am 31. Oktober (scary), Bonfire Night am 5. November (bonfire, fireworks) und Christmas am 25. Dezember (presents). Die Kinder nennen die Feste mit Datum auf Englisch (Halloween is on the thirty-first of October.), ordnen sie im Jahr und ordnen ihnen einen Brauch zu. Alles wird in festen Ausdrücken gelernt.
 blocks:
@@ -9,11 +9,11 @@ blocks:
     title: Ellie erzählt von drei Festen
     blocks:
       - type: text
-        text: Es ist Herbst in Millbrook. Ellie zeigt Lena im Kalender drei Karten mit Festen. Lena kennt Weihnachten, aber nicht die anderen beiden.
+        text: Es ist Herbst in Millbrook. Ellie zeigt Sophie im Kalender drei Karten mit Festen. Sophie kennt Weihnachten, aber nicht die anderen beiden.
       - type: figure
         image: images/szene-feste.svg
-        alt: Ellie und Lena stehen vor drei Karten im Kalender. Die erste zeigt einen Kürbis und das Datum 31 October, Halloween. Die zweite zeigt ein Feuerwerk und 5 November, Bonfire Night. Die dritte zeigt einen Tannenbaum und 25 December, Christmas.
-        caption: Ellie (links) und Lena (rechts) vor den drei Karten für Herbst und Winter.
+        alt: Ellie und Sophie stehen vor drei Karten im Kalender. Die erste zeigt einen Kürbis und das Datum 31 October, Halloween. Die zweite zeigt ein Feuerwerk und 5 November, Bonfire Night. Die dritte zeigt einen Tannenbaum und 25 December, Christmas.
+        caption: Ellie (links) und Sophie (rechts) vor den drei Karten für Herbst und Winter.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -116,7 +116,7 @@ blocks:
       - type: language-task
         id: feste-schreiben
         languages: { source: de, target: en }
-        task: Was sagt Lena auf Englisch? Schreibe den ganzen Satz.
+        task: Was sagt Sophie auf Englisch? Schreibe den ganzen Satz.
         form: { case: hint, punctuation: hint }
         items:
           - source: Halloween ist am 31. Oktober.
@@ -157,7 +157,7 @@ blocks:
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: feste-frei
-        task: Lena schreibt Amir von einem Fest in Großbritannien. Schreibe zwei kurze englische Sätze mit dem Namen und dem Datum eines Festes.
+        task: Sophie schreibt Amir von einem Fest in Großbritannien. Schreibe zwei kurze englische Sätze mit dem Namen und dem Datum eines Festes.
         points:
           - text: Der Name des Festes ist groß geschrieben (Halloween, Bonfire Night oder Christmas).
             source: /schuljahr/feste/#neu
@@ -170,4 +170,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Im Kalender stehen jetzt Geburtstage, Stundenplan und Feste. Lena schreibt eine Nachricht nach Hause und vergleicht. Auf der nächsten Seite lernst du, wie die Schule in Großbritannien aussieht.
+        text: Im Kalender stehen jetzt Geburtstage, Stundenplan und Feste. Sophie schreibt eine Nachricht nach Hause und vergleicht. Auf der nächsten Seite lernst du, wie die Schule in Großbritannien aussieht.

@@ -1,19 +1,19 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Groß oder klein?
-description: Lena schreibt ihren Eintrag in den Schulkalender. Du lernst, welche englischen Wörter du groß schreibst und welche klein.
+description: Sophie schreibt ihren Eintrag in den Schulkalender. Du lernst, welche englischen Wörter du groß schreibst und welche klein.
 competencies: [grossschreibung]
 scope: Die Seite erklärt die englische Großschreibung. Groß geschrieben werden I, Namen, Wochentage, Monate, Sprachen und Nationalitäten (English) und der Satzanfang. Klein geschrieben werden Nomen (dog, book, school), auch mitten im Satz, anders als im Deutschen. Die Kinder wählen, korrigieren und schreiben Sätze mit den richtigen Großbuchstaben. Hörbar ist die Großschreibung nicht, deshalb hat die Seite keine Sprechaufgabe.
 blocks:
   - type: section
     id: einstieg
-    title: Lenas Eintrag im Kalender
+    title: Sophies Eintrag im Kalender
     blocks:
       - type: text
-        text: Lena schreibt eine Notiz für ihren Schulkalender. Aus Versehen schreibt sie „monday“ ganz klein. Ellie schüttelt den Kopf. Im Englischen gelten eigene Regeln für große Buchstaben.
+        text: Sophie schreibt eine Notiz für ihren Schulkalender. Aus Versehen schreibt sie „monday“ ganz klein. Ellie schüttelt den Kopf. Im Englischen gelten eigene Regeln für große Buchstaben.
       - type: figure
         image: images/szene-grossschreibung.svg
-        alt: Lena und Ellie vor einem Zettel. Das Wort monday ist rot durchgestrichen, darunter steht Monday mit großem M.
-        caption: Lena (links) und Ellie (rechts) vor dem Zettel mit dem verbesserten Wochentag.
+        alt: Sophie und Ellie vor einem Zettel. Das Wort monday ist rot durchgestrichen, darunter steht Monday mit großem M.
+        caption: Sophie (links) und Ellie (rechts) vor dem Zettel mit dem verbesserten Wochentag.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -43,7 +43,7 @@ blocks:
         caption: Klassenzimmer-Poster · Das schreibst du groß
         header: [Was, Beispiel]
         rows:
-          - [das Wort I, "I'm Lena."]
+          - [das Wort I, "I'm Sophie."]
           - [Namen, "Amir, Ellie, Millbrook"]
           - [Wochentage, "Monday, Friday"]
           - [Monate, "May, October"]
@@ -68,9 +68,9 @@ blocks:
           - text: october
             correct: true
             info: Der Monat October beginnt mit einem großen O.
-          - text: lena
+          - text: sophie
             correct: true
-            info: Der Name Lena beginnt mit einem großen L.
+            info: Der Name Sophie beginnt mit einem großen L.
           - text: dog
             correct: false
             info: Dog ist ein Nomen und beginnt mitten im Satz klein.
@@ -87,10 +87,10 @@ blocks:
         task: Schreibe den Satz richtig, mit den richtigen Großbuchstaben.
         form: { case: wrong }
         items:
-          - cue: i am lena.
-            target: (I am|I'm) Lena.
+          - cue: i am sophie.
+            target: (I am|I'm) Sophie.
             mistakes:
-              - answer: i am lena.
+              - answer: i am sophie.
                 message: Das Wort I und Namen schreibst du im Englischen immer groß.
           - cue: today is tuesday.
             target: Today is Tuesday.
@@ -140,7 +140,7 @@ blocks:
     blocks:
       - type: open-task
         id: grossschreibung-frei
-        task: Lena schreibt zwei Sätze in ihren Kalender. Amir ist ihr Freund. Ihr Geburtstag ist im Oktober. Schreibe die beiden Sätze auf Englisch mit den richtigen Großbuchstaben.
+        task: Sophie schreibt zwei Sätze in ihren Kalender. Amir ist ihr Freund. Ihr Geburtstag ist im Oktober. Schreibe die beiden Sätze auf Englisch mit den richtigen Großbuchstaben.
         points:
           - text: Amir ist groß geschrieben, friend ist klein geschrieben.
             source: /zahlen-uhr-kalender/grossschreibung/#neu
@@ -155,4 +155,4 @@ blocks:
     title: Das steht jetzt in deinem Kalender
     blocks:
       - type: text
-        text: Im Schulkalender stehen jetzt Uhrzeiten, Geburtstage und Wochentage, und alles ist richtig geschrieben. Lena ist bereit für ihr erstes Schuljahr. Im nächsten Kapitel erlebst du es mit.
+        text: Im Schulkalender stehen jetzt Uhrzeiten, Geburtstage und Wochentage, und alles ist richtig geschrieben. Sophie ist bereit für ihr erstes Schuljahr. Im nächsten Kapitel erlebst du es mit.

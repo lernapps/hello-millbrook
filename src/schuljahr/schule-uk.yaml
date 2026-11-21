@@ -1,26 +1,26 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Schule hier und dort
-description: Lena vergleicht ihre Schule in Deutschland mit der Millbrook School. Du lernst Schuluniform und house system kennen und sagst, was bei dir anders ist.
+description: Sophie vergleicht ihre Schule in Deutschland mit der Millbrook School. Du lernst Schuluniform und house system kennen und sagst, was bei dir anders ist.
 competencies: [schule-uk]
 scope: Die Seite beschreibt zwei Merkmale vieler britischer Schulen. Die Schuluniform (uniform) und das house system, bei dem die Schule in Gruppen, den houses, eingeteilt ist und jedes Kind zu einem house gehört. Die Gruppen können zum Beispiel im Sport gegeneinander antreten. Ein house ist hier eine Gruppe von Kindern, kein Gebäude. Die Kinder vergleichen mit ihrer eigenen Schule (At Millbrook we wear a uniform. At my school we don't wear a uniform.). Nicht jede britische Schule hat eine Uniform oder houses; die Seite spricht von Millbrook und von vielen Schulen. Alles wird in festen Ausdrücken gelernt.
 blocks:
   - type: section
     id: einstieg
-    title: Lena schreibt nach Hause
+    title: Sophie schreibt nach Hause
     blocks:
       - type: text
-        text: Lena schreibt ihrer Klasse in Deutschland eine Nachricht. Amir sitzt neben ihr. Sie erzählt, was an der Millbrook School anders ist.
+        text: Sophie schreibt ihrer Klasse in Deutschland eine Nachricht. Amir sitzt neben ihr. Sie erzählt, was an der Millbrook School anders ist.
       - type: figure
         image: images/szene-schulschild.svg
-        alt: Lena und Amir stehen vor dem Schild der Millbrook School. Davor stehen vier Fahnen in Rot, Blau, Grün und Gelb.
-        caption: Lena (links) und Amir (rechts) vor der Millbrook School. Die vier Fahnen gehören zu den houses.
+        alt: Sophie und Amir stehen vor dem Schild der Millbrook School. Davor stehen vier Fahnen in Rot, Blau, Grün und Gelb.
+        caption: Sophie (links) und Amir (rechts) vor der Millbrook School. Die vier Fahnen gehören zu den houses.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: "**Das kannst du danach:** Sagen, was an der Millbrook School anders ist als an deiner Schule: Uniform und houses."
       - type: single-choice
         id: schule-uk-start
-        text: Lena schreibt „At Millbrook we wear a uniform.“ Was trägt sie?
+        text: Sophie schreibt „At Millbrook we wear a uniform.“ Was trägt sie?
         options:
           - text: Eine Schuluniform
             correct: true
@@ -52,7 +52,7 @@ blocks:
         title: Merke
         blocks:
           - type: text
-            text: "Ein **house** in der Schule ist kein Gebäude, sondern eine Gruppe von Kindern. Nicht jede Schule in Großbritannien hat eine Uniform oder houses. Lena erzählt von Millbrook."
+            text: "Ein **house** in der Schule ist kein Gebäude, sondern eine Gruppe von Kindern. Nicht jede Schule in Großbritannien hat eine Uniform oder houses. Sophie erzählt von Millbrook."
   - type: section
     id: uebung
     title: Übung
@@ -84,7 +84,7 @@ blocks:
       - type: language-task
         id: schule-uk-hoeren
         languages: { source: de, target: en }
-        task: Hör zu und schreibe, was Lena sagt.
+        task: Hör zu und schreibe, was Sophie sagt.
         form: { case: hint, punctuation: hint }
         items:
           - audio: at-millbrook-we-wear-a-uniform.mp3
@@ -96,7 +96,7 @@ blocks:
       - type: language-task
         id: schule-uk-schreiben
         languages: { source: de, target: en }
-        task: Was sagt Lena auf Englisch? Schreibe den ganzen Satz.
+        task: Was sagt Sophie auf Englisch? Schreibe den ganzen Satz.
         form: { case: hint, punctuation: hint }
         items:
           - source: In Millbrook tragen wir eine Uniform.
@@ -141,4 +141,4 @@ blocks:
     title: Dein Poster und dein Kalender sind fertig
     blocks:
       - type: text
-        text: "Du hast Lenas erste Tage in Millbrook miterlebt. Auf deinem Poster stehen Ausdrücke zum Grüßen, Nachfragen, für Zahlen, Uhrzeit und Datum und für die Schule. Dein Kalender hat Uhrzeiten, Geburtstage, einen Stundenplan und Feste. In der nächsten App lernst du, wie Englisch gebaut ist, zum Beispiel die kleinen Wörter I, me und my."
+        text: "Du hast Sophies erste Tage in Millbrook miterlebt. Auf deinem Poster stehen Ausdrücke zum Grüßen, Nachfragen, für Zahlen, Uhrzeit und Datum und für die Schule. Dein Kalender hat Uhrzeiten, Geburtstage, einen Stundenplan und Feste. In der nächsten App lernst du, wie Englisch gebaut ist, zum Beispiel die kleinen Wörter I, me und my."

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Wie spät ist es?
-description: Amir fragt Lena nach der Uhrzeit. Du lernst, die Uhrzeit auf Englisch zu sagen, mit past, to, half past und a quarter, und stellst eine Uhr.
+description: Amir fragt Sophie nach der Uhrzeit. Du lernst, die Uhrzeit auf Englisch zu sagen, mit past, to, half past und a quarter, und stellst eine Uhr.
 competencies: [uhrzeit]
 scope: Die Seite führt die englische Uhrzeit ein. What time is it?, It's seven o'clock., It's five past seven., a quarter past, twenty past, half past seven, twenty to eight, a quarter to eight, five to eight. Past nennt die Minuten nach der vollen Stunde, to die Minuten bis zur nächsten. Half past seven ist 7:30 (nicht wie im Deutschen halb sieben). Die Kinder stellen eine Uhr, sagen die Uhrzeit und schreiben sie. Alles wird in festen Ausdrücken gelernt, ohne Grammatikregel.
 blocks:
@@ -9,12 +9,12 @@ blocks:
     title: Amir fragt nach der Uhrzeit
     blocks:
       - type: text
-        text: Die Pause ist fast zu Ende. Amir schaut auf die Wanduhr und fragt „What time is it?“. Lena antwortet. Dafür braucht sie die Uhrzeit auf Englisch.
+        text: Die Pause ist fast zu Ende. Amir schaut auf die Wanduhr und fragt „What time is it?“. Sophie antwortet. Dafür braucht sie die Uhrzeit auf Englisch.
       - type: text
         text: "**Das kannst du danach:** Die Uhrzeit auf Englisch sagen, nach ihr fragen und eine Uhr auf eine genannte Zeit stellen."
       - type: single-choice
         id: uhrzeit-start
-        text: Die Uhr zeigt genau 7 Uhr. Was sagt Lena?
+        text: Die Uhr zeigt genau 7 Uhr. Was sagt Sophie?
         options:
           - text: It's seven o'clock.
             correct: true
@@ -127,7 +127,7 @@ blocks:
       - type: language-task
         id: uhrzeit-schreiben
         languages: { source: de, target: en }
-        task: Wie sagt Lena die Uhrzeit? Schreibe den ganzen Satz.
+        task: Wie sagt Sophie die Uhrzeit? Schreibe den ganzen Satz.
         form: { case: hint, punctuation: hint }
         items:
           - source: Es ist 7:00 Uhr.
@@ -152,7 +152,7 @@ blocks:
       - type: language-task
         id: uhrzeit-hoeren
         languages: { source: de, target: en }
-        task: Hör zu und schreibe, was Lena sagt.
+        task: Hör zu und schreibe, was Sophie sagt.
         form: { case: hint, punctuation: hint }
         items:
           - audio: its-half-past-seven.mp3
@@ -178,11 +178,11 @@ blocks:
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: uhrzeit-frei
-        task: Amir fragt „What time is it?“. Die Uhr zeigt 4:45. Schreibe, was Lena sagt, und dann, was sie um 4:00 Uhr sagen würde.
+        task: Amir fragt „What time is it?“. Die Uhr zeigt 4:45. Schreibe, was Sophie sagt, und dann, was sie um 4:00 Uhr sagen würde.
         points:
-          - text: Um 4:45 sagt Lena a quarter to five.
+          - text: Um 4:45 sagt Sophie a quarter to five.
             source: /zahlen-uhr-kalender/uhrzeit/#neu
-          - text: Um 4:00 Uhr sagt Lena four o'clock.
+          - text: Um 4:00 Uhr sagt Sophie four o'clock.
             source: /zahlen-uhr-kalender/uhrzeit/#neu
         solution: |
           It's a quarter to five. It's four o'clock.
@@ -191,4 +191,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Lena trägt die Uhrzeiten in ihren Schulkalender ein. Als Nächstes fehlen die Tage und Monate. Auf der nächsten Seite lernst du das Datum.
+        text: Sophie trägt die Uhrzeiten in ihren Schulkalender ein. Als Nächstes fehlen die Tage und Monate. Auf der nächsten Seite lernst du das Datum.

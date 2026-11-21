@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Ein Schuljahr in Millbrook
-summary: Lena erlebt ihr erstes Schuljahr in Millbrook. Du lernst, über deine Schule zu sprechen, britische Feste im Jahreslauf zu nennen und die Schule in Großbritannien mit deiner zu vergleichen.
+summary: Sophie erlebt ihr erstes Schuljahr in Millbrook. Du lernst, über deine Schule zu sprechen, britische Feste im Jahreslauf zu nennen und die Schule in Großbritannien mit deiner zu vergleichen.
 pages: [schule, feste, schule-uk]

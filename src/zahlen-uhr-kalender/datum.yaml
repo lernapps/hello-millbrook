@@ -1,19 +1,19 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Wochentage, Monate und Datum
-description: Lena trägt die Geburtstage der Klasse in den Schulkalender ein. Du lernst die Wochentage, die Monate, die Ordnungszahlen und wie man das Datum auf Englisch sagt und schreibt.
+description: Sophie trägt die Geburtstage der Klasse in den Schulkalender ein. Du lernst die Wochentage, die Monate, die Ordnungszahlen und wie man das Datum auf Englisch sagt und schreibt.
 competencies: [datum]
 scope: Die Seite führt die englischen Wochentage (Monday bis Sunday), die zwölf Monate, die Ordnungszahlen bis 31 (first, second, third, fourth, fifth, twelfth, twenty-first) und das Datum (It's the fifth of May., My birthday is on the fifth of May.) ein. Dazu Jahreszahlen wie twenty twenty-five. Alles wird in festen Ausdrücken gelernt. Die Großschreibung von Wochentagen und Monaten kommt kurz vor, ihre Regel steht auf der nächsten Seite.
 blocks:
   - type: section
     id: einstieg
-    title: Joshs Geburtstag
+    title: Peters Geburtstag
     blocks:
       - type: text
-        text: Lena möchte alle Geburtstage der Klasse in ihren Schulkalender eintragen. Josh zeigt auf den Wandkalender und sagt „My birthday is on the fifth of May.“
+        text: Sophie möchte alle Geburtstage der Klasse in ihren Schulkalender eintragen. Peter zeigt auf den Wandkalender und sagt „My birthday is on the fifth of May.“
       - type: figure
         image: images/szene-geburtstag.svg
-        alt: Lena und Josh stehen vor dem Wandkalender. Der Kalender zeigt den Monat May. Der fünfte Tag ist rot eingekreist.
-        caption: Josh (links) und Lena (rechts) vor dem Wandkalender. Der fünfte Mai ist eingekreist.
+        alt: Sophie und Peter stehen vor dem Wandkalender. Der Kalender zeigt den Monat May. Der fünfte Tag ist rot eingekreist.
+        caption: Peter (links) und Sophie (rechts) vor dem Wandkalender. Der fünfte Mai ist eingekreist.
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -95,7 +95,7 @@ blocks:
         caption: Schulkalender · Geburtstage
         header: [Name, Geburtstag]
         rows:
-          - [Josh, the fifth of May]
+          - [Peter, the fifth of May]
           - [Ellie, the tenth of July]
           - [Amir, the twelfth of October]
       - type: table
@@ -170,7 +170,7 @@ blocks:
       - type: language-task
         id: datum-hoeren
         languages: { source: de, target: en }
-        task: Hör zu und schreibe, was Lena hört.
+        task: Hör zu und schreibe, was Sophie hört.
         form: { case: hint, punctuation: hint }
         items:
           - audio: its-the-fifth-of-may.mp3
@@ -182,7 +182,7 @@ blocks:
       - type: language-task
         id: datum-schreiben
         languages: { source: de, target: en }
-        task: Was sagt Lena auf Englisch? Schreibe den ganzen Satz.
+        task: Was sagt Sophie auf Englisch? Schreibe den ganzen Satz.
         form: { case: hint, punctuation: hint }
         items:
           - source: Heute ist Montag.
@@ -222,11 +222,11 @@ blocks:
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: datum-frei
-        task: Lena hat am 14. Oktober Geburtstag. Schreibe zwei kurze englische Sätze, mit denen Lena Amir ihren Geburtstag sagt. Schreibe die Zahl als Wort.
+        task: Sophie hat am 14. Oktober Geburtstag. Schreibe zwei kurze englische Sätze, mit denen Sophie Amir ihren Geburtstag sagt. Schreibe die Zahl als Wort.
         points:
-          - text: Lena nennt den Monat October und die Ordnungszahl fourteenth.
+          - text: Sophie nennt den Monat October und die Ordnungszahl fourteenth.
             source: /zahlen-uhr-kalender/datum/#neu
-          - text: Lena sagt, dass es ihr Geburtstag ist (My birthday is on …).
+          - text: Sophie sagt, dass es ihr Geburtstag ist (My birthday is on …).
             source: /zahlen-uhr-kalender/datum/#neu
         solution: |
           My birthday is on the fourteenth of October.
@@ -235,4 +235,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Im Schulkalender stehen jetzt Josh, Ellie und Amir mit ihren Geburtstagen. Lena schreibt ihren eigenen Eintrag. Dabei achtet sie darauf, welche Wörter sie groß schreibt. Das lernst du auf der nächsten Seite.
+        text: Im Schulkalender stehen jetzt Peter, Ellie und Amir mit ihren Geburtstagen. Sophie schreibt ihren eigenen Eintrag. Dabei achtet sie darauf, welche Wörter sie groß schreibt. Das lernst du auf der nächsten Seite.

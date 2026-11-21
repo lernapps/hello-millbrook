@@ -1,19 +1,19 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Zahlen und Preise
-description: Im Schulkiosk braucht Lena Zahlen. Du lernst die englischen Zahlen bis 100 und wie man Preise in Pfund und Pence sagt.
+description: Im Schulkiosk braucht Sophie Zahlen. Du lernst die englischen Zahlen bis 100 und wie man Preise in Pfund und Pence sagt.
 competencies: [zahlen]
 scope: Die Seite führt die englischen Grundzahlen von 0 bis 100 ein, mit dem Unterschied zwischen -teen (13 bis 19) und -ty (30 bis 90), und Preise in Pfund und Pence (two pounds fifty, fifty pence). Die Kinder sagen und schreiben Zahlen als Wörter. Die Ordnungszahlen (first, second, third) stehen auf der Seite zum Datum. Alles wird in festen Ausdrücken gelernt.
 blocks:
   - type: section
     id: einstieg
-    title: Lena im Schulkiosk
+    title: Sophie im Schulkiosk
     blocks:
       - type: text
-        text: In der Pause geht Lena mit Amir zum Schulkiosk. An der Theke hängen Nummern und Preise. Alles ist auf Englisch.
+        text: In der Pause geht Sophie mit Amir zum Schulkiosk. An der Theke hängen Nummern und Preise. Alles ist auf Englisch.
       - type: figure
         image: images/szene-kiosk.svg
-        alt: "Lena und Amir stehen am Schulkiosk. Über der Theke hängt ein Schild mit Number 13, 1,50 Pfund und 50 Pence."
-        caption: "Der Schulkiosk: Lena (links) und Amir (rechts) vor der Theke mit dem Schild."
+        alt: "Sophie und Amir stehen am Schulkiosk. Über der Theke hängt ein Schild mit Number 13, 1,50 Pfund und 50 Pence."
+        caption: "Der Schulkiosk: Sophie (links) und Amir (rechts) vor der Theke mit dem Schild."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
@@ -181,7 +181,7 @@ blocks:
         hint: Hör das Beispiel zuerst. Achte auf die Betonung bei thirteen und thirty und vergleiche deine Aufnahme.
       - type: open-task
         id: zahlen-frei
-        task: Lena kauft im Schulkiosk einen Apfel für 50 Pence und einen Saft für 1,20 Pfund. Schreibe zwei kurze englische Sätze, die sagen, was sie kosten. Schreibe die Zahlen als Wörter.
+        task: Sophie kauft im Schulkiosk einen Apfel für 50 Pence und einen Saft für 1,20 Pfund. Schreibe zwei kurze englische Sätze, die sagen, was sie kosten. Schreibe die Zahlen als Wörter.
         points:
           - text: Der Apfel kostet fifty pence.
             source: /zahlen-uhr-kalender/zahlen/#neu
@@ -196,4 +196,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Jetzt kennst du die Zahlen. Auf deinem Poster stehen die Zahlen bis 12 und die Reihen mit -teen und -ty. In der Pause klingelt es. Amir fragt Lena, wie spät es ist. Auf der nächsten Seite lernst du die Uhrzeit.
+        text: Jetzt kennst du die Zahlen. Auf deinem Poster stehen die Zahlen bis 12 und die Reihen mit -teen und -ty. In der Pause klingelt es. Amir fragt Sophie, wie spät es ist. Auf der nächsten Seite lernst du die Uhrzeit.

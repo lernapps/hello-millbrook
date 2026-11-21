@@ -1,37 +1,37 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Hello! Begrüßen und höflich sein
-description: Lena kommt an die Millbrook School. Du lernst, wie man auf Englisch grüßt, sich vorstellt, bittet, dankt und sich entschuldigt.
+description: Sophie kommt an die Millbrook School. Du lernst, wie man auf Englisch grüßt, sich vorstellt, bittet, dankt und sich entschuldigt.
 competencies: [gruss-hoeflichkeit]
-scope: Die Seite führt die ersten Ausdrücke des Klassenzimmer-Posters ein. Begrüßung nach Tageszeit (Hello, Hi, Good morning, Good afternoon, Good evening), Verabschiedung (Goodbye, Bye, Good night nur zum Schlafengehen), sich vorstellen (I'm Lena), Höflichkeit (please, thank you, you're welcome, sorry, excuse me) und die Anrede mit Mr und Mrs und dem Nachnamen. Dazu eine kleine Lesehilfe, wie man die Ausdrücke laut liest (gud-BAI, aim), ohne Lautschrift. Das oo in good ist kurz, I'm wird „aim“ gesprochen. Alles wird in festen Ausdrücken gelernt, ohne Grammatikregel.
+scope: Die Seite führt die ersten Ausdrücke des Klassenzimmer-Posters ein. Begrüßung nach Tageszeit (Hello, Hi, Good morning, Good afternoon, Good evening), Verabschiedung (Goodbye, Bye, Good night nur zum Schlafengehen), sich vorstellen (I'm Sophie), Höflichkeit (please, thank you, you're welcome, sorry, excuse me) und die Anrede mit Mr und Mrs und dem Nachnamen. Dazu eine kleine Lesehilfe, wie man die Ausdrücke laut liest (gud-BAI, aim), ohne Lautschrift. Das oo in good ist kurz, I'm wird „aim“ gesprochen. Alles wird in festen Ausdrücken gelernt, ohne Grammatikregel.
 blocks:
   - type: section
     id: einstieg
-    title: Lenas erster Schultag
+    title: Sophies erster Schultag
     blocks:
       - type: figure
         image: images/millbrook-klassenzimmer.svg
-        alt: Lena, Ellie, Josh und Amir stehen im Klassenzimmer der Millbrook School. An der Tafel steht Hello!
-        caption: "Von links nach rechts: Lena (mit den Zöpfen), Ellie (roter Pferdeschwanz), Josh (der Kleine) und Amir (mit Brille). An der Tafel steht „Hello!“, das englische Wort für „Hallo“."
+        alt: Sophie, Ellie, Peter und Amir stehen im Klassenzimmer der Millbrook School. An der Tafel steht Hello!
+        caption: "Von links nach rechts: Sophie (mit den Zöpfen), Ellie (roter Pferdeschwanz), Peter (der Kleine) und Amir (mit Brille). An der Tafel steht „Hello!“, das englische Wort für „Hallo“."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
         text: |
-          Lena (11) aus Deutschland steht zum ersten Mal in ihrem Klassenzimmer an der Millbrook School. Ellie Parker (11), die Tochter ihrer Gastfamilie, lächelt sie an und sagt: „Hi, I'm Ellie.“ Neben ihr stehen ihr Bruder Josh (9) und ihr Freund Amir (11).
+          Sophie (11) aus Deutschland steht zum ersten Mal in ihrem Klassenzimmer an der Millbrook School. Ellie Parker (11), die Tochter ihrer Gastfamilie, lächelt sie an und sagt: „Hi, I'm Ellie.“ Neben ihr stehen ihr Bruder Peter (9) und ihr Freund Amir (11).
       - type: text
         text: "**Das kannst du danach:** Menschen auf Englisch grüßen und dich vorstellen, dich bedanken und entschuldigen und den richtigen Ausdruck für die Tageszeit wählen. Du brauchst noch keine Regeln: Du lernst die Ausdrücke als ganze Stücke."
       - type: single-choice
         id: begruessung-start
-        text: Was kann Lena auf „Hi, I'm Ellie.“ antworten?
+        text: Was kann Sophie auf „Hi, I'm Ellie.“ antworten?
         options:
-          - text: Hello, I'm Lena.
+          - text: Hello, I'm Sophie.
             correct: true
-            info: "Hello oder Hi ist die Begrüßung, I'm Lena heißt „Ich bin Lena“."
+            info: "Hello oder Hi ist die Begrüßung, I'm Sophie heißt „Ich bin Sophie“."
           - text: Good night, Ellie.
             correct: false
             info: Good night sagst du, wenn jemand schlafen geht, nicht zur Begrüßung.
-          - text: Goodbye, I'm Lena.
+          - text: Goodbye, I'm Sophie.
             correct: false
-            info: Goodbye heißt „Auf Wiedersehen“. Lena kommt ja gerade erst an.
+            info: Goodbye heißt „Auf Wiedersehen“. Sophie kommt ja gerade erst an.
         explanation: Auf eine Begrüßung antwortest du mit einer Begrüßung und sagst deinen Namen.
         links:
           - title: Lernlandkarte Englisch · Begrüßung und Höflichkeit
@@ -41,7 +41,7 @@ blocks:
     title: Die ersten Ausdrücke auf dem Poster
     blocks:
       - type: text
-        text: Lena hängt ein Poster auf. Darauf sammelt sie jeden Ausdruck, den sie in der Schule braucht. Links steht, was du sagst, rechts, was es auf Deutsch heißt.
+        text: Sophie hängt ein Poster auf. Darauf sammelt sie jeden Ausdruck, den sie in der Schule braucht. Links steht, was du sagst, rechts, was es auf Deutsch heißt.
       - type: table
         caption: Klassenzimmer-Poster · Grüßen und höflich sein
         header: [Ausdruck, Bedeutung]
@@ -52,7 +52,7 @@ blocks:
           - [Good evening., Guten Abend.]
           - [Goodbye! / Bye!, Auf Wiedersehen! / Tschüs!]
           - [Good night., Gute Nacht. (zum Schlafengehen)]
-          - [I'm Lena., Ich bin Lena.]
+          - [I'm Sophie., Ich bin Sophie.]
           - [Please., Bitte. (wenn du etwas möchtest)]
           - [Thank you! / Thanks!, Danke!]
           - [You're welcome., Gern geschehen.]
@@ -64,7 +64,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Good night** sagst du erst zum Schlafengehen, nie zur Begrüßung. Für Erwachsene nimmst du **Mr** (Herr, gesprochen „mister“) oder **Mrs** (Frau, gesprochen „missis“) mit dem Nachnamen. Mrs Parker ist Ellies Mutter und Lenas Gastmutter. Vornamen sagst du bei Freunden.
+              **Good night** sagst du erst zum Schlafengehen, nie zur Begrüßung. Für Erwachsene nimmst du **Mr** (Herr, gesprochen „mister“) oder **Mrs** (Frau, gesprochen „missis“) mit dem Nachnamen. Mrs Parker ist Ellies Mutter und Sophies Gastmutter. Vornamen sagst du bei Freunden.
       - type: table
         caption: Klassenzimmer-Poster · So sprichst du es
         header: [Englisch, So sprichst du es]
@@ -90,19 +90,19 @@ blocks:
         id: begruessung-situation
         text: Welcher Ausdruck passt zu welcher Situation?
         pairs:
-          - left: Lena kommt morgens in die Schule.
+          - left: Sophie kommt morgens in die Schule.
             right: Good morning.
-          - left: Josh gibt Lena einen Stift.
+          - left: Peter gibt Sophie einen Stift.
             right: Thank you!
-          - left: Lena stößt aus Versehen gegen Amirs Tasche.
+          - left: Sophie stößt aus Versehen gegen Amirs Tasche.
             right: Sorry!
-          - left: Lena möchte Ellie etwas fragen und spricht sie an.
+          - left: Sophie möchte Ellie etwas fragen und spricht sie an.
             right: Excuse me.
-          - left: Lena geht nach der Schule nach Hause und verabschiedet sich.
+          - left: Sophie geht nach der Schule nach Hause und verabschiedet sich.
             right: Goodbye!
         distractors: [Good night.]
         explanation: Der Ausdruck folgt der Situation. Sorry sagst du, wenn du etwas falsch gemacht hast, Excuse me, wenn du jemanden ansprichst.
-        hint: Frag dich zuerst, ob Lena grüßt, dankt, sich entschuldigt oder jemanden anspricht.
+        hint: Frag dich zuerst, ob Sophie grüßt, dankt, sich entschuldigt oder jemanden anspricht.
         links:
           - title: Lernlandkarte Englisch · Begrüßung und Höflichkeit
             url: https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/
@@ -131,16 +131,16 @@ blocks:
         task: Wähle den passenden Ausdruck für die Tageszeit.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: Lena grüßt Josh morgens um acht Uhr.
-            target: "[Good morning], Josh!"
+          - cue: Sophie grüßt Peter morgens um acht Uhr.
+            target: "[Good morning], Peter!"
             distractors: [[Good afternoon, Good night]]
-          - cue: Lena grüßt Amir um drei Uhr nachmittags.
+          - cue: Sophie grüßt Amir um drei Uhr nachmittags.
             target: "[Good afternoon], Amir!"
             distractors: [[Good morning, Good night]]
-          - cue: Lena sagt Ellie zum Schlafengehen Gute Nacht.
+          - cue: Sophie sagt Ellie zum Schlafengehen Gute Nacht.
             target: "[Good night], Ellie!"
             distractors: [[Good morning, Good afternoon]]
-          - cue: Lena grüßt Mrs Parker um sieben Uhr abends.
+          - cue: Sophie grüßt Mrs Parker um sieben Uhr abends.
             target: "[Good evening], Mrs Parker."
             distractors: [[Good morning, Good night]]
       - type: language-task
@@ -149,16 +149,16 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: good-morning-lena.mp3
-            target: Good morning, Lena.
+          - audio: good-morning-sophie.mp3
+            target: Good morning, Sophie.
           - audio: thank-you-ellie.mp3
             target: Thank(s| you), Ellie.
-          - audio: sorry-josh.mp3
-            target: Sorry, Josh.
+          - audio: sorry-peter.mp3
+            target: Sorry, Peter.
       - type: language-task
         id: begruessung-schreiben
         languages: { source: de, target: en }
-        task: Was sagt Lena auf Englisch? Schreibe den Ausdruck.
+        task: Was sagt Sophie auf Englisch? Schreibe den Ausdruck.
         form: { case: hint, punctuation: hint }
         items:
           - source: Guten Morgen!
@@ -175,21 +175,21 @@ blocks:
                 message: Mit Excuse me sprichst du jemanden an. Wenn du etwas falsch gemacht hast, sagst du Sorry.
           - source: Gern geschehen.
             target: (You're|You are) welcome.
-          - source: Bitte. (Lena möchte etwas haben.)
+          - source: Bitte. (Sophie möchte etwas haben.)
             target: Please.
-          - source: Hallo, ich bin Lena.
-            target: (Hello|Hi), (I'm|I am) Lena.
+          - source: Hallo, ich bin Sophie.
+            target: (Hello|Hi), (I'm|I am) Sophie.
             mistakes:
-              - answer: Hello, I'm called Lena.
-                message: Auf Englisch sagst du I'm Lena, also „Ich bin Lena“.
-              - answer: Hello, Lena.
-                message: "Du sagst noch, wer du bist: I'm Lena heißt „Ich bin Lena“."
+              - answer: Hello, I'm called Sophie.
+                message: Auf Englisch sagst du I'm Sophie, also „Ich bin Sophie“.
+              - answer: Hello, Sophie.
+                message: "Du sagst noch, wer du bist: I'm Sophie heißt „Ich bin Sophie“."
       - type: true-false
         id: begruessung-gutenacht
-        text: Lena kommt morgens in die Schule und sagt „Good night.“ Ist das eine passende Begrüßung?
+        text: Sophie kommt morgens in die Schule und sagt „Good night.“ Ist das eine passende Begrüßung?
         answer: false
         hint: "Schau auf das Poster, im Kasten „Merke“: Wann sagst du Good night?"
-        explanation: Good night sagst du zum Schlafengehen. Morgens grüßt Lena mit Good morning.
+        explanation: Good night sagst du zum Schlafengehen. Morgens grüßt Sophie mit Good morning.
         links:
           - title: Lernlandkarte Englisch · Begrüßung und Höflichkeit
             url: https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/
@@ -201,8 +201,8 @@ blocks:
         id: begruessung-nachsprechen
         language: en
         items:
-          - audio: hello-im-lena.mp3
-            text: Hello, I'm Lena.
+          - audio: hello-im-sophie.mp3
+            text: Hello, I'm Sophie.
           - audio: good-afternoon-amir.mp3
             text: Good afternoon, Amir.
           - audio: excuse-me-ellie.mp3
@@ -210,19 +210,19 @@ blocks:
         hint: Hör das Beispiel zuerst. Sprich dann langsam nach. Achte auf das „I'm“ und das „Excuse me“ und vergleiche deine Aufnahme mit dem Original.
       - type: open-task
         id: begruessung-schreiben-frei
-        task: "Lena trifft Amir und er gibt ihr einen Stift. Schreibe zwei kurze englische Sätze: Lena grüßt, sagt ihren Namen und bedankt sich."
+        task: "Sophie trifft Amir und er gibt ihr einen Stift. Schreibe zwei kurze englische Sätze: Sophie grüßt, sagt ihren Namen und bedankt sich."
         points:
-          - text: Lena grüßt mit Hello, Hi oder einem Ausdruck zur Tageszeit.
+          - text: Sophie grüßt mit Hello, Hi oder einem Ausdruck zur Tageszeit.
             source: /hello/begruessung/#neu
-          - text: Lena sagt ihren Namen mit I'm Lena.
+          - text: Sophie sagt ihren Namen mit I'm Sophie.
             source: /hello/begruessung/#neu
-          - text: Lena bedankt sich mit Thank you oder Thanks.
+          - text: Sophie bedankt sich mit Thank you oder Thanks.
             source: /hello/begruessung/#neu
         solution: |
-          Hello, I'm Lena. Thank you!
+          Hello, I'm Sophie. Thank you!
   - type: section
     id: weiter
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Auf dem Poster stehen jetzt die ersten Ausdrücke. In der ersten Englischstunde versteht Lena ihren Lehrer nicht ganz. Auf der nächsten Seite lernst du, wie du im Unterricht nachfragst.
+        text: Auf dem Poster stehen jetzt die ersten Ausdrücke. In der ersten Englischstunde versteht Sophie ihren Lehrer nicht ganz. Auf der nächsten Seite lernst du, wie du im Unterricht nachfragst.
