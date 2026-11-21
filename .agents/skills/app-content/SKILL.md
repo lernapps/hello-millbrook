@@ -79,6 +79,7 @@ Karte `https://lernapps.net/apps/map/englisch.json`, Grundwortschatz `https://le
 2. Seite `src/<kapitel>/<seite>.yaml` mit Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen und in `chapter.yaml` eintragen; Competency-ID eintragen.
 3. Poster oder Kalender um die Zeilen der Seite erweitern.
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`.
+   1 bis 3 ihrer Übungen in `selfAssessment` aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt (je Seite ein Schritt mit 2 Übungen, die ohne die Seite verständlich sind; die Uhr-Übung `uhr-stellen` steht zweimal, damit jede Runde zwei Aufgaben zieht). Gesamt: 20 Übungen in drei Kapiteln.
 5. Hörtexte mit Skill `lernapps-audio` erzeugen und anhören lassen.
 6. `npx --no -- lernapps check`, committen.
 

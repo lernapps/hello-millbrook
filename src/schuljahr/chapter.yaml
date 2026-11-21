@@ -2,3 +2,14 @@
 title: Ein Schuljahr in Millbrook
 summary: Sophie erlebt ihr erstes Schuljahr in Millbrook. Du lernst, über deine Schule zu sprechen, britische Feste im Jahreslauf zu nennen und die Schule in Großbritannien mit deiner zu vergleichen.
 pages: [schule, feste, schule-uk]
+selfAssessment:
+  pages:
+    - exercises:
+        - /schuljahr/schule/#schule-faecher
+        - /schuljahr/schule/#schule-schreiben
+    - exercises:
+        - /schuljahr/feste/#feste-datum
+        - /schuljahr/feste/#feste-schreiben
+    - exercises:
+        - /schuljahr/schule-uk/#schule-uk-zuordnen
+        - /schuljahr/schule-uk/#schule-uk-schreiben
