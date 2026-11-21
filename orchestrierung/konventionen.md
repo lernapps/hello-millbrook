@@ -56,4 +56,19 @@ Der Inhalt entwickelt sich mit: Aus „Ich stelle mich vor“ wird erst „Ich e
 - In dieser Reihe **stoppen die Sessions vor dem Veröffentlichen**: Der Vorschau-Pull-Request bleibt offen. Der Ersteller prüft die fertigen Pull-Requests und veröffentlicht.
 - Befunde zur Karte gehören in das Issue „Lernlandkarte: offene Prüfpunkte“ (Label `map-review`). Fehler der Vorlage (zum Beispiel die Standardmeldung „Deine Fassung kann trotzdem richtig sein“, kleine Auswahlfelder) in `lernapps/app-templates`.
 
+### 7. Gelernte Regeln aus Schicht 1 und 2 (gelten ab Schicht 3)
+
+Die Issue-Texte sagen noch „Lena“ und „Josh“: In dieser Reihe heißt Lena **Sophie**; „Josh“ kommt nicht vor (neue Nebenfiguren nur nach Rückfrage, Namen am Satzende zweisilbig).
+
+- **Diktat und Nachsprechen** bringen neue Sätze: kein Hörsatz steht wörtlich oder fast wörtlich (nur Name oder Farbe getauscht) im Einstieg, Poster, Merke, Bildtext oder in einer Auswahl-, Ordnungs-, Schreib- oder Übersetzungsübung derselben Seite. Prüfe das vor dem Checkpoint mit einem Skript über alle Seiten.
+- **Keine Lösung im Text darüber:** Poster, Merke, Einstieg und Bild nennen andere Beispielsätze und Wörter als die Übungen darunter; das Bild zeigt nicht dieselben Wörter wie die Aufgabe.
+- **Distraktoren** nur echte Lernerfehler (keine Unwörter wie „goodly“, „penes“ und keine erfundenen Schreibfehler); jeder Distraktor und jedes typische Fehlerbild eine eigene Meldung. Ein Einstiegs-`single-choice` hat mindestens drei Optionen.
+- **Höchstens eine kurze Wörtertabelle** je Seite (Wörter außerhalb von A1/A2 und weniger einfache Wörter); einfache Wörter gelten als bekannt. Seiten mit mehr als etwa 25 Items oder 10 Übungen kürzen.
+- Wörter, die die Übungen abfragen, stehen vorher auf der Seite. Wörter außerhalb des Grundwortschatzes werden auf der Seite erklärt und im Inhaltsführer gelistet (keine Wörter listen, die nirgends vorkommen).
+- Die `competencies:` jeder Seite sind Karten-Ids (nicht Seitentitel); Wiederholungsseiten (`recap`) haben keine.
+- Der Inhaltsführer verlangt dasselbe, was die Seiten tun, und umgekehrt (kein Widerspruch zwischen „Rules learned“ und gebauten Seiten); feste Bildwörter und Begriffe stehen einmal im Abschnitt „Terminology“.
+- **Retrospektive:** nur Fakten. „Ersteller:in“ ist ein Mensch; die Orchestrator-Session, die die Checkpoints beantwortet, heißt „Orchestrator-Session (in der Rolle der Ersteller:in)“. „Creator turns“ zählt nur, was ein Mensch gesagt hat.
+- **Aufträge der Vorlage:** `ordering` zeigt Auswahlfelder statt Karten, `accepted` einer Sprach-Aufgabe wirkt nicht (Gruppen `(a|b)` benutzen), im Modus `choice` zeigt die App `mistakes` nicht, `punctuation: hint` meldet bei richtiger Antwort „Achte auf die Satzzeichen“ (setze `punctuation: ok`). Plane die Übungen danach; melde nur Neues.
+- Keine Gesamtprüfung nötig, die nur Zielsätze von Diktaten zählt: der Gesamtcheck der App prüft auch die obigen Punkte. Der Orchestrator prüft zusätzlich unabhängig.
+
 ---
