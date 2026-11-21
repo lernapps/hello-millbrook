@@ -245,8 +245,8 @@ page, which a link. -->
 - [x] Komponente Uhr (UhrStellen) mit Logik, Test, nojs und describe; eigene SVG-Uhren als Erklärfiguren
 - [x] zahlen-uhr-kalender/zahlen: -teen/-ty ableiten, Hören und Schreiben, Preise im Schulkiosk, Zahlen bis 1000
 - [x] zahlen-uhr-kalender/uhrzeit: Uhr zum Drehen, past/to, half past, Hören; Stundenplan-Anfang im Kalender
-- [ ] zahlen-uhr-kalender/datum: Wochentage, Monate, Ordnungszahlen, Datum sagen und schreiben; Geburtstage im Kalender
-- [ ] zahlen-uhr-kalender/grossschreibung: Merkkasten und Sätze korrigieren; Rückblick Kapitel 2
+- [x] zahlen-uhr-kalender/datum: Wochentage, Monate, Ordnungszahlen, Datum sagen und schreiben; Geburtstage im Kalender
+- [x] zahlen-uhr-kalender/grossschreibung: Merkkasten und Sätze korrigieren; Rückblick Kapitel 2
 - [ ] schuljahr/schule: Stundenplan lesen und ergänzen, Fächer und Räume; Fakten mit Quelle prüfen
 - [ ] schuljahr/feste: Halloween, Bonfire Night, Christmas im Kalender; Daten und Bräuche mit Quelle prüfen
 - [ ] schuljahr/schule-uk: Schule hier und dort vergleichen, Uniform und house system, freier Text, Schlussszene
