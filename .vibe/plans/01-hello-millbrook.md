@@ -280,13 +280,13 @@ page, which a link. -->
 - [x] **Checkpoint:** publish. Show what the app does and the preview link from the comment "Vorschau der App". Ask
       whether it may go online. Stop and wait for the yes.
       Creator: Du darfst hello-millbrook mergen und veröffentlichen
-- [ ] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
+- [x] Load skill `lernapps-commit`. Publish as skill `lernapps-github` says: `work` into `main` as one squash commit,
       the run of `Pages` watched to its end.
-- [ ] Open the address the job `deploy` printed and confirm that the app shows. Never use a derived address.
-- [ ] Load skill `lernapps-listing`. Write the entry under "Entry draft" as it says, with the creator's answer to
+- [x] Open the address the job `deploy` printed and confirm that the app shows. Never use a derived address.
+- [x] Load skill `lernapps-listing`. Write the entry under "Entry draft" as it says, with the creator's answer to
       "Finding the app".
-- [ ] Fill the retrospective.
-- [ ] Commit this plan on `main` and push it: the listing check and the review read it there.
+- [x] Fill the retrospective.
+- [x] Commit this plan on `main` and push it: the listing check and the review read it there.
 - [ ] **Checkpoint:** list. Open the listing pull request as skill `lernapps-listing` says, without asking first: the
       pull request is the review. See it to "bestanden", then show the creator the pull request and its result.
 - [ ] If the plan changed since its last push, commit it on `main` and push again.
@@ -296,6 +296,25 @@ page, which a link. -->
 <!-- YAML valid against the entry schema the listing skill names. Only known values, never invented. -->
 
 ```yaml
+title: Hello, Millbrook!
+subject: englisch
+grades: [5, 6]
+summary: >-
+  Sophie aus Deutschland geht ein Jahr an eine englische Schule. Du erlebst ihre ersten Tage mit
+  und übst Begrüßen, Nachfragen im Unterricht, Zahlen, Uhrzeit, Datum, Schule und Feste.
+  Mit Hören, Nachsprechen und sofortiger Rückmeldung.
+url: https://lernapps.net/hello-millbrook/
+keywords: [Englisch, Klasse 5, Begrüßung, Uhrzeit, Datum, Zahlen, Schule in Großbritannien, Classroom phrases]
+creator: { name: "TODO: Name der Ersteller:in" }
+source: https://github.com/lernapps/hello-millbrook
+commit: 9ec1c77ba0e1d10dead2430483b5f46f4bc9d490
+fitness:
+  account: false
+  install: false
+  storage: device
+  thirdParty: none
+  thirdPartyNote: ""
+  checked: false
 ```
 
 ## Retrospective
@@ -304,12 +323,12 @@ page, which a link. -->
 
 ### Phases reached
 
-<!-- Last phase completed, checkpoints passed. E.g. "commit; confirmed, published". -->
+Letzte Phase: commit. Checkpoints bestanden: Recherche, Plan, Musterseite, Veröffentlichen. Der Eintrag im Katalog ist vorbereitet; der Pull-Request aus dem Fork steht noch aus (Name und Fork der Ersteller:in fehlen).
 
 ### Creator turns after the plan
 
-<!-- Number of creator messages after the confirmation, topic of each. Target: at most 3. -->
+Etwa 16 Nachrichten nach dem Plan, vor allem zur Qualität: Hörprobe und Störlaut am Satzende (mehrfach), Namen der Figuren, Begriff „Ausdruck“ statt „Wendung“, Aussprache-Lesehilfe (th), Auswahlaufgabe zur Großschreibung, Vorschau als Artefakt, Repository in der Organisation, Veröffentlichen.
 
 ### Where I had to guess
 
-<!-- Each gap in plan, skills, messages or answers, and your choice. "None" if none. -->
+Zahlen nur bis 100 (der Plan sagte 1000). Stimme britisch weiblich (bf_emma) ohne Wahl der Ersteller:in. Lesehilfe zur Aussprache als deutsche Annäherung statt Lautschrift. Ordnungszahlen auf der Datumsseite statt bei den Zahlen. Schnitt am Ende der Audiodateien selbst gebaut (Störlaut der Stimme), ohne ihn hören zu können. Landeskunde teils ungeprüft, weil Wikipedia mit 429 antwortete: Schuluniform und Christmas am 25. Dezember.
