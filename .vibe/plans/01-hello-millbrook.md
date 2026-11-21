@@ -242,9 +242,9 @@ page, which a link. -->
       Creator: Ja
 - [x] hello/classroom (classroom-phrases): Poster wächst um Fragen und Bitten, Beschriften der Tafel, Lücken und Schreiben
 - [x] hello/fachbegriffe (grammatik-fachbegriffe): Tafel mit Etiketten noun, verb, adjective, Zuordnen; Rückblick Kapitel 1
-- [ ] Komponente Uhr (UhrStellen) mit Logik, Test, nojs und describe; eigene SVG-Uhren als Erklärfiguren
-- [ ] zahlen-uhr-kalender/zahlen: -teen/-ty ableiten, Hören und Schreiben, Preise im Schulkiosk, Zahlen bis 1000
-- [ ] zahlen-uhr-kalender/uhrzeit: Uhr zum Drehen, past/to, half past, Hören; Stundenplan-Anfang im Kalender
+- [x] Komponente Uhr (UhrStellen) mit Logik, Test, nojs und describe; eigene SVG-Uhren als Erklärfiguren
+- [x] zahlen-uhr-kalender/zahlen: -teen/-ty ableiten, Hören und Schreiben, Preise im Schulkiosk, Zahlen bis 1000
+- [x] zahlen-uhr-kalender/uhrzeit: Uhr zum Drehen, past/to, half past, Hören; Stundenplan-Anfang im Kalender
 - [ ] zahlen-uhr-kalender/datum: Wochentage, Monate, Ordnungszahlen, Datum sagen und schreiben; Geburtstage im Kalender
 - [ ] zahlen-uhr-kalender/grossschreibung: Merkkasten und Sätze korrigieren; Rückblick Kapitel 2
 - [ ] schuljahr/schule: Stundenplan lesen und ergänzen, Fächer und Räume; Fakten mit Quelle prüfen

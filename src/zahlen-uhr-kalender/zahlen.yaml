@@ -1,0 +1,198 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Zahlen und Preise
+description: Im Schulkiosk braucht Lena Zahlen. Du lernst die englischen Zahlen bis 100 und wie man Preise in Pfund und Pence sagt.
+competencies: [zahlen]
+scope: Die Seite führt die englischen Grundzahlen von 0 bis 100 ein, mit dem Unterschied zwischen -teen (13 bis 19) und -ty (30 bis 90), und Preise in Pfund und Pence (two pounds fifty, fifty pence). Die Kinder sagen und schreiben Zahlen als Wörter. Die Ordnungszahlen (first, second, third) stehen auf der Seite zum Datum. Alles wird als feste Wendung gelernt.
+blocks:
+  - type: section
+    id: einstieg
+    title: Lena im Schulkiosk
+    blocks:
+      - type: text
+        text: In der Pause geht Lena mit Amir zum Schulkiosk. An der Theke hängen Nummern und Preise. Alles ist auf Englisch.
+      - type: figure
+        image: images/szene-kiosk.svg
+        alt: "Lena und Amir stehen am Schulkiosk. Über der Theke hängt ein Schild mit Number 13, 1,50 Pfund und 50 Pence."
+        caption: "Der Schulkiosk: Lena (links) und Amir (rechts) vor der Theke mit dem Schild."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "**Das kannst du danach:** Zahlen bis 100 auf Englisch sagen und schreiben und einen Preis in Pfund und Pence nennen."
+      - type: single-choice
+        id: zahlen-start
+        text: Amir sagt „Number thirteen, please.“ Welche Zahl meint er?
+        options:
+          - text: "13"
+            correct: true
+            info: Thirteen ist die Zahl 13. Die Endung -teen steht für die Zahlen von 13 bis 19.
+          - text: "30"
+            correct: false
+            info: Dreißig heißt thirty. Es klingt ähnlich, aber thirteen hört man hinten lang, thirty vorne betont.
+          - text: "3"
+            correct: false
+            info: Drei heißt three.
+        explanation: "Thirteen (13) endet auf -teen, thirty (30) auf -ty. Am Ende erkennst du den Unterschied."
+        links:
+          - title: Lernlandkarte Englisch · Zahlen und Preise
+            url: https://lernapps.net/apps/map/englisch/c/zahlen/
+  - type: section
+    id: neu
+    title: Zahlen und Preise auf dem Poster
+    blocks:
+      - type: text
+        text: Die Zahlen bis 12 lernst du einzeln. Ab 13 setzt du sie zusammen. Aus 4 wird fourteen (14) und forty (40).
+      - type: table
+        caption: Klassenzimmer-Poster · Zahlen bis 12
+        header: [Zahl, Englisch]
+        rows:
+          - ["0", zero]
+          - ["1", one]
+          - ["2", two]
+          - ["3", three]
+          - ["4", four]
+          - ["5", five]
+          - ["6", six]
+          - ["7", seven]
+          - ["8", eight]
+          - ["9", nine]
+          - ["10", ten]
+          - ["11", eleven]
+          - ["12", twelve]
+      - type: table
+        caption: Klassenzimmer-Poster · Mit -teen und -ty
+        header: [Grundzahl, "-teen", "-ty"]
+        rows:
+          - ["3", thirteen, thirty]
+          - ["4", fourteen, forty]
+          - ["5", fifteen, fifty]
+          - ["6", sixteen, sixty]
+          - ["7", seventeen, seventy]
+          - ["8", eighteen, eighty]
+          - ["9", nineteen, ninety]
+      - type: text
+        text: "So geht es weiter: 20 ist twenty, 21 ist twenty-one und 100 ist one hundred. Zwischen Zehner und Einer setzt du einen Strich: seventy-five."
+      - type: table
+        caption: Klassenzimmer-Poster · Im Schulkiosk
+        header: [Wendung, Bedeutung]
+        rows:
+          - ["Number thirteen, please.", "Nummer dreizehn, bitte."]
+          - ["It's two pounds fifty.", "Das kostet 2,50 Pfund."]
+          - ["It's fifty pence.", "Das kostet 50 Pence."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "Bei **thirteen** und **thirty** hörst du den Unterschied an der Betonung. Bei -teen ist das Ende lang und betont (thir-TEEN), bei -ty ist der Anfang betont (THIR-ty). 4 schreibst du four, aber 14 fourteen und 40 forty, ohne u."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: language-task
+        id: zahlen-schreiben
+        languages: { source: de, target: en }
+        task: Schreibe die Zahl als englisches Wort.
+        form: { case: hint }
+        items:
+          - source: "13"
+            target: thirteen
+            mistakes:
+              - answer: thirty
+                message: Thirty ist 30. Für 13 brauchst du die Endung -teen.
+          - source: "30"
+            target: thirty
+            mistakes:
+              - answer: thirteen
+                message: Thirteen ist 13. Für 30 brauchst du die Endung -ty.
+          - source: "15"
+            target: fifteen
+            mistakes:
+              - answer: fiveteen
+                message: "Bei 15 und 50 wird aus five ein fif: fifteen, fifty."
+          - source: "40"
+            target: forty
+            mistakes:
+              - answer: fourty
+                message: Bei 40 schreibst du kein u. Aus four wird for und -ty dahinter, also forty.
+          - source: "75"
+            target: seventy-five
+            examples:
+              rejected: ["seventy five"]
+      - type: ordering
+        id: zahlen-reihenfolge
+        text: Bring die Zahlen in die richtige Reihenfolge, von klein nach groß.
+        items: [twelve, thirteen, nineteen, twenty, thirty, one hundred]
+        explanation: Twelve (12) kommt vor thirteen (13). Danach folgen nineteen (19), twenty (20), thirty (30) und one hundred (100).
+        hint: Achte auf die Endungen. Zuerst kommen die Zahlen bis zwölf, dann -teen, dann twenty und thirty, zuletzt one hundred.
+        links:
+          - title: Lernlandkarte Englisch · Zahlen und Preise
+            url: https://lernapps.net/apps/map/englisch/c/zahlen/
+      - type: language-task
+        id: zahlen-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was Amir sagt.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: number-thirteen-please.mp3
+            target: Number thirteen, please.
+          - audio: number-thirty-please.mp3
+            target: Number thirty, please.
+          - audio: its-two-pounds-fifty.mp3
+            target: It's two pounds fifty.
+      - type: language-task
+        id: zahlen-preise
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort für den Preis.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Der Kakao kostet 1,50 Pfund.
+            target: It's one pound [fifty].
+            distractors: [[fifteen, five]]
+          - cue: Ein Apfel kostet 40 Pence.
+            target: It's [forty] pence.
+            distractors: [[fourteen, four]]
+          - cue: Ein Sandwich kostet 3 Pfund.
+            target: It's [three] pounds.
+            distractors: [[thirteen, thirty]]
+      - type: true-false
+        id: zahlen-unterschied
+        text: Ist „fourteen“ die Zahl 14 und „forty“ die Zahl 40?
+        answer: true
+        hint: Schau auf die Tabelle „Mit -teen und -ty“. Wie wird aus 4 die Zahl 14, wie die Zahl 40?
+        explanation: Fourteen (-teen) ist 14, forty (-ty) ist 40. Bei 14 bleibt das u von four, bei 40 nicht.
+        links:
+          - title: Lernlandkarte Englisch · Zahlen und Preise
+            url: https://lernapps.net/apps/map/englisch/c/zahlen/
+  - type: section
+    id: anwenden
+    title: Selbst sagen und schreiben
+    blocks:
+      - type: speaking-task
+        id: zahlen-nachsprechen
+        language: en
+        items:
+          - audio: number-thirteen-please.mp3
+            text: Number thirteen, please.
+          - audio: number-thirty-please.mp3
+            text: Number thirty, please.
+          - audio: its-two-pounds-fifty.mp3
+            text: It's two pounds fifty.
+        hint: Hör das Beispiel zuerst. Achte auf die Betonung bei thirteen und thirty und vergleiche deine Aufnahme.
+      - type: open-task
+        id: zahlen-frei
+        task: Lena kauft im Schulkiosk einen Apfel für 50 Pence und einen Saft für 1,20 Pfund. Schreibe zwei kurze englische Sätze, die sagen, was sie kosten. Schreibe die Zahlen als Wörter.
+        points:
+          - text: Der Apfel kostet fifty pence.
+            source: /zahlen-uhr-kalender/zahlen/#neu
+          - text: Der Saft kostet one pound twenty.
+            source: /zahlen-uhr-kalender/zahlen/#neu
+          - text: Die Zahlen sind als Wörter geschrieben, nicht als Ziffern.
+            kind: form
+        solution: |
+          It's fifty pence. It's one pound twenty.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: Jetzt kennst du die Zahlen. Auf deinem Poster stehen sie bis 100. In der Pause klingelt es. Amir fragt Lena, wie spät es ist. Auf der nächsten Seite lernst du die Uhrzeit.

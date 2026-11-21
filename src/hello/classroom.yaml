@@ -11,6 +11,12 @@ blocks:
       - type: text
         text: |
           Lenas erste Englischstunde. Der Lehrer, Mr Hill, spricht schnell. Lena hat ein Wort nicht verstanden. Sie hebt die Hand.
+      - type: figure
+        image: images/szene-nachfragen.svg
+        alt: "Lena sitzt im Klassenzimmer, Mr Hill steht an der Tafel. Auf der Tafel steht Open your books."
+        caption: "Lena (links) und Mr Hill (rechts, graue Haare) in der ersten Englischstunde."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
       - type: text
         text: "**Das kannst du danach:** Im Unterricht um Hilfe bitten, nachfragen und die wichtigsten Anweisungen verstehen. Dein Poster aus der ersten Seite wird länger."
       - type: single-choice
