@@ -68,7 +68,7 @@ Die Issue-Texte sagen noch „Lena“ und „Josh“: In dieser Reihe heißt Len
 - Die `competencies:` jeder Seite sind Karten-Ids (nicht Seitentitel); Wiederholungsseiten (`recap`) haben keine.
 - Der Inhaltsführer verlangt dasselbe, was die Seiten tun, und umgekehrt (kein Widerspruch zwischen „Rules learned“ und gebauten Seiten); feste Bildwörter und Begriffe stehen einmal im Abschnitt „Terminology“.
 - **Retrospektive:** nur Fakten. „Ersteller:in“ ist ein Mensch; die Orchestrator-Session, die die Checkpoints beantwortet, heißt „Orchestrator-Session (in der Rolle der Ersteller:in)“. „Creator turns“ zählt nur, was ein Mensch gesagt hat.
-- **Aufträge der Vorlage:** `ordering` zeigt Auswahlfelder statt Karten, `accepted` einer Sprach-Aufgabe wirkt nicht (Gruppen `(a|b)` benutzen), im Modus `choice` zeigt die App `mistakes` nicht, `punctuation: hint` meldet bei richtiger Antwort „Achte auf die Satzzeichen“ (setze `punctuation: ok`). Plane die Übungen danach; melde nur Neues.
-- Keine Gesamtprüfung nötig, die nur Zielsätze von Diktaten zählt: der Gesamtcheck der App prüft auch die obigen Punkte. Der Orchestrator prüft zusätzlich unabhängig.
+- **Bekannte Eigenheiten der Vorlage:** `ordering` zeigt Auswahlfelder statt Karten, `accepted` einer Sprach-Aufgabe wirkt nicht (Gruppen `(a|b)` benutzen), im Modus `choice` zeigt die App `mistakes` nicht, `punctuation: hint` meldet bei richtiger Antwort „Achte auf die Satzzeichen“ (setze `punctuation: ok`). Plane die Übungen danach; melde nur Neues.
+- Der Gesamtcheck der App prüft auch alle obigen Punkte; der Orchestrator prüft zusätzlich unabhängig mit einem Skript und einem Sub-Agenten.
 
 ---
