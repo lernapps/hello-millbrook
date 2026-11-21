@@ -2,7 +2,7 @@
 title: Meine Schule und mein Stundenplan
 description: Ellie zeigt Lena den Stundenplan. Du lernst die Schulfächer auf Englisch und wie du über dein Lieblingsfach, deinen Stundenplan und den Schultag sprichst.
 competencies: [schule]
-scope: Die Seite führt die englischen Schulfächer (English, Maths, German, Science, Art, Music, PE, History) ein und die Wendungen, mit denen man über die Schule spricht. What's your favourite subject?, My favourite subject is art., We have English on Monday., School starts at a quarter to nine. Die Kinder lesen einen Stundenplan, benennen Fächer und sprechen und schreiben über ihren Schultag. Alles wird als feste Wendung gelernt.
+scope: Die Seite führt die englischen Schulfächer (English, Maths, German, Science, Art, Music, PE, History) ein und die Ausdrücke, mit denen man über die Schule spricht. What's your favourite subject?, My favourite subject is art., We have English on Monday., School starts at a quarter to nine. Die Kinder lesen einen Stundenplan, benennen Fächer und sprechen und schreiben über ihren Schultag. Alles wird in festen Ausdrücken gelernt.
 blocks:
   - type: section
     id: einstieg
@@ -53,7 +53,7 @@ blocks:
           - [History, Geschichte]
       - type: table
         caption: Klassenzimmer-Poster · Über die Schule sprechen
-        header: [Wendung, Bedeutung]
+        header: [Ausdruck, Bedeutung]
         rows:
           - ["What's your favourite subject?", Was ist dein Lieblingsfach?]
           - ["My favourite subject is art.", Mein Lieblingsfach ist Kunst.]

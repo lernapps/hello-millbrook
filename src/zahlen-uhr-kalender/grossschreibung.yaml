@@ -60,23 +60,23 @@ blocks:
     blocks:
       - type: multiple-choice
         id: grossschreibung-welche
-        text: Welche Wörter schreibst du im Englischen groß? Wähle alle richtigen aus.
+        text: Welche dieser Wörter beginnen im Englischen mit einem Großbuchstaben? Hier stehen alle Wörter klein geschrieben. Wähle alle richtigen aus.
         options:
-          - text: Monday
+          - text: monday
             correct: true
-            info: Wochentage schreibst du groß.
-          - text: October
+            info: Der Wochentag Monday beginnt mit einem großen M.
+          - text: october
             correct: true
-            info: Monate schreibst du groß.
-          - text: Lena
+            info: Der Monat October beginnt mit einem großen O.
+          - text: lena
             correct: true
-            info: Namen schreibst du groß.
+            info: Der Name Lena beginnt mit einem großen L.
           - text: dog
             correct: false
-            info: Dog ist ein Nomen und wird klein geschrieben.
+            info: Dog ist ein Nomen und beginnt mitten im Satz klein.
           - text: school
             correct: false
-            info: School ist ein Nomen und wird klein geschrieben.
+            info: School ist ein Nomen und beginnt mitten im Satz klein.
         explanation: Namen, Wochentage und Monate schreibst du groß. Nomen schreibst du klein.
         links:
           - title: Lernlandkarte Englisch · Großschreibung
@@ -127,7 +127,7 @@ blocks:
                 message: Nationalitäten schreibst du im Englischen groß.
       - type: true-false
         id: grossschreibung-nomen
-        text: Das englische Wort „dog“ (Hund) schreibst du klein, auch mitten im Satz. Stimmt das?
+        text: Das englische Wort für „Hund“ schreibst du mitten im Satz klein. Stimmt das?
         answer: true
         hint: Denk an den Merke-Kasten. Welche englischen Wörter schreibst du groß?
         explanation: Nomen wie dog, book oder school schreibst du im Englischen klein.

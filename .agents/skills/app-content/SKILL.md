@@ -9,7 +9,7 @@ Hello, Millbrook! Explainer (Einheit `subject: englisch`, Stufe 5-6, Sprache Deu
 
 ## Curriculum
 
-Englisch als erste Fremdsprache am Gymnasium, Klasse 5-6 (erstes und zweites Lernjahr), ohne Unterrichtsvorwissen. Kein Lehrplan: Reihenfolge und Bausteine kommen aus der Lernlandkarte `https://lernapps.net/apps/map/englisch.json` (Fokus `competency`). Alles ist als feste Wendung (chunk) gelernt, die Regeln folgen in den System-Explainern (Imperativ #473, Präpositionen der Zeit #475). Nicht hier: Familie und Freizeit (#477), Stadt (#478), USA (#484).
+Englisch als erste Fremdsprache am Gymnasium, Klasse 5-6 (erstes und zweites Lernjahr), ohne Unterrichtsvorwissen. Kein Lehrplan: Reihenfolge und Bausteine kommen aus der Lernlandkarte `https://lernapps.net/apps/map/englisch.json` (Fokus `competency`). Alles ist als fester Ausdruck (chunk) gelernt, die Regeln folgen in den System-Explainern (Imperativ #473, Präpositionen der Zeit #475). Nicht hier: Familie und Freizeit (#477), Stadt (#478), USA (#484).
 
 ## Competencies
 
@@ -34,21 +34,21 @@ Alle Voraussetzungen stehen auf früheren Seiten; kein `ahead`, keine Wiederholu
 ## Content structure
 
 - Pfad: `src/<kapitel>/chapter.yaml`, Seiten `src/<kapitel>/<seite>.yaml`.
-- Jede Seite hat dieselben Abschnitts-IDs in dieser Reihenfolge: `einstieg` (Lenas Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Wendungen mit Bedeutung, Merke-Kasten), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`open-task` oder `speaking-task`), `weiter` (nächster Schritt der Geschichte; am Kapitelende ein Rückblick). Titel sagen, was der Abschnitt tut.
+- Jede Seite hat dieselben Abschnitts-IDs in dieser Reihenfolge: `einstieg` (Lenas Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Ausdrücke mit Bedeutung, Merke-Kasten), `uebung` (mindestens vier Übungen, leicht → schwer), `anwenden` (`open-task` oder `speaking-task`), `weiter` (nächster Schritt der Geschichte; am Kapitelende ein Rückblick). Titel sagen, was der Abschnitt tut.
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung in den ersten vier Blöcken.
-- Geschichte: Lena (11, aus Deutschland, ein Schuljahr an der Millbrook School, einer erfundenen Schule in einer englischen Kleinstadt, wohnt bei den Parkers), Ellie Parker (11), ihr Bruder Josh (9), Freund Amir (11). Lehrer: Mr Hill (Englisch). Mrs Parker ist Ellies Mutter und Lenas Gastmutter. Fest vorgegeben: Poster-Tabellen heißen „Klassenzimmer-Poster · <Thema>“, Kalender-Tabellen „Schulkalender · <Thema>“. Aussehen und Namen einmal in `src/images/` (Figuren-SVG) festgelegt und überall gleich. Zwei wachsende Bilder: Klassenzimmer-Poster (Tabelle Wendung · Bedeutung) und Schulkalender (Tabelle).
+- Geschichte: Lena (11, aus Deutschland, ein Schuljahr an der Millbrook School, einer erfundenen Schule in einer englischen Kleinstadt, wohnt bei den Parkers), Ellie Parker (11), ihr Bruder Josh (9), Freund Amir (11). Lehrer: Mr Hill (Englisch). Mrs Parker ist Ellies Mutter und Lenas Gastmutter. Fest vorgegeben: Poster-Tabellen heißen „Klassenzimmer-Poster · <Thema>“, Kalender-Tabellen „Schulkalender · <Thema>“. Aussehen und Namen einmal in `src/images/` (Figuren-SVG) festgelegt und überall gleich. Zwei wachsende Bilder: Klassenzimmer-Poster (Tabelle Ausdruck · Bedeutung) und Schulkalender (Tabelle).
 
 ## Terminology
 
-- Anrede „du“. Wörter: „Wendung“ (feste Wendung), „Poster“, „Kalender“, „Millbrook School“.
-- Englische Wendungen und Wörter immer mit deutscher Bedeutung. Fachbegriffe noun, verb, adjective erst auf `hello/fachbegriffe` als Etiketten an Beispielwörtern. Britisches Englisch (Schreibweise und Stimme).
+- Anrede „du“. Wörter: „Ausdruck“ (fester Ausdruck), „Poster“, „Kalender“, „Millbrook School“.
+- Englische Ausdrücke und Wörter immer mit deutscher Bedeutung. Fachbegriffe noun, verb, adjective erst auf `hello/fachbegriffe` als Etiketten an Beispielwörtern. Britisches Englisch (Schreibweise und Stimme).
 - Keine Grammatikregel erklären: nur chunks (Regeln stehen in #471–#475).
 
 ## Exercise patterns
 
 Aufbau: leicht → schwer: wählen (`single-choice`, `matching`) → Lücken (`language-task` mode `gap`/`choice` mit `distractors`) → schreiben (`write`, Deutsch → Englisch, `mistakes` nennen die Regel) → übersetzen in beide Richtungen → freie Aufgabe.
 
-- Wendung zuordnen: Situation → passende Wendung; `matching`, `language-task` choice/write (Begrüßung, Classroom phrases).
+- Ausdruck zuordnen: Situation → passenden Ausdruck; `matching`, `language-task` choice/write (Begrüßung, Classroom phrases).
 - Beschriften: `labelled-figure` mit `legend: false`, `language-task` mit `marker`. Die Wörter stehen vorher auf dem Poster („Dinge im Klassenzimmer“).
 - Begriffe sortieren: `matching` Wort ↔ Fachbegriff.
 - Hören und schreiben: `language-task` mit `audio` (Diktat); Nachsprechen: `speaking-task`. Gesprochener Text ist ein ganzer Satz mit ausgeschriebenen Zahlen.
@@ -88,4 +88,7 @@ Karte `https://lernapps.net/apps/map/englisch.json`, Grundwortschatz `https://le
 - Englische Aufgaben enthalten kein deutsches Wort (statt „What's Tafel in English?“ steht „What's this in English?“).
 - Mit `(a|b)` gleichwertige richtige Antworten zulassen (You're/You are, favourite/favorite, a/a school uniform); `case: wrong` nur dort, wo die Seite die Großschreibung unterrichtet (`grossschreibung`, `schule-schreiben`).
 - Schreibe die Uhrzeit nicht „halb acht = half eight“: half past seven ist 7:30, das deutsche „halb acht“ ebenso, es zählt nur von der nächsten Stunde aus.
+- Begriff: „Ausdruck“ (fester Ausdruck, Mehrzahl Ausdrücke), nie „Wendung“ (Wunsch der Erstellerin oder des Erstellers); überall derselbe Begriff, auch in Tabellenköpfen (`Ausdruck · Bedeutung`).
+- Auswahlaufgaben zur Großschreibung zeigen alle Optionen gleich geschrieben (klein), sonst verrät die Schreibung die Lösung.
+- Audio: Die Stimme hängt an kurzen Sätzen ein leises Ausklingen von etwa 100 bis 250 ms an, das als Störlaut („Lena…s“) zu hören ist. Darum entstehen alle Dateien mit `.agents/skills/app-content/scripts/regen_audio.py` (im Ordner der App ausführen, mit dem Python der Audio-Umgebung `~/.cache/lernapps/audio/venv/bin/python`). Es nutzt das Skript `lernapps-audio` mit Tags und Prüfung und schneidet vor dem Kodieren alles hinter dem letzten Laut ab (unter 8 % der lautesten Stelle in 10-ms-Fenstern), blendet 30 ms aus und schneidet nur, wenn weniger als 0,3 % der Energie wegfallen. Aufruf: `python regen_audio.py <texte.json> [Satz …]`, die JSON-Datei ordnet je Datei `src/audio/<name>.mp3` ihren Satz zu. Neue Sätze so erzeugen und anhören.
 - Bilder: Beschriftungen innerhalb des `viewBox` halten (die Uhren-Zeichnung war unten abgeschnitten).

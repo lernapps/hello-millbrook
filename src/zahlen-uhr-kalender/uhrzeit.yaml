@@ -2,7 +2,7 @@
 title: Wie spät ist es?
 description: Amir fragt Lena nach der Uhrzeit. Du lernst, die Uhrzeit auf Englisch zu sagen, mit past, to, half past und a quarter, und stellst eine Uhr.
 competencies: [uhrzeit]
-scope: Die Seite führt die englische Uhrzeit ein. What time is it?, It's seven o'clock., It's five past seven., a quarter past, twenty past, half past seven, twenty to eight, a quarter to eight, five to eight. Past nennt die Minuten nach der vollen Stunde, to die Minuten bis zur nächsten. Half past seven ist 7:30 (nicht wie im Deutschen halb sieben). Die Kinder stellen eine Uhr, sagen die Uhrzeit und schreiben sie. Alles wird als feste Wendung gelernt, ohne Grammatikregel.
+scope: Die Seite führt die englische Uhrzeit ein. What time is it?, It's seven o'clock., It's five past seven., a quarter past, twenty past, half past seven, twenty to eight, a quarter to eight, five to eight. Past nennt die Minuten nach der vollen Stunde, to die Minuten bis zur nächsten. Half past seven ist 7:30 (nicht wie im Deutschen halb sieben). Die Kinder stellen eine Uhr, sagen die Uhrzeit und schreiben sie. Alles wird in festen Ausdrücken gelernt, ohne Grammatikregel.
 blocks:
   - type: section
     id: einstieg
@@ -43,7 +43,7 @@ blocks:
         licence: CC-BY-4.0
       - type: table
         caption: Klassenzimmer-Poster · Die Uhrzeit
-        header: [Wendung, Bedeutung]
+        header: [Ausdruck, Bedeutung]
         rows:
           - ["What time is it?", Wie spät ist es?]
           - ["It's seven o'clock.", Es ist sieben Uhr.]
@@ -108,7 +108,7 @@ blocks:
             - { answer: 0 }
       - type: matching
         id: uhrzeit-zuordnen
-        text: Welche Uhrzeit gehört zu welcher englischen Wendung?
+        text: Welche Uhrzeit gehört zu welchem englischen Ausdruck?
         pairs:
           - left: a quarter past three
             right: "3:15"

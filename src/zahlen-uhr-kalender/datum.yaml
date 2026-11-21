@@ -2,7 +2,7 @@
 title: Wochentage, Monate und Datum
 description: Lena trägt die Geburtstage der Klasse in den Schulkalender ein. Du lernst die Wochentage, die Monate, die Ordnungszahlen und wie man das Datum auf Englisch sagt und schreibt.
 competencies: [datum]
-scope: Die Seite führt die englischen Wochentage (Monday bis Sunday), die zwölf Monate, die Ordnungszahlen bis 31 (first, second, third, fourth, fifth, twelfth, twenty-first) und das Datum (It's the fifth of May., My birthday is on the fifth of May.) ein. Dazu Jahreszahlen wie twenty twenty-five. Alles wird als feste Wendung gelernt. Die Großschreibung von Wochentagen und Monaten kommt kurz vor, ihre Regel steht auf der nächsten Seite.
+scope: Die Seite führt die englischen Wochentage (Monday bis Sunday), die zwölf Monate, die Ordnungszahlen bis 31 (first, second, third, fourth, fifth, twelfth, twenty-first) und das Datum (It's the fifth of May., My birthday is on the fifth of May.) ein. Dazu Jahreszahlen wie twenty twenty-five. Alles wird in festen Ausdrücken gelernt. Die Großschreibung von Wochentagen und Monaten kommt kurz vor, ihre Regel steht auf der nächsten Seite.
 blocks:
   - type: section
     id: einstieg
@@ -100,7 +100,7 @@ blocks:
           - [Amir, the twelfth of October]
       - type: table
         caption: Klassenzimmer-Poster · Das Datum
-        header: [Wendung, Bedeutung]
+        header: [Ausdruck, Bedeutung]
         rows:
           - ["Today is Monday.", Heute ist Montag.]
           - ["It's the fifth of May.", Es ist der fünfte Mai.]

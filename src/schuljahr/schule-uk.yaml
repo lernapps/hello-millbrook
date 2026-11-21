@@ -2,7 +2,7 @@
 title: Schule hier und dort
 description: Lena vergleicht ihre Schule in Deutschland mit der Millbrook School. Du lernst Schuluniform und house system kennen und sagst, was bei dir anders ist.
 competencies: [schule-uk]
-scope: Die Seite beschreibt zwei Merkmale vieler britischer Schulen. Die Schuluniform (uniform) und das house system, bei dem die Schule in Gruppen, den houses, eingeteilt ist und jedes Kind zu einem house gehört. Die Gruppen können zum Beispiel im Sport gegeneinander antreten. Ein house ist hier eine Gruppe von Kindern, kein Gebäude. Die Kinder vergleichen mit ihrer eigenen Schule (At Millbrook we wear a uniform. At my school we don't wear a uniform.). Nicht jede britische Schule hat eine Uniform oder houses; die Seite spricht von Millbrook und von vielen Schulen. Alles wird als feste Wendung gelernt.
+scope: Die Seite beschreibt zwei Merkmale vieler britischer Schulen. Die Schuluniform (uniform) und das house system, bei dem die Schule in Gruppen, den houses, eingeteilt ist und jedes Kind zu einem house gehört. Die Gruppen können zum Beispiel im Sport gegeneinander antreten. Ein house ist hier eine Gruppe von Kindern, kein Gebäude. Die Kinder vergleichen mit ihrer eigenen Schule (At Millbrook we wear a uniform. At my school we don't wear a uniform.). Nicht jede britische Schule hat eine Uniform oder houses; die Seite spricht von Millbrook und von vielen Schulen. Alles wird in festen Ausdrücken gelernt.
 blocks:
   - type: section
     id: einstieg
@@ -43,7 +43,7 @@ blocks:
         text: "Viele Schulen in Großbritannien haben eine Schuluniform. Auch die Millbrook School hat eine. Dazu kommt das house system: Die Schule ist in Gruppen eingeteilt, die houses heißen. Jedes Kind gehört zu einem house. Die houses können zum Beispiel im Sport gegeneinander antreten."
       - type: table
         caption: Klassenzimmer-Poster · Schule hier und dort
-        header: [Wendung, Bedeutung]
+        header: [Ausdruck, Bedeutung]
         rows:
           - ["At Millbrook we wear a uniform.", In Millbrook tragen wir eine Uniform.]
           - ["At my school we don't wear a uniform.", An meiner Schule tragen wir keine Uniform.]
@@ -68,7 +68,7 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/schule-uk/
       - type: matching
         id: schule-uk-zuordnen
-        text: Welche englische Wendung gehört zu welcher deutschen?
+        text: Welcher englische Ausdruck gehört zu welchem deutschen?
         pairs:
           - left: At Millbrook we wear a uniform.
             right: In Millbrook tragen wir eine Uniform.
@@ -141,4 +141,4 @@ blocks:
     title: Dein Poster und dein Kalender sind fertig
     blocks:
       - type: text
-        text: "Du hast Lenas erste Tage in Millbrook miterlebt. Auf deinem Poster stehen Wendungen zum Grüßen, Nachfragen, für Zahlen, Uhrzeit und Datum und für die Schule. Dein Kalender hat Uhrzeiten, Geburtstage, einen Stundenplan und Feste. In der nächsten App lernst du, wie Englisch gebaut ist, zum Beispiel die kleinen Wörter I, me und my."
+        text: "Du hast Lenas erste Tage in Millbrook miterlebt. Auf deinem Poster stehen Ausdrücke zum Grüßen, Nachfragen, für Zahlen, Uhrzeit und Datum und für die Schule. Dein Kalender hat Uhrzeiten, Geburtstage, einen Stundenplan und Feste. In der nächsten App lernst du, wie Englisch gebaut ist, zum Beispiel die kleinen Wörter I, me und my."

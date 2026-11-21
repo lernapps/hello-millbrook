@@ -2,7 +2,7 @@
 title: Hello! Begrüßen und höflich sein
 description: Lena kommt an die Millbrook School. Du lernst, wie man auf Englisch grüßt, sich vorstellt, bittet, dankt und sich entschuldigt.
 competencies: [gruss-hoeflichkeit]
-scope: Die Seite führt die ersten Wendungen des Klassenzimmer-Posters ein. Begrüßung nach Tageszeit (Hello, Hi, Good morning, Good afternoon, Good evening), Verabschiedung (Goodbye, Bye, Good night nur zum Schlafengehen), sich vorstellen (I'm Lena), Höflichkeit (please, thank you, you're welcome, sorry, excuse me) und die Anrede mit Mr und Mrs und dem Nachnamen. Alles wird als feste Wendung gelernt, ohne Grammatikregel.
+scope: Die Seite führt die ersten Ausdrücke des Klassenzimmer-Posters ein. Begrüßung nach Tageszeit (Hello, Hi, Good morning, Good afternoon, Good evening), Verabschiedung (Goodbye, Bye, Good night nur zum Schlafengehen), sich vorstellen (I'm Lena), Höflichkeit (please, thank you, you're welcome, sorry, excuse me) und die Anrede mit Mr und Mrs und dem Nachnamen. Alles wird in festen Ausdrücken gelernt, ohne Grammatikregel.
 blocks:
   - type: section
     id: einstieg
@@ -18,7 +18,7 @@ blocks:
         text: |
           Lena (11) aus Deutschland steht zum ersten Mal in ihrem Klassenzimmer an der Millbrook School. Ellie Parker (11), die Tochter ihrer Gastfamilie, lächelt sie an und sagt: „Hi, I'm Ellie.“ Neben ihr stehen ihr Bruder Josh (9) und ihr Freund Amir (11).
       - type: text
-        text: "**Das kannst du danach:** Menschen auf Englisch grüßen und dich vorstellen, dich bedanken und entschuldigen und die richtige Wendung für die Tageszeit wählen. Du brauchst noch keine Regeln: Du lernst die Wendungen als ganze Stücke."
+        text: "**Das kannst du danach:** Menschen auf Englisch grüßen und dich vorstellen, dich bedanken und entschuldigen und den richtigen Ausdruck für die Tageszeit wählen. Du brauchst noch keine Regeln: Du lernst die Ausdrücke als ganze Stücke."
       - type: single-choice
         id: begruessung-start
         text: Was kann Lena auf „Hi, I'm Ellie.“ antworten?
@@ -38,13 +38,13 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/gruss-hoeflichkeit/
   - type: section
     id: neu
-    title: Die ersten Wendungen auf dem Poster
+    title: Die ersten Ausdrücke auf dem Poster
     blocks:
       - type: text
-        text: Lena hängt ein Poster auf. Darauf sammelt sie jede Wendung, die sie in der Schule braucht. Links steht, was du sagst, rechts, was es auf Deutsch heißt.
+        text: Lena hängt ein Poster auf. Darauf sammelt sie jeden Ausdruck, den sie in der Schule braucht. Links steht, was du sagst, rechts, was es auf Deutsch heißt.
       - type: table
         caption: Klassenzimmer-Poster · Grüßen und höflich sein
-        header: [Wendung, Bedeutung]
+        header: [Ausdruck, Bedeutung]
         rows:
           - [Hello! / Hi!, Hallo!]
           - [Good morning., Guten Morgen. (bis zum Mittag)]
@@ -71,7 +71,7 @@ blocks:
     blocks:
       - type: matching
         id: begruessung-situation
-        text: Welche Wendung passt zu welcher Situation?
+        text: Welcher Ausdruck passt zu welcher Situation?
         pairs:
           - left: Lena kommt morgens in die Schule.
             right: Good morning.
@@ -84,7 +84,7 @@ blocks:
           - left: Lena geht nach der Schule nach Hause und verabschiedet sich.
             right: Goodbye!
         distractors: [Good night.]
-        explanation: Die Wendung folgt der Situation. Sorry sagst du, wenn du etwas falsch gemacht hast, Excuse me, wenn du jemanden ansprichst.
+        explanation: Der Ausdruck folgt der Situation. Sorry sagst du, wenn du etwas falsch gemacht hast, Excuse me, wenn du jemanden ansprichst.
         hint: Frag dich zuerst, ob Lena grüßt, dankt, sich entschuldigt oder jemanden anspricht.
         links:
           - title: Lernlandkarte Englisch · Begrüßung und Höflichkeit
@@ -93,7 +93,7 @@ blocks:
         id: begruessung-tageszeit
         languages: { source: de, target: en }
         mode: choice
-        task: Wähle die passende Wendung für die Tageszeit.
+        task: Wähle den passenden Ausdruck für die Tageszeit.
         form: { case: hint, punctuation: hint }
         items:
           - cue: Lena grüßt Josh morgens um acht Uhr.
@@ -123,7 +123,7 @@ blocks:
       - type: language-task
         id: begruessung-schreiben
         languages: { source: de, target: en }
-        task: Was sagt Lena auf Englisch? Schreibe die Wendung.
+        task: Was sagt Lena auf Englisch? Schreibe den Ausdruck.
         form: { case: hint, punctuation: hint }
         items:
           - source: Guten Morgen!
@@ -177,7 +177,7 @@ blocks:
         id: begruessung-schreiben-frei
         task: "Lena trifft Amir und er gibt ihr einen Stift. Schreibe zwei kurze englische Sätze: Lena grüßt, sagt ihren Namen und bedankt sich."
         points:
-          - text: Lena grüßt mit Hello, Hi oder einer Wendung zur Tageszeit.
+          - text: Lena grüßt mit Hello, Hi oder einem Ausdruck zur Tageszeit.
             source: /hello/begruessung/#neu
           - text: Lena sagt ihren Namen mit I'm Lena.
             source: /hello/begruessung/#neu
@@ -190,4 +190,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: Auf dem Poster stehen jetzt die ersten Wendungen. In der ersten Englischstunde versteht Lena ihren Lehrer nicht ganz. Auf der nächsten Seite lernst du, wie du im Unterricht nachfragst.
+        text: Auf dem Poster stehen jetzt die ersten Ausdrücke. In der ersten Englischstunde versteht Lena ihren Lehrer nicht ganz. Auf der nächsten Seite lernst du, wie du im Unterricht nachfragst.

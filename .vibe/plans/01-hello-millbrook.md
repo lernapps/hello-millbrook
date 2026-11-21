@@ -132,7 +132,7 @@ Gesamtcheck (Sub-Agent als Lernende Klasse 5, alle 10 Seiten, 360 px) – behobe
 - Amount: aus dem Issue: 3 Kapitel, 10 Bausteine, je eine Seite pro Baustein; Familie, Freizeit, Stadt, USA kommen in anderen Explainern.
 - Languages: (guess) nur Deutsch (Erklärungen) mit englischen Beispielen und Stimmen; Englische Seitenversion später möglich.
 - Look and feel: calm like a worksheet, or like a game (colours, praise, effects); dark mode. → fixed by the archetype (Explainer: Look der Runtime, ruhig wie ein Arbeitsblatt, Dunkelmodus folgt dem Gerät).
-- Terms: aus dem Issue: „Klassenzimmer-Poster“, „Schulkalender“, „Wendung“ (feste Wendung), Figuren Lena, Ellie, Josh, Amir; Millbrook School.
+- Terms: aus dem Issue: „Klassenzimmer-Poster“, „Schulkalender“, „Ausdruck“ (fester Ausdruck), Figuren Lena, Ellie, Josh, Amir; Millbrook School.
 - Finding the app: (guess) „Englisch Klasse 5 Anfang“, „Begrüßung Classroom phrases Uhrzeit Datum Schule Großbritannien“, „Englisch Klasse 5 Übungen“.
 
 ## Plan

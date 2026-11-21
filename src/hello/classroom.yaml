@@ -2,7 +2,7 @@
 title: Im Unterricht nachfragen
 description: Lena versteht ihren Lehrer nicht ganz. Du lernst, auf Englisch um Hilfe zu bitten, nachzufragen und Anweisungen zu verstehen.
 competencies: [classroom-phrases]
-scope: Die Seite führt Wendungen für den Englischunterricht ein. Um Hilfe bitten (Can you help me, please?), nicht verstanden haben (I don't understand., Can you say that again, please?), nach einem Wort fragen (What's … in English?, How do you spell it?) und kurze Anweisungen der Lehrkraft verstehen (Open your books., Listen., Stand up., Sit down., Repeat after me.). Dazu die ersten englischen Wörter für Dinge im Klassenzimmer (board, desk, chair, book, pencil, bag). Alles wird als feste Wendung gelernt, ohne Grammatikregel.
+scope: Die Seite führt Ausdrücke für den Englischunterricht ein. Um Hilfe bitten (Can you help me, please?), nicht verstanden haben (I don't understand., Can you say that again, please?), nach einem Wort fragen (What's … in English?, How do you spell it?) und kurze Anweisungen der Lehrkraft verstehen (Open your books., Listen., Stand up., Sit down., Repeat after me.). Dazu die ersten englischen Wörter für Dinge im Klassenzimmer (board, desk, chair, book, pencil, bag). Alles wird in festen Ausdrücken gelernt, ohne Grammatikregel.
 blocks:
   - type: section
     id: einstieg
@@ -38,13 +38,13 @@ blocks:
             url: https://lernapps.net/apps/map/englisch/c/classroom-phrases/
   - type: section
     id: neu
-    title: Wendungen für den Unterricht
+    title: Ausdrücke für den Unterricht
     blocks:
       - type: text
         text: Lena schreibt auf ihr Poster, was sie im Unterricht sagen und verstehen will. Der obere Teil ist das, was du sagst. Der untere Teil ist das, was dein Lehrer sagt.
       - type: table
         caption: Klassenzimmer-Poster · Das sagst du
-        header: [Wendung, Bedeutung]
+        header: [Ausdruck, Bedeutung]
         rows:
           - ["Can you help me, please?", Kannst du mir bitte helfen?]
           - [I don't understand., Ich verstehe das nicht.]
@@ -82,7 +82,7 @@ blocks:
     blocks:
       - type: matching
         id: classroom-situation
-        text: Welche Wendung passt zu welcher Situation?
+        text: Welcher Ausdruck passt zu welcher Situation?
         pairs:
           - left: Lena braucht Hilfe bei einer Aufgabe.
             right: Can you help me, please?
@@ -93,7 +93,7 @@ blocks:
           - left: Lena kennt ein Wort nicht auf Englisch.
             right: What's this in English?
         distractors: [Open your books.]
-        explanation: Die Wendung folgt der Situation. What's … in English? fragt nach dem englischen Wort, How do you spell it? nach der Schreibweise.
+        explanation: Der Ausdruck folgt der Situation. What's … in English? fragt nach dem englischen Wort, How do you spell it? nach der Schreibweise.
         hint: Frag dich, ob Lena um Hilfe bittet, etwas nicht verstanden hat oder nach einem Wort fragt.
         links:
           - title: Lernlandkarte Englisch · Classroom phrases
@@ -176,7 +176,7 @@ blocks:
       - type: language-task
         id: classroom-schreiben
         languages: { source: de, target: en }
-        task: Was sagt Lena auf Englisch? Schreibe die Wendung.
+        task: Was sagt Lena auf Englisch? Schreibe den Ausdruck.
         form: { case: hint, punctuation: hint }
         items:
           - source: Ich verstehe das nicht.

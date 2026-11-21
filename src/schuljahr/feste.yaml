@@ -2,7 +2,7 @@
 title: Feste in Großbritannien
 description: Ellie erzählt Lena von drei Festen im Herbst und Winter. Du lernst Halloween, Bonfire Night und Christmas mit ihrem Datum kennen und trägst sie in deinen Kalender ein.
 competencies: [feste-uk]
-scope: Die Seite stellt drei britische Feste im Jahreslauf vor. Halloween am 31. Oktober (scary), Bonfire Night am 5. November (bonfire, fireworks) und Christmas am 25. Dezember (presents). Die Kinder nennen die Feste mit Datum auf Englisch (Halloween is on the thirty-first of October.), ordnen sie im Jahr und ordnen ihnen einen Brauch zu. Alles wird als feste Wendung gelernt.
+scope: Die Seite stellt drei britische Feste im Jahreslauf vor. Halloween am 31. Oktober (scary), Bonfire Night am 5. November (bonfire, fireworks) und Christmas am 25. Dezember (presents). Die Kinder nennen die Feste mit Datum auf Englisch (Halloween is on the thirty-first of October.), ordnen sie im Jahr und ordnen ihnen einen Brauch zu. Alles wird in festen Ausdrücken gelernt.
 blocks:
   - type: section
     id: einstieg
@@ -50,7 +50,7 @@ blocks:
         text: "An Halloween ist alles gruselig (scary). An Bonfire Night gibt es ein Lagerfeuer (bonfire) und Feuerwerk (fireworks). Der Tag erinnert an eine Geschichte aus dem Jahr 1605. An Christmas gibt es Geschenke (presents)."
       - type: table
         caption: Klassenzimmer-Poster · Feste
-        header: [Wendung, Bedeutung]
+        header: [Ausdruck, Bedeutung]
         rows:
           - ["Halloween is on the thirty-first of October.", Halloween ist am 31. Oktober.]
           - ["Bonfire Night is on the fifth of November.", Bonfire Night ist am 5. November.]
