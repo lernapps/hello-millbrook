@@ -50,7 +50,12 @@ def patched(voice, lang_code, text, speed, wav, cache):
 la.synthesize = patched
 texts = json.load(open(sys.argv[1])); only = set(sys.argv[2:])
 ff = la.find_ffmpeg(); cache = {}
+if DRY:
+    import tempfile
+    DRY_DIR = os.path.join(tempfile.gettempdir(), "regen_audio_dry"); os.makedirs(DRY_DIR, exist_ok=True)
+    print("DRY=1: nothing in the app is written; the encoded files go to", DRY_DIR)
 for out, text in texts.items():
     if only and text not in only: continue
+    if DRY: out = os.path.join(DRY_DIR, os.path.basename(out))      # make_one writes the mp3 itself: keep it out of src/audio
     item = {"voice": "bf_emma", "text": text, "out": out, "lang": "en", "accent": "gb", "speed": float(__import__("os").environ.get("SPEED","1.0")), "force": True}
     print(la.make_one(item, ff, cache))
