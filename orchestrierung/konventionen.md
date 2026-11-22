@@ -88,5 +88,6 @@ Gilt für die Inkremente (Welle 2 und 3) und die ersten Versionen von #483 bis #
 - **Hörtexte:** `bf_emma`, ganze Sätze, Lesestücke nur in kurzen Abschnitten (Hörliste im Inhaltsführer, nichts Ungehörtes als „geprüft“ ausgeben).
 - Alle Regeln aus Abschnitt 7 gelten weiter (keine Lösung im Text darüber, nur echte Lernerfehler, eigene Meldung je Fehler, Fuzzy-Prüfung der Hörsätze über alle Seiten, Retrospektive nur mit Fakten).
 - **Inkremente:** `lernapps update` zuerst, dann `lernapps plan new increment-<NN>-<name>` auf Branch `increment/<NN>-<name>`, Seiten der neuen Stufe im selben Repository nach dem Muster der ersten Version, Vorschau-Pull-Request. Nicht nach `main` mergen, kein Katalogeintrag; die Ersteller:in prüft und veröffentlicht.
+- **Hörurteile:** Die Ersteller:in hat die Hörproben bisher gehört und für gut befunden und erlaubt, Hörurteile ab sofort für sie zu bestätigen. Der Orchestrator bestätigt sie; Sessions fragen ihn, nicht die Ersteller:in. „Nichts angehört“ bleibt in der Hörliste stehen, bis ein Mensch die Sätze gehört hat.
 
 ---
