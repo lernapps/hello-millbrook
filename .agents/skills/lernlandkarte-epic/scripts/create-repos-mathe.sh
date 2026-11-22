@@ -8,7 +8,7 @@
 # eingeschaltet, die Sessions legen sie nicht selbst an.
 # Läuft auch für schon vorhandene Repositories (legt dort main mit der Regel-Datei an, falls main fehlt;
 # ein vorhandenes main wird nie verändert).
-# Abgeleitet von create-repos.sh (Englisch). Unterschiede: Fach und Repo-Liste, kein Audio, Regeln auch für
+# Abgeleitet von create-repos.sh (Englisch); Verwendung: Skill lernlandkarte-epic. Unterschiede: Fach und Repo-Liste, kein Audio, Regeln auch für
 # Inkrement-Branches (`increment/*`) und die Schreibformen `-q`/`-u`/`push.negotiate`.
 set -euo pipefail
 ORG=lernapps
