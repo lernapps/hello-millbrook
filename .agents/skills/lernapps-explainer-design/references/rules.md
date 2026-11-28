@@ -23,8 +23,9 @@ severity: error
 
 - Every page has at least one exercise that practises what the page explains, with solution or feedback; best in a
   last section "Übung".
-- Except a recap page (`recap`, format 2): it repeats one or several prerequisites the app does not practise and has
-  no exercise.
+- Except a recap page (`recap`, format 2): it repeats one or several prerequisites the app does not practise and needs
+  no exercise; one or two to check what it repeats are fine, three are not. A page that practises is no recap page:
+  give it `competencies`.
 
 ### `explainer-text-load`: A page is not mostly text
 
@@ -36,6 +37,9 @@ severity: hint
 
 - At most 350 words to read and 350 in tasks and feedback on a page, at most 4 text blocks in a row, and a figure,
   table or exercise within the first 4 blocks.
+- A reading text (Lesestück) the page is about is no explainer text. Put the comment line `# reading-text` directly above
+  its block, or above a section for every block in it; it then counts apart, with its own limit of 600 words. The
+  comment is no field: the runtime ignores it.
 
 ### `explainer-repetition`: Each thing once
 
